@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: 'Muller'; /* Имя шрифта */
+    src: url(./fonts/ofont.ru_Muller.ttf); /* Путь к файлу со шрифтом */
+   }
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 1920px;
+    height: 970px;
+    background: url('./images/bg.png') no-repeat center top/cover;
+}
+.container-header{
+    margin: 0 auto;
+    display: flex;
+    width: 93.2%;
+    justify-content: space-between;
+    padding-top:56px ;
+}
+.header__logo{
+
+}
+.header-writeMe{
+    display: flex;
+}
+.button__href{
+    font-family: 'Muller';
+    font-weight:bold;
+    color: #fff;
+    font-size:20px;
+    cursor: pointer;
+}
+.exit__circle{
+    position: relative;
+    background: white;
+    width: 40px; 
+    height: 40px;
+    border-radius:50px;
+}
+.exit__line{
+    position: absolute;
+    z-index:1000;
+}
+.container-menu{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 86px;
+    width: 59.502%;
+    height: 595px;
+    justify-content:space-between;
+}
+.menu{
+    
+}
+.menu-list{
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu-list__li{
+    margin-top: 40px;
+    font-family: 'Muller';
+    font-weight:bold;
+    color: #363537;
+    font-size: 75px;
+    cursor: pointer;
+}
+.menu-list__li:first-child{
+    margin-top: 53px;
+
+}
+.menu-list__li:hover{
+    color: white;
+}
+.container-social{
+    width: 215px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mail__type{
+    display: flex;
+    flex-direction: column;
+    color: #f84525;
+    font-size: 20px;
+    font-family: 'Muller';
+    font-weight: lighter;
+}
+.mail__type:last-child{
+    margin-top: 20px;
+
+}
+.adress__text{
+    margin-top: 40px;
+    font-family: 'Muller';
+    font-size: 18px;
+    color:#fdfdfd;
+    font-weight: 400;
+}
+.social-networks{
+    margin-top: 27px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
