@@ -34,7 +34,7 @@
 }
 .button {
   margin-top: 10px;
-  margin-right: 30px;
+  margin-right: 27px;
 }
 .button__href {
   font-family: "Muller";
@@ -52,16 +52,25 @@
   height: 40px;
   border-radius: 50px;
 }
-
+.exit__line.active{
+  width:17px ;
+  height: 17px;
+  background: url(/public/images/2line.png);
+}
 .exit__line {
+  background: url(/public/images/burger.png);
+  width:17px ;
+  height: 17px;
   left: 30%;
   top: 30%;
   position: absolute;
 }
-
-.container {
-  margin: 0 auto;
+.container-menu.active {
   display: flex;
+}
+.container-menu {
+  display: none;
+  margin: 0 auto;
   margin-top: 86px;
   width: 1059px;
   height: 595px;
@@ -98,7 +107,8 @@
   flex-direction: column;
 }
 
-.mail__type {
+.communication {
+  margin-bottom: -3px;
   line-height: 22px;
   text-decoration: none;
   border-bottom: 1px solid #f84525;
@@ -110,8 +120,9 @@
   font-weight: 400;
 }
 
-.mail__type:last-child {
+.communication:last-child {
   margin-top: 23px;
+  margin-bottom: 0;
 }
 
 .adress {
