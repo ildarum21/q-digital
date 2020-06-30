@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
   font-family: "Muller";
   /* Имя шрифта */
   src: url(../fonts/ofont.ru_Muller.ttf);
@@ -92,11 +92,8 @@
   margin-top: 32px;
 }
 
-.menu-list__li:first-child {
-  margin-top: 0px;
-}
 
-.menu-list__li:hover {
+.menulist__li:hover {
   color: white;
 }
 
@@ -143,6 +140,7 @@
   display: flex;
 }
 .networks__name {
+  cursor:pointer;
   margin-left: 27px;
 }
 .networks__name:first-child {
