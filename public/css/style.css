@@ -39,7 +39,7 @@
 .button__href {
   font-family: "Muller";
   font-weight: bold;
-  color: #fff;
+  color: #fdfdfd;
   font-size: 19.14px;
   cursor: pointer;
 }
@@ -94,7 +94,7 @@
 
 
 .menulist__li:hover {
-  color: white;
+  color: #fdfdfd;
 }
 
 .social {
