@@ -1,0 +1,204 @@
+﻿@font-face {
+  font-family: "Muller";
+  /* Имя шрифта */
+  src: url(../fonts/ofont.ru_Muller.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "MullerRegular";
+  /* Имя шрифта */
+  src: url(../fonts/Fontfabric\ -\ MullerRegular.otf);
+  /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: "MullerLight";
+  /* Имя шрифта */
+  src: url(../fonts/MullerLight.otf);
+  /* Путь к файлу со шрифтом */
+}
+
+
+.bg {
+  width: 100%;
+  height: 970px;
+  background: url("/public/images/bg.png") no-repeat center top/cover;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  width: 94.8%;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+.header__logo {
+  margin-left: 15px;
+}
+
+.writeMe {
+  display: flex;
+}
+.button {
+  margin-top: 10px;
+  margin-right: 27px;
+}
+.button__href {
+  font-family: "Muller";
+  font-weight: bolder;
+  color: #fdfdfd;
+  font-size: 19.14px;
+  cursor: pointer;
+}
+
+.exit__circle {
+  cursor: pointer;
+  position: relative;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.exit__line.active{
+  width:17px ;
+  height: 17px;
+  background: url(/public/images/2line.png);
+}
+.exit__line {
+  background: url(/public/images/burger.png);
+  width:17px ;
+  height: 17px;
+  left: 30%;
+  top: 30%;
+  position: absolute;
+}
+.container-menu.active {
+  display: flex;
+}
+.container-menu {
+  display: none;
+  margin: 0 auto;
+  margin-top: 86px;
+  width: 1059px;
+  height: 595px;
+  justify-content: space-between;
+}
+
+.menulist {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 52px;
+}
+
+.menulist__li {
+  font-family: "Muller";
+  font-weight: bold;
+  color: #363537;
+  font-size: 75px;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+
+.menulist__li:hover {
+  color: #fdfdfd;
+}
+
+.social {
+  margin-right: 5px;
+  margin-bottom: 23px;
+  display: flex;
+  flex-direction: column;
+}
+
+.communication {
+  margin-bottom: -3px;
+  line-height: 22px;
+  text-decoration: none;
+  border-bottom: 1px solid #f84525;
+  display: flex;
+  flex-direction: column;
+  color: #f84525;
+  font-size: 20px;
+  font-family: "MullerLight";
+  font-weight: 400;
+}
+
+.communication:last-child {
+  margin-top: 23px;
+  margin-bottom: 0;
+}
+
+.adress {
+  margin-top: 40px;
+}
+
+.adress__text {
+  line-height: 27px;
+  display: block;
+  font-family: "MullerLight";
+  font-size: 20px;
+  color: #fdfdfd;
+  font-weight: 400;
+}
+
+.networks {
+  margin-top: 40px;
+  display: flex;
+}
+.networks__name {
+  cursor:pointer;
+  margin-left: 27px;
+}
+.networks__name:first-child {
+  margin-left: 0;
+}
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+
+
+/* main screen */
+.main{
+  width: 100%;
+  height: 813px;
+  background: url('/public/images/mainbg.png') no-repeat center top/cover;
+}
+.container{
+  margin: 0 auto;
+  width: 1216px;
+}
+.main-wrapper{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.text{
+  margin-top: 202px;
+  display: flex;
+  flex-direction:column;
+}
+.title{
+  font-family: 'Muller';
+  font-weight: bolder;
+  font-size: 65px;
+  color:white;
+}
+.descr{
+  margin-top: 56px;
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  color:#fdfcfc;
+}
+.button{
+
+}
+.image{
+ 
+margin-top: 55.22px;
+}
+

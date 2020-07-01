@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <link rel="stylesheet" href="/public/css/reset.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="bg">
+        <div class="header">
+            <div class="header__logo">
+                <img src="/public/images/logo.png" alt="logo">
+            </div>
+            <div class="writeMe">
+                <div class="button">
+                    <a class="button__href"> напиши нам </a>
+                    <hr class="button__hr">
+                </div>
+                <div class="exit">
+                    <div class="exit__circle ">
+                        <div class="exit__line active"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-menu active ">
+            <div class="menu ">
+                <ul class="menulist">
+                    <li class="menulist__li">
+                        Кейсы
+                    </li>
+                    <li class="menulist__li">
+                        О нас
+                    </li>
+                    <li class="menulist__li">
+                        Услуги
+                    </li>
+                    <li class="menulist__li ">
+                        Отзывы
+                    </li>
+                    <li class="menulist__li">
+                        События
+                    </li>
+                </ul>
+            </div>
+            <div class="wrapper">
+                <div class="social">
+                    <div class="communications">
+                        <a href="mailto:client@q-digital.ru" class="communication">client@q-digital.ru</a>
+                        <a href="tel:79127689454" class="communication">+7 (912) 768-9454</a>
+                    </div>
+                    <div class="adress">
+                        <span class="adress__text">
+                            Ул. Кирова 112 <br>
+                            Ижевск, Россия
+                        </span>
+
+                    </div>
+                    <div class="networks">
+                        <img class="networks__name" src="/public/images/facebook.png" alt="facebook">
+                        <img class="networks__name" src="/public/images/vk.png" alt="vk">
+                        <img class="networks__name" src="/public/images/twitter.png" alt="twitter">
+                        <img class="networks__name" src="/public/images/instagram.png" alt="instagram">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="container ">
+                <div class="main-wrapper">
+                    <div class="text">
+                        <div class="title">
+                            Цифровое <br> веб-агентство
+                        </div>
+                        <div class="descr">
+                            Творческая команда, предоставляющая качественный <br>
+                            сервис и эффективные решения для вашего проекта
+                        </div>
+                        <div class="button">
+                            ЗАПОЛНИТЬ БРИФ
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img  class ="main__picture"src="/public/images/q.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+<script src="/public/js/script.js" type="text/javascript"></script>
+
+</html>
