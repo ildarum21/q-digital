@@ -205,6 +205,11 @@
   color:#252525;
   font-size: 55px;
 }
+ .title.newtitle{
+  margin-top: 189px;
+  color:#252525;
+  font-size: 55px;
+ }
 .descr {
   font-family: "MullerRegular";
   font-size: 20px;
@@ -275,8 +280,6 @@
   width: 575px;
   height: 781px;
 }
-/* adv screen */
-
 .about {
   height: 875px;
   background: url("../images/aboutbg.png");
@@ -354,4 +357,11 @@ border:2px solid red;
 .event__img{
   width: 560px;
   height: 420px;
+}
+.events{
+  display: flex;
+  justify-content: space-between;
+}
+.events:first-child{
+  margin-top: 50px;
 }
