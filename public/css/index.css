@@ -200,9 +200,19 @@
   color: black;
   font-size: 65px;
 }
+.title.dotitle{
+  margin-top: 145px;
+  color:#252525;
+  font-size: 55px;
+}
 .descr {
   font-family: "MullerRegular";
   font-size: 20px;
+}
+.descr.dodescr{
+  margin-top: 27px;
+  color:#6c6c6c;
+  padding-bottom:27px;
 }
 .descr.maindescr {
   line-height: 30px;
@@ -226,11 +236,25 @@
   font-family: "Muller";
   text-decoration: none;
 }
+.button.listbutton{
+  color: #262626;
+  text-transform: uppercase;
+  margin-top: 43px;
+  border:2px solid #d0d0d0;
+
+}
 .button.mainbutton {
   background: #f84525;
   margin-top: 68px;
   color: #fdfcfc;
   text-transform: uppercase;
+}
+.button.dobutton{
+  margin: 0 auto;
+  margin-top:100px;
+  color: #262626;
+  text-transform: uppercase;
+  border:2px solid #d0d0d0;
 }
 
 .main__picture {
@@ -280,19 +304,24 @@
 }
 
 .doElem {
+  margin-top: 53px;
   display: flex;
-  justify-content: space-between;
+  
 }
 .elemDescr {
+  margin-top: 40px;
+  margin-left: 125px;
   display: flex;
   flex-direction: column;
 }
 .elem__name {
+  padding-bottom: 20px;
   font-family: "Muller";
   font-size: 30px;
   color: #252525;
 }
 .list {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -303,11 +332,26 @@
   font-size: 20px;
 }
 .list__arrow {
-  height: 9px;
+  padding-top: 4px;
+  height: 12px;
+  margin-left: 70px;
 }
 .list:hover {
   color: #f84525;
 }
 .title.dotitle {
   color: black;
+}
+/* feedback */
+.feedback{
+height: 907px;
+border:2px solid red;
+}
+/* new */
+.new{
+
+}
+.event__img{
+  width: 560px;
+  height: 420px;
 }
