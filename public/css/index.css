@@ -338,7 +338,6 @@
     }
     
     .advwrapper {
-        border: 2px solid red;
         width: 490px;
         height: 331px;
     }
@@ -365,6 +364,23 @@
         background-color: #f84525;
         border-radius: 50px 50px 0 50px;
         transform: scale(1.05);
+    }
+    
+    .advwrapper:hover .wrapperContent {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .advwrapper:hover .field.field_title.title {
+        color: white;
+    }
+    
+    .advwrapper:hover .field.field_descr.descr {
+        color: white;
+    }
+    
+    .advwrapper:hover .field_a {
+        display: inline;
     }
     
     .wrapperContent.right {
@@ -464,6 +480,10 @@
     }
     
     .feedback {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         height: 907px;
         background: url("../images/footer.png");
     }
@@ -481,10 +501,12 @@
     }
     
     .sliderWrapper {
+        width: 1000px;
         border: 2px solid red;
     }
     
     .footerSlider {
+        width: 100%;
         margin-top: 80px;
     }
     
