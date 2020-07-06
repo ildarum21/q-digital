@@ -1,9 +1,9 @@
-$(document).ready(function () {
-  $(".footerSlider").slick({
+
+$('.footerSlider').slick({
     infinite:false,
     initialSlide:1,
-    centerMode:true,
+    centerMode: true,
     dots:true,
+    centerPadding: '500px',
     slidesToShow: 1,
   });
-});
