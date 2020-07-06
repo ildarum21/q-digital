@@ -300,7 +300,6 @@
 /* cases screen */
 
 .imagesContainer {
-  perspective: 100px;
   display: flex;
 }
 .casesImages {
@@ -316,6 +315,10 @@
   z-index: 0;
 }
 .images {
+  display: flex;
+  justify-content: flex-end;
+  align-items:flex-end ;
+  height: 780px;
   perspective: 100px;
   width: 578px;
 }
@@ -327,9 +330,15 @@
   border: 2px solid #6c6c6c;
 }
 .imagesContainer.bottom {
-  margin-top: 145px;
-}
+  
 
+}
+.imagesContainer{
+  margin-bottom: 72px;
+}
+.imagesContainer:nth-child(even){
+  margin-left: 60px;
+}
 
 .casestitle.title {
   margin-left: 5px;
@@ -343,15 +352,14 @@
   color: #6c6c6c;
 }
 .imagesContainer.sec {
-  margin-left: 60px;
+
 }
 
 .imagetext {
-  margin-right:-30px;
   position: relative;
   z-index: 2;
-  margin-top: 650px;
-  text-align: right;
+  margin-bottom: 90px;
+  margin-right:-20px;
 }
 
 .images:hover .cases__img {
@@ -789,4 +797,5 @@ color:white;
   cursor: pointer;
   text-decoration: none;
 }
+
 
