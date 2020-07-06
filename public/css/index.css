@@ -242,6 +242,7 @@
 }
 
 .descr.maindescr {
+
   line-height: 30px;
   color: #fdfcfc;
   margin-top: 33px;
@@ -278,13 +279,14 @@
 .button.mainbutton {
   background: #f84525;
   margin-top: 68px;
+  margin-left: 6px;
   color: #fdfcfc;
   text-transform: uppercase;
 }
 
 .button.dobutton {
   margin: 0 auto;
-  margin-top: 106px;
+  margin-top: 101px;
   color: #262626;
   text-transform: uppercase;
   border: 2px solid #d0d0d0;
@@ -293,7 +295,7 @@
 .main__picture {
   position: relative;
   margin-top: 55.22px;
-  left: 130px;
+  left: 138px;
 }
 /* cases screen */
 
@@ -320,7 +322,7 @@
 .button.cases_button {
   cursor:pointer;
   margin: 0 auto;
-  margin-top: 176px;
+  margin-top: 173px;
   text-transform: uppercase;
   border: 2px solid #6c6c6c;
 }
@@ -364,7 +366,7 @@
 
 /* adv */
 .advantages {
-  height: 1570px;
+  height: 1574px;
 }
 .title.advtitle {
   margin-top: 127px;
@@ -547,7 +549,7 @@ color:white;
 }
 
 .feedbacktitle.title {
-  margin-top: 41px;
+  margin-top: 50px;
   font-size: 55px;
   color: #252525;
   text-align: center;
@@ -643,7 +645,7 @@ color:white;
  
   flex-wrap: wrap;
   align-content: flex-end;
-  margin-top: 64px;
+  margin-top: 67px;
   display: flex;
   justify-content: space-between;
 }
