@@ -565,11 +565,18 @@ color:white;
   overflow: visible;
   width: 1920px;
 }
+.group{
+  overflow: visible;
+}
 
 .footerSlider {
   overflow: visible;
+  width: 1920px;
   height: 600px;
   margin-top: 80px;
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+  overflow: visible;
 }
 .group.slick-slide {
   opacity: 0.5;
