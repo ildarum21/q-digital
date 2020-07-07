@@ -424,10 +424,12 @@
                     <p class="nameContainer"><span class="event__name">ИННОВАЦИИ В СФЕРЕ IT</span></p>
                     <span class="title event__title">Интеграция с различными API</span>
                 </div>
-                <div class="event  ">
+                <div class="event">
                     <img class="event__img" src="./public/images/Events2.png" alt="">
                     <p class="nameContainer"><span class="event__name">РЕКЛАМНЫЕ РАЗРАБОТКИ</span></p>
-                    <span class="title event__title">Разработка высоконагруженных <br> социальных проектов</span>
+                    <span class="title event__title">Разработка высоконагруженных  </span>
+                    <span class="title event__title secondrow"> социальных проектов  </span>
+                   
                 </div>
                 <div class="event">
                     <img class="event__img " src="./public/images/Events3.png" alt="">
