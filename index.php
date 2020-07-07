@@ -413,7 +413,7 @@
     <div class="new">
         <div class="container">
             <div class="title newtitle">
-                Последнии события
+                Последние события
             </div>
             <div class="descr newdescr">
                 Наши мысли и перспективы в области цифровых технологий

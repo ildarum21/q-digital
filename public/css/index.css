@@ -16,7 +16,7 @@
 @font-face {
   font-family: "MullerLight";
   /* Имя шрифта */
-  src: url(../fonts/MullerLight.otf);
+  src: url(../fonts/MullerLight.ttf);
   /* Путь к файлу со шрифтом */
 }
 
@@ -122,6 +122,7 @@
 }
 
 .menulist__li:hover {
+
   color: #fdfdfd;
 }
 
@@ -380,7 +381,11 @@
   margin-top: 10px;
 }
 .images:hover .cases__img {
+ 
   transform: rotate3d(0, 1, 0, -0.8deg);
+}
+.images:hover{
+  margin-top:-60px;
 }
 
 /* adv */
