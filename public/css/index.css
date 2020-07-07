@@ -384,8 +384,8 @@
  
   transform: rotate3d(0, 1, 0, -0.8deg);
 }
-.images:hover{
-  margin-top:-60px;
+.images:hover {
+  margin-top: -70px;
 }
 
 /* adv */
@@ -610,6 +610,7 @@
 }
 
 .footerSlider {
+  margin-left: 33px;
   overflow: visible;
   width: 1920px;
   height: 600px;
@@ -647,9 +648,12 @@
 }
 
 .item__logo.second_item__logo {
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
-
+.messageText.secondgroup{
+  margin-left: 38px;
+}
 .itemMessage {
   margin-left: 25px;
   height: 196px;
@@ -719,6 +723,7 @@
 
 .event:hover .event__img {
   transform: rotate3d(0, 1, 0, -1deg);
+
 }
 
 .nameContainer {

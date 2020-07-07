@@ -308,7 +308,7 @@
                     </div>
                     <div class="groupItem sec">
                         <div class="itemMessage right">
-                            <div class="messageText">
+                            <div class="messageText secondgroup">
                                 <div class="Message__name title">
                                     Федр Романов
                                 </div>
@@ -317,7 +317,7 @@
                                     <span class="Positiondescr descr red">IT агенстве Easy</span>
                                 </div>
                                 <div class="item_letter descr">
-                                    У ребят высокая квалификация, всегда на связи, и что самое главное, делают все
+                                    У ребят высокая квалификация, всегда на связи, и что самое <br> главное, делают все
                                     качественно и за разумную цену.
                                 </div>
                             </div>
@@ -329,7 +329,7 @@
                     <div class="groupItem">
                         <img src="./public/images/avagroup2.png" alt="" class="item__logo">
                         <div class="itemMessage">
-                            <div class="messageText">
+                            <div class="messageText ">
                                 <div class="Message__name title">
                                     Наталья Смирнова
                                 </div>
@@ -346,7 +346,7 @@
                     </div>
                     <div class="groupItem sec">
                         <div class="itemMessage right">
-                            <div class="messageText">
+                            <div class="messageText secondgroup">
                                 <div class="Message__name title">
                                     Федр Романов
                                 </div>
@@ -355,7 +355,7 @@
                                     <span class="Positiondescr descr red">IT агенстве Easy</span>
                                 </div>
                                 <div class="item_letter descr">
-                                    У ребят высокая квалификация, всегда на связи, и что самое главное, делают все
+                                    У ребят высокая квалификация, всегда на связи, и что самое <br> главное, делают все
                                     качественно и за разумную цену.
                                 </div>
                             </div>
@@ -385,7 +385,7 @@
                     </div>
                     <div class="groupItem sec">
                         <div class="itemMessage right">
-                            <div class="messageText">
+                            <div class="messageText secondgroup">
                                 <div class="Message__name title">
                                     Федр Романов
                                 </div>
@@ -394,7 +394,7 @@
                                     <span class="Positiondescr descr red">IT агенстве Easy</span>
                                 </div>
                                 <div class="item_letter descr">
-                                    У ребят высокая квалификация, всегда на связи, и что самое главное, делают все
+                                    У ребят высокая квалификация, всегда на связи, и что самое <br>   главное, делают все
                                     качественно и за разумную цену.
                                 </div>
                             </div>
