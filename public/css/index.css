@@ -63,7 +63,6 @@
 
 .writeMeButton__href {
   font-family: "Muller";
-  font-weight: bolder;
   color: #fdfdfd;
   font-size: 19.14px;
   cursor: pointer;
@@ -212,7 +211,6 @@
 
 .title {
   font-family: "Muller";
-  font-weight: bolder;
 }
 
 .title.maintitle {
@@ -329,6 +327,7 @@
 }
 
 .images {
+  transition: 0.6s;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -366,6 +365,7 @@
   color: #6c6c6c;
 }
 .imagetext {
+  transform:translate3d(0,0,5px);
   position: relative;
   z-index: 2;
   margin-bottom: 67px;
@@ -385,7 +385,7 @@
   transform: rotate3d(0, 1, 0, -0.8deg);
 }
 .images:hover {
-  margin-top: -70px;
+ transform:translate(0,-70px);
 }
 
 /* adv */
@@ -433,14 +433,14 @@
 }
 
 .field.field_descr.descr.firts-field {
-  margin-top: 40px;
+  margin-top: 37px;
 }
 
 .field.field_a.writeMeButton__href {
   border-bottom: 1px solid white;
   display: block;
   width: 160px;
-  margin-top: 60px;
+  margin-top: 44px;
   font-size: 16px;
   visibility: hidden;
 }
@@ -458,11 +458,19 @@
 .back:hover {
   background-color: #f84525;
   border-radius: 50px 50px 0 50px;
-  transform: scale(1.1, 1.05);
+ 
+  transform: translate(31px,-55px) scaleX(0.96) scaleY(1.07);
+
+}
+.back:hover .wrapperContent {
+  margin-left: 0;
+  margin-right:10px;
+  margin-top: 25px;
 }
 
 .back:hover .field.field_title.title {
   color: white;
+
 }
 
 .back:hover .field.field_descr.descr {
@@ -471,6 +479,7 @@
 
 .back:hover .field_a {
   visibility: visible;
+
 }
 
 /* about screen */
@@ -569,6 +578,8 @@
 }
 
 .slick-slide {
+  padding-left: 30px;
+  padding-right: 30px;
   outline: none;
 }
 
