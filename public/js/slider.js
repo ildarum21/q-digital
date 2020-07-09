@@ -5,6 +5,6 @@ $('.footerSlider').slick({
     centerMode: true,
     dots:true,
     arrows:false,
-    centerPadding: '480px',
+    centerPadding: '470px',
     slidesToShow: 1,
   });

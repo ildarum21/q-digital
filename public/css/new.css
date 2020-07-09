@@ -43,7 +43,7 @@
   /* margin: 0 auto; */
 }
 .new__title {
-  margin-top: 143px;
+  margin-top: 126px;
   font-family: "Muller";
   font-size: 55px;
   color: #040404;
@@ -85,7 +85,7 @@
   justify-content: space-between;
 }
 .event.next{
-  margin-top: 45px;
+  margin-top: 62px;
 }
 .event {
   margin-bottom: 60px;
@@ -112,13 +112,10 @@
 }
 
 .nameContainer {
-  margin-top: 52px;
+  margin-top: 45px;
 }
 .event__name {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 6px 15px;
   text-align: center;
   text-transform: uppercase;
   font-family: "MullerMedium";
@@ -151,112 +148,3 @@
   color:#222222;
 }
 /* footer */
-.footer {
-  margin-top: 146px;
-  height: 655px;
-  background: url("../images/footerbg.png");
-}
-
-.content {
-  height: 178px;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 167px;
-}
-
-.Blocks {
-  width: 690px;
-  display: flex;
-}
-.block__text{
-  font-family: "MullerRegular";
-  font-size: 20px;
-  color:#fdfdfd;
-}
-.block__text.descr.sec {
-  margin-top: 0;
-  margin-left: 2px;
-}
-
-.block__text.descr {
-  line-height: 30px;
-  font-size: 20px;
-  color: #fdfdfd;
-  margin-top: 40px;
-}
-
-
-.footer__logo {
-  margin-left: 5px;
-  width: 135px;
-  height: 33px;
-}
-
-.secBlock {
-  width: 432px;
-}
-
-.thirdBlock {
-  width: 255px;
-}
-
-.communication.footer_communication {
-  margin-left: 5px;
-  width: 40%;
-  cursor: pointer;
-  padding-top: 12px;
-  line-height: 22px;
-  text-decoration: none;
-  border-bottom: 1px solid #f84525;
-  display: flex;
-  flex-direction: column;
-  color: #f84525;
-  font-size: 20px;
-  font-family: "MullerLight";
-  font-weight: 400;
-}
-
-.footer__comm {
-  margin-top: 16px;
-}
-
-.footer_text {
-  font-family: "MullerLight";
-  font-size: 20px;
-  color: #a3a2a2;
-}
-
-.block__text.descr.adresss {
-  margin-left: 7px;
-  margin-top: 60px;
-}
-
-.footer__adress.footer_text {
-  margin-left: 8px;
-  margin-top: 20px;
-}
-
-.footerMenu {
-  margin-top: 30px;
-}
-
-.menuli {
-  margin-top: 20px;
-}
-
-.menu__item.footer_text {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.networks.footer_network {
-  margin-left: 3px;
-  margin-top: 124px;
-}
-.networks__name {
-  cursor: pointer;
-  margin-left: 26px;
-}
-.networks__name:first-child {
-  margin-left: 0;
-}

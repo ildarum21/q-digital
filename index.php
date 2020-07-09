@@ -8,11 +8,15 @@
     <link rel="stylesheet" type="text/css" href="./public/js/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./public/js/slick/slick-theme.css" />
     <link rel="stylesheet" href="./public/css/index.css">
+     <link rel="stylesheet" href="./public/css/footer.css">
+     <link rel="stylesheet" href="./public/css/menu.css">
     <title>Document</title>
 </head>
-
 <body>
     <div class="main">
+    <?php
+include 'menu.php';
+?>
         <div class="container">
             <div class="main-wrapper">
                 <div class="text">
@@ -44,7 +48,7 @@
                     <div class="images">
                         <img src="./public/images/roters.png" alt="" class="cases__img">
                         <div class="imagetext">
-                            <div class="casessubtitle">Rasperry PI</div>
+                            <div class="casessubtitle  ">Rasperry PI</div>
                             <div class="casessubdescr descr"> Кастомный роутер </div>
                         </div>
                     </div>
@@ -62,18 +66,18 @@
                 <div class="imagesContainer ">
                     <div class="images">
                         <img src="./public/images/taxibg.png" alt="" class="cases__img">
-                        <div class="imagetext">
-                            <div class="casessubtitle">Objective C</div>
-                            <div class="casessubdescr descr"> Приложение для такси </div>
+                        <div class="imagetext  taxi">
+                            <div class="casessubtitle secondsub">Objective C</div>
+                            <div class="casessubdescr descr "> Приложение для такси </div>
                         </div>
                     </div>
                 </div>
                 <div class="imagesContainer ">
                     <div class="images">
                         <img src="./public/images/PushArtist.png" alt="" class="cases__img">
-                        <div class="imagetext">
-                            <div class="casessubtitle">PushArtist.ru</div>
-                            <div class="casessubdescr descr"> Социальная сеть </div>
+                        <div class="imagetext push">
+                            <div class="casessubtitle secondsubPush">PushArtist.ru</div>
+                            <div class="casessubdescr descr secondsubPush"> Социальная сеть </div>
                         </div>
                     </div>
                 </div>
@@ -246,7 +250,7 @@
                     <a href="" class="button listbutton">ЗАКАЗАТЬ УСЛУГУ </a>
                 </div>
             </div>
-            <div class="doElem">
+            <div class="doElem ">
                 <img src="./public/images/mails.png" alt="" class="elem_img">
                 <div class="elemDescr">
                     <div class="elem__name">
@@ -405,11 +409,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
     <div class="new">
         <div class="container">
             <div class="title newtitle">
@@ -426,19 +425,19 @@
                 </div>
                 <div class="event">
                     <img class="event__img" src="./public/images/Events2.png" alt="">
-                    <p class="nameContainer"><span class="event__name">РЕКЛАМНЫЕ РАЗРАБОТКИ</span></p>
+                    <p class="nameContainer nameContainer2 "><span class="event__name">РЕКЛАМНЫЕ РАЗРАБОТКИ</span></p>
                     <span class="title event__title">Разработка высоконагруженных  </span>
                     <span class="title event__title secondrow"> социальных проектов  </span>
                    
                 </div>
                 <div class="event">
                     <img class="event__img " src="./public/images/Events3.png" alt="">
-                    <p class="nameContainer"><span class="event__name">НОВИНКИ В СФЕРЕ ИЛЛЮСТРАЦИЙ</span></p>
+                    <p class="nameContainer nameContainer2"><span class="event__name">НОВИНКИ В СФЕРЕ ИЛЛЮСТРАЦИЙ</span></p>
                     <span class="title event__title">Новые коллекции иллюстраций</span>
                 </div>
                 <div class="event ">
                     <img class="event__img" src="./public/images/Events4.png" alt="">
-                    <p class="nameContainer"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
                     <span class="title event__title">Социальный маркетинг</span>
                 </div>
 
@@ -446,65 +445,11 @@
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="container">
-            <div class="content">
-                <div class="firstBlock">
-                    <img src="./public/images/logo.png" alt="" class="footer__logo">
-                    <div class="block__text descr">
-                        Качественный сервис <br> и эффективные решения
-                    </div>
-
-                    <div class="networks footer_network">
-                        <a class="networks__name" href="#"><img src="./public/images/facebook.png"
-                                alt="facebook"></a>
-                        <a class="networks__name" href="#"><img src="./public/images/vk.png" alt="vk"></a>
-                        <a class="networks__name" href="#"> <img src="./public/images/twitter.png"
-                                alt="twitter"></a>
-                        <a class="networks__name" href="#"><img src="./public/images/instagram.png"
-                                alt="instagram"></a>
-                    </div>
-                </div>
-                <div class="Blocks">
-
-                    <div class="secBlock">
-                        <div class="block__text descr sec">
-                            Контакты
-                        </div>
-
-                        <div class="footer__comm">
-                            <a href="mailto:client@q-digital.ru"
-                                class="communication footer_communication">client@q-digital.ru</a>
-                            <a href="tel:79127689454" class="communication footer_communication">+7 (912)
-                                768-9454</a>
-                        </div>
-                        <div class="block__text descr adresss ">
-                            Адрес
-                        </div>
-                        <div class="footer__adress footer_text">
-                            Ул. Кирова 112 Ижевск, Россия
-                        </div>
-
-
-                    </div>
-                    <div class="thirdBlock descr">
-                        <div class="block__text descr sec">
-                            Просмотреть
-                        </div>
-                        <ul class="footerMenu">
-                            <li class="menuli"><a class="menu__item  footer_text" href="#">Кейсы</a></li>
-                            <li class="menuli"><a class="menu__item footer_text" href="#">О нас</a></li>
-                            <li class="menuli"><a class="menu__item footer_text" href="#">Услуги</a></li>
-                            <li class="menuli"><a class="menu__item footer_text" href="#">Отзывы</a></li>
-                            <li class="menuli"><a class="menu__item footer_text" href="#">События</a></li>
-                            <li class="menuli"><a class="menu__item footer_text" href="#">Контакты</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>  
+    <?php
+include 'footer.php';
+?>
 </body>
+<script src="./public/js/script.js" type="text/javascript"></script>
 <script type="text/javascript" src="./public/js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="./public/js/slick/slick.min.js"></script>
 <script type="text/javascript" src="./public/js/slider.js"></script>

@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Muller";
+    /* Имя шрифта */
+    src: url(../fonts/ofont.ru_Muller.ttf);
+    /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: "MullerRegular";
+    /* Имя шрифта */
+    src: url(../fonts/MullerRegular.otf);
+    /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: "MullerLight";
+    /* Имя шрифта */
+    src: url(../fonts/MullerLight.otf);
+    /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: "MullerMedium";
+    /* Имя шрифта */
+    src: url(../fonts/MullerMedium.otf);
+    /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: "MullerExtraBold";
+    /* Имя шрифта */
+    src: url(../fonts/MullerExtraBold.ttf);
+    /* Путь к файлу со шрифтом */
+  }
+.title{
+    font-family: 'Muller';
+    color:#070707;
+}
+.descr{
+    font-family: "MullerRegular";
+    font-size: 20px;
+}
+.container{
+    margin: 0 auto;
+    width: 1212px;
+
+}
+.brief__title.title{
+    margin-top: 123px;
+    font-size: 55px;
+    
+}
+#price{
+    display: none;
+}
+.brief__descr{
+    margin-top: 23px;
+    font-family:"MullerRegular" ;
+    font-size: 20px;
+    color:#6c6c6c;
+}
+.input{
+    display: none;
+}
+.Elem__title.title{
+    font-size: 30px;
+    margin-top: 89px;
+}
+.inputs{
+    margin-top: 12px;
+    width: 984px;
+    display: flex;
+    flex-wrap: wrap;
+}
+label.descr.first{
+    margin-left: 0;
+}
+textarea::placeholder{
+    font-family: "MullerRegular";
+    font-size: 20px;
+    color:#b6b6b6;
+}
+.label.descr{
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-left: 23px;
+    padding: 27px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color:#6c6c6c;
+    text-align: center;
+    width: 312px;
+}
+.input:checked~.label{
+   background-color:#f84525;
+   color:white;
+}
+.input:checked~.label2{
+    background-color:#f84525;
+    color:white;
+ }
+.inputs.secondinputs{
+    margin-top: 20px;
+    width: 100%;
+}
+.Elem__title.title.price{
+    margin-top: 68px;
+}
+.Elem__title.title.tusk{
+margin-top: 55px;
+}
+.label2{
+    border-radius: 3px;
+    margin-top: 22px;
+    margin-left: 23px;
+    padding: 22px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color:#6c6c6c;
+    text-align: center;
+    width: 170px;  
+}
+.hr{
+    margin-top: 100px;
+}
+.tusk__textarea{
+    width: 964px;
+    height: 216px;
+    padding: 0;
+    margin-top: 34px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.typeFile{
+    display: flex;
+}
+.inputWrapper{
+    display: flex;
+}
+.file{
+    display: none;
+}
+.file__label.descr{
+    display: inline;
+    color:#6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
+}
+.file__descr.descr{
+    color:#b6b6b6;
+    margin-left: 15px;
+}

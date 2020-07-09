@@ -1,0 +1,146 @@
+
+  .header {
+    margin: 0 auto;
+    display: flex;
+    width: 94.8%;
+    justify-content: space-between;
+    padding-top: 56px;
+  }
+  
+  .header__logo {
+    margin-left: 15px;
+  }
+  
+  .writeMe {
+    margin-right: 19px;
+    display: flex;
+  }
+  
+  .writeMeButton {
+    margin-top: 10px;
+    margin-right: 27px;
+  }
+  
+  .writeMeButton__href {
+    font-family: "Muller";
+    color: #fdfdfd;
+    font-size: 19.14px;
+    cursor: pointer;
+  }
+  
+  .exit__circle {
+    cursor: pointer;
+    position: relative;
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  
+  .exit__line.active {
+    width: 17px;
+    height: 17px;
+    background: url("../images/2line.png");
+  }
+  
+  .exit__line {
+    background: url("../images/burger.png");
+    width: 17px;
+    height: 17px;
+    left: 30%;
+    top: 30%;
+    position: absolute;
+  }
+  
+  .container-menu.active {
+    display: flex;
+    opacity: 0.5;
+  }
+  
+  .container-menu {
+    display: none;
+    margin: 0 auto;
+    margin-top: 86px;
+    width: 1059px;
+    height: 150px;
+    justify-content: space-between;
+  }
+  
+  .menulist {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 52px;
+  }
+  
+  .menulist__li {
+    font-family: "Muller";
+    font-weight: bold;
+    color: #363537;
+    font-size: 75px;
+    cursor: pointer;
+    margin-top: 32px;
+  }
+  
+  .menulist__li:hover {
+    color: #fdfdfd;
+  }
+  
+  .social {
+    margin-right: 5px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .communication {
+    padding-top: 8px;
+    line-height: 22px;
+    text-decoration: none;
+    border-bottom: 1px solid #f84525;
+    display: flex;
+    flex-direction: column;
+    color: #f84525;
+    font-size: 20px;
+    font-family: "MullerLight";
+    font-weight: 400;
+  }
+  
+  .communication:last-child {
+    margin-top: 21px;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  
+  .adress {
+    margin-top: 40px;
+  }
+  
+  .adress__text {
+    line-height: 27px;
+    display: block;
+    font-family: "MullerLight";
+    font-size: 20px;
+    color: #fdfdfd;
+    font-weight: 400;
+  }
+  
+  .networks {
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+  }
+  
+  .networks__name {
+    cursor: pointer;
+    margin-left: 27px;
+  }
+  
+  .networks__name:first-child {
+    margin-left: 0;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
