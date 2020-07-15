@@ -2,7 +2,7 @@
 .footer {
     margin-top: 200px;
     height: 655px;
-    background: url("../images/footerbg.png");
+    background: url("./images/footerbg.png");
   }
   
   .content {
@@ -31,7 +31,7 @@
     color: #fdfdfd;
     margin-top: 40px;
   }
-  
+
   
   .footer__logo {
     width: 157px;
@@ -44,6 +44,10 @@
   
   .thirdBlock {
     width: 240px;
+  }
+
+  .thirdBlock.descr{
+    margin-top: 0;
   }
   
   .communication.footer_communication {

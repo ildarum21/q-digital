@@ -350,7 +350,6 @@ margin-top: 30px;
 }
 
 .about__title {
-  margin-left: 6px;
   font-size: 14px;
   letter-spacing: 4.3px;
   font-family: "MullerMedium";
@@ -573,17 +572,19 @@ margin-top: 30px;
 .event:nth-child(even) {
   margin-top: 100px;
 }
-
+.title.event__title.anything{
+  margin-top: 34px;
+}
 .events {
   flex-wrap: wrap;
   align-content: flex-end;
-  margin-top: 67px;
+  margin-top: 90px;
   display: flex;
   justify-content: space-between;
 }
 
 .event {
-  margin-bottom: 63px;
+  margin-bottom: 40px;
   cursor: pointer;
   perspective: 100px;
   display: flex;

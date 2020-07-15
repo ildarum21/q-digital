@@ -1,0 +1,108 @@
+.footer {
+  margin-top: 200px;
+  height: 655px;
+  background: url("./images/footerbg.png"); }
+
+.content {
+  height: 162px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 162px; }
+
+.Blocks {
+  width: 686px;
+  display: flex; }
+
+.block__text {
+  font-family: "MullerRegular";
+  font-size: 20px;
+  color: #fdfdfd; }
+
+.block__text.descr.sec {
+  margin-top: 0; }
+
+.block__text.descr {
+  line-height: 30px;
+  font-size: 20px;
+  color: #fdfdfd;
+  margin-top: 40px; }
+
+.footer__logo {
+  width: 157px;
+  height: 33px; }
+
+.secBlock {
+  width: 457px; }
+
+.thirdBlock {
+  width: 240px; }
+
+.thirdBlock.descr {
+  margin-top: 0; }
+
+.communication.footer_communication {
+  width: 39%;
+  cursor: pointer;
+  padding-top: 14px;
+  line-height: 22px;
+  text-decoration: none;
+  border-bottom: 1px solid #f84525;
+  display: flex;
+  flex-direction: column;
+  color: #f84525;
+  font-size: 20px;
+  font-family: "MullerLight";
+  font-weight: 400; }
+
+.footer__comm {
+  margin-top: 14px; }
+
+.footer_text {
+  font-family: "MullerLight";
+  font-size: 20px;
+  color: #a3a2a2; }
+
+.block__text.descr.adresss {
+  margin-top: 55px; }
+
+.footer__adress.footer_text {
+  margin-left: 2px;
+  margin-top: 20px; }
+
+.footerMenu {
+  margin-top: 32px; }
+
+.menuli {
+  margin-top: 20px; }
+
+.menu__item.footer_text {
+  cursor: pointer;
+  text-decoration: none; }
+
+.networks.footer_network {
+  margin-left: 6px;
+  margin-top: 169px; }
+
+.networks__name {
+  cursor: pointer;
+  margin-left: 26px; }
+
+.networks__name:first-child {
+  margin-left: 0; }
+
+.communication:last-child {
+  margin-top: 19px;
+  margin-bottom: 0;
+  padding-top: 0; }
+
+.communication {
+  padding-top: 8px;
+  line-height: 22px;
+  text-decoration: none;
+  border-bottom: 1px solid #f84525;
+  display: flex;
+  flex-direction: column;
+  color: #f84525;
+  font-size: 20px;
+  font-family: "MullerLight";
+  font-weight: 400; }

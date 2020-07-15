@@ -1,0 +1,223 @@
+.title {
+    font-family: "Muller";
+    color: #070707;
+}
+.descr {
+    font-family: "MullerRegular";
+    font-size: 20px;
+}
+.container {
+    margin: 0 auto;
+    width: 1212px;
+}
+.brief__title.title {
+    margin-top: 127px;
+    margin-left: -5px;
+    font-size: 55px;
+}
+#price {
+    display: none;
+}
+.brief__descr {
+    margin-top: 23px;
+    margin-left: -5px;
+    font-family: "MullerRegular";
+    font-size: 20px;
+    color: #6c6c6c;
+}
+.input {
+    display: none;
+}
+.Elem__title.title {
+    font-size: 30px;
+    margin-left: -5px;
+    margin-top: 89px;
+}
+.inputs {
+    margin-top: 12px;
+    width: 984px;
+    display: flex;
+    flex-wrap: wrap;
+}
+label.descr.first {
+    margin-left: -5px;
+}
+textarea::placeholder {
+    padding-top: 30px;
+    font-family: "MullerRegular";
+    font-size: 20px;
+    color: #b6b6b6;
+}
+.label.descr {
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 26px;
+    margin-left: 20px;
+    padding: 27px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #6c6c6c;
+    text-align: center;
+    width: 312px;
+}
+.input:checked ~ .label {
+    background-color: #f84525;
+    color: white;
+}
+.input:checked ~ .label2 {
+    background-color: #f84525;
+    color: white;
+}
+.inputs.secondinputs {
+    margin-top: 20px;
+    width: 100%;
+}
+.Elem__title.title.price {
+    margin-top: 68px;
+}
+.Elem__title.title.tusk {
+    margin-top: 65px;
+}
+.label2 {
+    border-radius: 3px;
+    margin-top: 16px;
+    margin-left: 21px;
+    padding: 28px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #6c6c6c;
+    text-align: center;
+    width: 170px;
+}
+.hr {
+    margin-top: 84px;
+    width: 119.5%;
+}
+.tusk__textarea {
+    resize: none;
+    width: 964px;
+    height: 216px;
+    padding: 0;
+    margin-top: 36px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.typeFile {
+    margin-top: 17px;
+    display: flex;
+}
+.inputWrapper {
+    display: flex;
+}
+.file {
+    display: none;
+}
+.file__label.descr {
+    display: inline;
+    color: #6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
+}
+.file__descr.descr {
+    padding-left: 10px;
+    color: #b6b6b6;
+    margin-left: 15px;
+}
+.inputTextWrapper {
+    margin-top: 11px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputText:nth-child(2n) {
+    margin-left: 20px;
+}
+.inputText {
+    border-radius: 4px;
+    margin-top: 25px;
+    width: 480px;
+    height: 65px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 0 0;
+}
+.footer {
+    margin-top: 200px;
+}
+.briefButton {
+    margin-top: 50px;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Muller";
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 50px;
+    background-color: #f84525;
+}
+.hr.contacts {
+    margin-top: 76px;
+}
+.inputText::placeholder {
+    padding-left: 31px;
+    font-family: "MullerRegular";
+    font-size: 20px;
+    color: #b6b6b6;
+}
+.Elem__title.title.contacts {
+    margin-top: 80px;
+}
+.politic.descr {
+    margin-left:-5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.footerBrief {
+    margin-top: -33px;
+}
+//стилизация меню
+.whiteback > .bg .menuLogoBlack {
+    margin-left:-5px;
+    display: block;
+}
+.whiteback > .bg .menuLogoWhite {
+    display: none;
+}
+.whiteback > .bg .writeMeButton__href {
+    color: black;
+}
+.whiteback > .bg .exit__circle {
+    background: black;
+}
+
+.whiteback > .bg .exit__line.active {
+    background: url(./images/whitecrest.png);
+}
+.whiteback > .bg .exit__line {
+    background: url(./images/burgerwhite.png);
+}
+.footerBrief >.footer .content{
+    padding-top: 166px;
+}
+.footerBrief >.footer .block__text.descr.adresss{
+    margin-top: 58px;
+    margin-left: 5px;
+}
+.footerBrief >.footer .footer__logo{
+    margin-left: 7px;
+}
+.footerBrief >.footer .block__text.descr{
+    margin-left: 5px;
+}
+.footerBrief >.footer .networks.footer_network{
+    margin-top: 165px;
+}
+.footerBrief >.footer .footer__comm{
+    margin-top: 12px;
+    margin-left: 5px;
+}

@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/reset.css">
-    <link rel="stylesheet" href="./public/css/new.css">
-    <link rel="stylesheet" href="./public/css/footer.css">
-    <link rel="stylesheet" href="./public/css/menu.css">
+    <link rel="stylesheet" href="./public/index.css">
     <title>new</title>
 </head>
 
 <body>
-<?php
-include 'menu.php';
-?>
+    <div class="whiteback">
+        <?php
+        include 'menu.php';
+        ?>
+    </div>
+
     <div class="new">
         <div class="container">
             <div class="new__title">
@@ -52,7 +52,7 @@ include 'menu.php';
                 <div class="event  enysecondevent">
                     <img class="event__img " src="./public/images/Events_4(new).png" alt="">
                     <p class="nameContainer"><span class="event__name">ВЕБ И ЦИФРОВОЙ ДИЗАЙН</span></p>
-                    <span class="event__title">Новые коллекции иллюстраций</span>
+                    <span class="event__title">Интеграция с различными API</span>
                 </div>
                 <div class="event next">
                     <img class="event__img" src="./public/images/Events_5.png" alt="">
@@ -65,34 +65,34 @@ include 'menu.php';
                     <span class="event__title">Разработка высоконагруженных <br>
                         социальных проектов</span>
                 </div>
-                <div class="event next">
+                <div class="event nextnext">
                     <img class="event__img" src="./public/images/Events_7.png" alt="">
                     <p class="nameContainer"><span class="event__name">НОВИНКИ В СФЕРЕ ИЛЛЮСТРАЦИЙ</span></p>
                     <span class=" event__title">Неоформизм в дизайне</span>
                 </div>
-                <div class="event next">
+                <div class="event nextnext">
                     <img class="event__img" src="./public/images/Events_8.png" alt="">
                     <p class="nameContainer"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
                     <span class="event__title">Социальный маркетинг</span>
                 </div>
-                <div class="event next">
+                <div class="event nextnext">
                     <img class="event__img" src="./public/images/Events_9.png" alt="">
                     <p class="nameContainer"><span class="event__name">ИНТЕРНЕТ МАГАЗИНЫ</span></p>
                     <span class="event__title">Новые коллекции иллюстраций</span>
                 </div>
-                <div class="event next">
-                    <img class="event__img" src="./public/images/Events_10.png" alt="">
-                    <p class="nameContainer"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                <div class="event nextnext">
+                    <img class="event__img " src="./public/images/Events_10.png" alt="">
+                    <p class="nameContainer "><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
                     <span class="title event__title">Социальный маркетинг</span>
                 </div>
                 <div class="event next">
-                    <img class="event__img" src="./public/images/Events_11.png" alt="">
-                    <p class="nameContainer"><span class="event__name">НОВИНКИ В СФЕРЕ ТИПОГРАФИКИ</span></p>
+                    <img class="event__img " src="./public/images/Events_11.png" alt="">
+                    <p class="nameContainer "><span class="event__name">НОВИНКИ В СФЕРЕ ТИПОГРАФИКИ</span></p>
                     <span class="event__title">Новые приемы в типографике</span>
                 </div>
                 <div class="event next">
-                    <img class="event__img" src="./public/images/Events_12.png" alt="">
-                    <p class="nameContainer"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <img class="event__img " src="./public/images/Events_12.png" alt="">
+                    <p class="nameContainer "><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
                     <span class="event__title">Социальный маркетинг</span>
                 </div>
                 <div class="event next">
@@ -106,9 +106,11 @@ include 'menu.php';
             </a>
         </div>
     </div>
+    <div class="newfooter">
     <?php
-include 'footer.php';
-?>
+    include 'footer.php';
+    ?>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,23 @@
+{
+  "name": "q-digital",
+  "version": "1.0.0",
+  "description": "veerstca",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build-css",
+    "build-css": "node-sass-chokidar  public/css -o public/ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ildarum21/q-digital.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ildarum21/q-digital/issues"
+  },
+  "homepage": "https://github.com/ildarum21/q-digital#readme",
+  "dependencies": {
+    "node-sass-chokidar": "^1.5.0"
+  }
+}

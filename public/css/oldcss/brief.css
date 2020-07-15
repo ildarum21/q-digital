@@ -76,6 +76,7 @@ label.descr.first{
     margin-left: 0;
 }
 textarea::placeholder{
+    padding-top: 30px;
     font-family: "MullerRegular";
     font-size: 20px;
     color:#b6b6b6;
@@ -107,7 +108,7 @@ textarea::placeholder{
     margin-top: 68px;
 }
 .Elem__title.title.tusk{
-margin-top: 55px;
+margin-top: 65px;
 }
 .label2{
     border-radius: 3px;
@@ -120,19 +121,23 @@ margin-top: 55px;
     width: 170px;  
 }
 .hr{
-    margin-top: 100px;
+    margin-top: 90px;
 }
 .tusk__textarea{
+    resize: none;
     width: 964px;
     height: 216px;
     padding: 0;
-    margin-top: 34px;
+    margin-top: 36px;
     border: none;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 5px;
     text-decoration: none;
 }
+
 .typeFile{
+    margin-top: 32px;
+    margin-left: 6px;
     display: flex;
 }
 .inputWrapper{
@@ -147,6 +152,62 @@ margin-top: 55px;
     border-bottom: 1px solid #6c6c6c;
 }
 .file__descr.descr{
+    padding-left: 10px;
     color:#b6b6b6;
     margin-left: 15px;
+}
+.inputTextWrapper{
+    margin-top: 11px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputText:nth-child(2n) {
+    margin-left: 20px;
+  }
+.inputText{
+    border-radius: 4px;
+    margin-top: 25px;
+    width: 480px;
+    height: 65px;
+    border:none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 0 0;
+}
+.briefButton{
+    margin-left: 8px;
+    margin-top: 50px;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Muller";
+    cursor: pointer;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 50px;
+    background-color: #f84525;
+}
+.hr.contacts{
+    margin-top: 80px;
+}
+.inputText::placeholder{
+    padding-left:33px;
+    font-family: "MullerRegular";
+    font-size: 20px;
+    color:#b6b6b6;
+
+}
+.Elem__title.title.contacts{
+    margin-top: 80px;
+}
+.politic.descr{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 167px !important;
 }
