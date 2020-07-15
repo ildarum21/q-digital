@@ -32,85 +32,83 @@
                 <a href="#" class="list__item newrow">НОВИНКИ 2020</a>
                 <a href="#" class="list__item">ИНТЕГРЦИИ С API </a>
             </div>
-            <div class="events">
+            <div class="events innew_events">
                 <div class="event">
                     <img class="event__img" src="./public/images/Events1.png" alt="">
-                    <p class="nameContainer"><span class="event__name">ВЕБ И ЦИФРОВОЙ ДИЗАЙН</span></p>
-                    <span class="event__title">Проектирование для web в 2020 году </span>
+                    <p class="nameContainer"><span class="event__name">ИННОВАЦИИ В СФЕРЕ IT</span></p>
+                    <span class="title event__title">Интеграция с различными API</span>
                 </div>
-                <div class="event secondevent">
-                    <img class="event__img " src="./public/images/Events2.png" alt="">
-                    <p class="nameContainer"><span class="event__name">РЕКЛАМНЫЕ РАЗРАБОТКИ</span></p>
-                    <span class="event__title">Разработка высоконагруженных <br>
-                        социальных проектов</span>
+                <div class="event">
+                    <img class="event__img" src="./public/images/Events2.png" alt="">
+                    <p class="nameContainer nameContainer2 "><span class="event__name">РЕКЛАМНЫЕ РАЗРАБОТКИ</span></p>
+                    <span class="title event__title">Разработка высоконагруженных </span>
+                    <span class="title event__title secondrow"> социальных проектов </span>
                 </div>
                 <div class="event">
                     <img class="event__img " src="./public/images/Events3.png" alt="">
-                    <p class="nameContainer"><span class="event__name">НОВИНКИ В СФЕРЕ ИЛЛЮСТРАЦИЙ</span></p>
-                    <span class="event__title">Новые коллекции иллюстраций</span>
+                    <p class="nameContainer nameContainer2"><span class="event__name">НОВИНКИ В СФЕРЕ ИЛЛЮСТРАЦИЙ</span></p>
+                    <span class="title event__title anything">Новые коллекции иллюстраций</span>
                 </div>
-                <div class="event  enysecondevent">
-                    <img class="event__img " src="./public/images/Events_4(new).png" alt="">
-                    <p class="nameContainer"><span class="event__name">ВЕБ И ЦИФРОВОЙ ДИЗАЙН</span></p>
-                    <span class="event__title">Интеграция с различными API</span>
-                </div>
-                <div class="event next">
-                    <img class="event__img" src="./public/images/Events_5.png" alt="">
-                    <p class="nameContainer"><span class="event__name">ИННОВАЦИИ В СФЕРЕ IT</span></p>
-                    <span class="event__title">Работы для рекламного агенства</span>
-                </div>
-                <div class="event next">
-                    <img class="event__img" src="./public/images/Events_6.png" alt="">
-                    <p class="nameContainer"><span class="event__name">ВЕБ И ЦИФРОВОЙ ДИЗАЙН</span></p>
-                    <span class="event__title">Разработка высоконагруженных <br>
-                        социальных проектов</span>
-                </div>
-                <div class="event nextnext">
-                    <img class="event__img" src="./public/images/Events_7.png" alt="">
-                    <p class="nameContainer"><span class="event__name">НОВИНКИ В СФЕРЕ ИЛЛЮСТРАЦИЙ</span></p>
-                    <span class=" event__title">Неоформизм в дизайне</span>
-                </div>
-                <div class="event nextnext">
-                    <img class="event__img" src="./public/images/Events_8.png" alt="">
-                    <p class="nameContainer"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
-                    <span class="event__title">Социальный маркетинг</span>
-                </div>
-                <div class="event nextnext">
-                    <img class="event__img" src="./public/images/Events_9.png" alt="">
-                    <p class="nameContainer"><span class="event__name">ИНТЕРНЕТ МАГАЗИНЫ</span></p>
-                    <span class="event__title">Новые коллекции иллюстраций</span>
-                </div>
-                <div class="event nextnext">
-                    <img class="event__img " src="./public/images/Events_10.png" alt="">
-                    <p class="nameContainer "><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                <div class="event  ">
+                    <img class="event__img" src="./public/images/Events_4(new).png" alt="">
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
                     <span class="title event__title">Социальный маркетинг</span>
                 </div>
-                <div class="event next">
-                    <img class="event__img " src="./public/images/Events_11.png" alt="">
-                    <p class="nameContainer "><span class="event__name">НОВИНКИ В СФЕРЕ ТИПОГРАФИКИ</span></p>
-                    <span class="event__title">Новые приемы в типографике</span>
+                <div class="event ">
+                    <img class="event__img" src="./public/images/Events_5.png" alt="">
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <span class="title event__title">Социальный маркетинг</span>
                 </div>
-                <div class="event next">
-                    <img class="event__img " src="./public/images/Events_12.png" alt="">
-                    <p class="nameContainer "><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
-                    <span class="event__title">Социальный маркетинг</span>
+                <div class="event event_withautmargin">
+                    <img class="event__img" src="./public/images/Events_6.png" alt="">
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <span class="title event__title">Социальный маркетинг</span>
                 </div>
-                <div class="event next">
+                <div class="event ">
+                    <img class="event__img" src="./public/images/Events_7.png" alt="">
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <span class="title event__title">Социальный маркетинг</span>
+                </div>
+                <div class="event event_withautmargin ">
+                    <img class="event__img" src="./public/images/Events_8.png" alt="">
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <span class="title event__title">Социальный маркетинг</span>
+                </div>
+                <div class="event ">
+                    <img class="event__img" src="./public/images/Events_9.png" alt="">
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <span class="title event__title">Социальный маркетинг</span>
+                </div>
+                <div class="event event_withautmargin ">
+                    <img class="event__img" src="./public/images/Events_10.png" alt="">
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <span class="title event__title">Социальный маркетинг</span>
+                </div>
+                <div class="event ">
+                    <img class="event__img" src="./public/images/Events_11.png" alt="">
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <span class="title event__title">Социальный маркетинг</span>
+                </div>
+                <div class="event event_withautmargin ">
+                    <img class="event__img" src="./public/images/Events_12.png" alt="">
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <span class="title event__title">Социальный маркетинг</span>
+                </div>
+                <div class="event ">
                     <img class="event__img" src="./public/images/Events_13.png" alt="">
-                    <p class="nameContainer"><span class="event__name">НОВИНКИ В СФЕРЕ ИЛЛЮСТРАЦИЙ</span></p>
-                    <span class="event__title">Новые коллекции иллюстраций</span>
+                    <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+                    <span class="title event__title">Социальный маркетинг</span>
                 </div>
             </div>
             <a href="#" class="news__button">
-                СМОТРЕТЬ ВСЕ
-            </a>
+                    СМОТРЕТЬ ВСЕ
+                </a>
         </div>
-    </div>
-    <div class="newfooter">
-    <?php
-    include 'footer.php';
-    ?>
-    </div>
+        <div class="newfooter">
+            <?php
+            include 'footer.php';
+            ?>
+        </div>
 </body>
 
 </html>

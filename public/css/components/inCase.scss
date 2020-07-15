@@ -1,0 +1,98 @@
+.inCase_mainblock {
+    margin-top: 65px;
+    margin-left: 355px;
+    display: flex;
+}
+.mainBlock_works {
+    width: 546px;
+}
+.inCase_descr {
+    font-size: 14px;
+    color: #f84525;
+    margin-top: 73px;
+    letter-spacing: 3px;
+}
+.casessubtitle.mainblock_casessubtitle {
+    font-size: 55px;
+    margin-top: 30px;
+}
+.descr.mainblock_descr {
+    margin-top: 9px;
+}
+.inCase_steps {
+    margin-top: 53px;
+}
+
+.step_subtitle.descr {
+    padding-top: 39px;
+    padding-bottom: 9px;
+    font-family: "MullerMedium";
+    color: #101010;
+}
+.step_descr.descr {
+    margin-top: 17px;
+}
+.inCase_stepsBlock {
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+.step_anystep.step.step_anystep2 {
+    margin-left: 132px;
+}
+.step:nth-child(even) {
+    margin-left: 120px;
+}
+.step.step_sec {
+    margin-left: 0;
+}
+.step_subtitle.descr.step_anypad {
+    padding-bottom: 17px;
+}
+.imgweb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4606px;
+    width: 100%;
+    background-color: #ebebeb;
+}
+.step_anystep.step {
+    margin-top: 32px;
+}
+.step_subtitle.descr.step_anypad.step_anypad2 {
+    padding-bottom: 4px;
+}
+.imgweb_img {
+    margin-top: -22px;
+    width: 1212px;
+    height: 4263px;
+}
+.anyworks_title {
+    margin-top: 150px;
+}
+.casesImages.anyworks_casesImages {
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.images.anyworks_images:hover {
+    transform: translate(0, 70px);
+}
+.anyworksButtonWrapper {
+    margin-top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anyworksFooter{
+    margin-top: -50px;
+}
+.anyworksFooter > .footer .content {
+    padding-top: 165px;
+}
+.anyworksFooter > .footer .thirdBlock.descr {
+    margin-left: -30px;
+}

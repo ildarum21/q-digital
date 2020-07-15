@@ -1,0 +1,55 @@
+.webDesign {
+  background: url(./images/inNewim1.jpg); }
+
+.webDesign_descr.descr {
+  margin-top: 60px;
+  letter-spacing: 3px;
+  color: #f84525;
+  font-size: 14px; }
+
+.title.title_white.webDesign_descr {
+  margin-top: 50px;
+  margin-left: 45px;
+  padding-bottom: 145px; }
+
+.abouttext {
+  margin-top: 55px; }
+
+.subtitle.par__subtitle {
+  letter-spacing: -0.5px;
+  padding-top: 93px; }
+
+.descr.par__descr {
+  margin-top: 28px;
+  line-height: 32px; }
+
+.descr.par__descr.last_par__descr {
+  margin-top: 30px; }
+
+.images__parimg {
+  width: 357px;
+  height: 265px;
+  margin-left: 27px; }
+
+.par_images {
+  margin-top: 96px; }
+
+.images__parimg:first-child {
+  margin-left: 0px; }
+
+.par__subtitle.subtitle.lastsubtitle {
+  padding-top: 85px; }
+
+.anyevents {
+  height: 1130px;
+  margin-top: 120px;
+  background: url(./images/inNewim9.png); }
+
+.title.anyevents__title {
+  padding-top: 150px; }
+
+.inNewfooter {
+  margin-top: -203px; }
+
+.webDesign > .bg .menuLogoWhite {
+  margin-top: -10px; }

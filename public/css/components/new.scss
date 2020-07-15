@@ -15,6 +15,9 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .events.innew_events{
+    margin-top: 80px;
+  }
   .list__item {
     margin-top: 30px;
     padding: 13px 23px;
@@ -33,68 +36,6 @@
   .list__item:first-child {
     margin-left: 3px;
   }
-  .events {
-    flex-wrap: wrap;
-    align-content: flex-end;
-    margin-top: 83px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .event.next{
-    margin-top: 48px;
-  }
-
-  .event {
-    margin-bottom: 40px;
-    cursor: pointer;
-    perspective: 100px;
-    display: flex;
-    flex-direction: column;
-  }
-  .event.enysecondevent{
-    margin-top: 99px;
-  }
-  .event.secondevent{
-    margin-top:100px;
-  }
-  .event__img {
-    width: 570px;
-    height: 423px;
-    transition: 0.6s;
-  }
-  
-  .event:hover .event__img {
-    transform: rotate3d(0, 1, 0, -1deg);
-  
-  }
-  .event.nextnext{
-    margin-top: 55px;
-  }
-  .nameContainer {
-    margin-top: 44px;
-  }
- 
-  .event__name {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 12px;
-    padding-right: 12px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "MullerMedium";
-    color: white;
-    font-size: 14px;
-    background: #ee4307;
-  }
-  
-  .event__title {
-    font-family: "Muller";
-    color: #252525;
-    font-size: 30px;
-    margin-top: 32px;
-    line-height: 36px;
-  }
-  
   .news__button {
     margin: 0 auto;
     margin-top:118px ;
@@ -110,6 +51,10 @@
     text-decoration: none;
     border:2px solid #d0d0d0;
     color:#222222;
+  }
+
+  .event.event_withautmargin{
+    margin-top: 0px;
   }
   .newfooter{
     margin-top: -50px;

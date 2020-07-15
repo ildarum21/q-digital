@@ -11,7 +11,7 @@
 <body>
   <div class="main">
     <?php
-     $classNameYouDefined = "whitelogodescr"; 
+    $classNameYouDefined = "whitelogodescr";
     include 'menu.php';
     ?>
     <div class="container">
