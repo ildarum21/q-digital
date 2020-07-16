@@ -1,0 +1,48 @@
+.services__title.title {
+    margin-top: 140px;
+}
+.descr.descr__title {
+    margin-top: 22px;
+}
+.services_elems {
+    padding-top: 51px;
+}
+.friends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    display: flex;
+    height: 870px;
+    background: url(./images/servicesbg.png);
+}
+.friend__logo {
+}
+.friend_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+}
+.friends_title.title {
+    margin-top: 90px;
+    line-height: 65px;
+    text-align: center;
+}
+.friends_wrapper {
+    display: flex;
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 1570px;
+}
+.friend-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.friend-block:first-child{
+    margin-left: 0;
+}

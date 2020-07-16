@@ -15,4 +15,18 @@ window.onload = () => {
       descr[i].classList.toggle("active");
     }
   }
+
+
+  let video = document.querySelectorAll(".video");
+  let playbutton = document.querySelectorAll(".play_pause");
+  for (let i = 0; i < playbutton.length; i++) {
+    playbutton[i].onclick = (e) => {
+      playbutton[i].classList.toggle("active");
+      if (video[i].paused) {
+        video[i].play();
+      } else {
+        video[i].pause();
+      }
+    }
+  }
 };

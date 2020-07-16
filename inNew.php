@@ -60,16 +60,33 @@
                         посетителей к точкам конверсии и затем вознаграждая их за конвертацию.
                     </div>
                     <div class="par_images">
-
-                        <video width="358" height="267" autoplay="true" class="images__parimg"  poster="./public/images/inNewim2.jpg">
-                            <source src="https://youtu.be/LXb3EKWsInQ">
-                        </video>
-                        <video width="358" height="267" autoplay="true"  class="images__parimg"  poster="./public/images/inNewim3.jpg">
-                            <source src="https://youtu.be/LXb3EKWsInQ">
-                        </video>
-                        <video width="358" height="267" autoplay="true" class="images__parimg"   poster="./public/images/inNewim4.jpg">
-                            <source src="https://youtu.be/LXb3EKWsInQ">
-                        </video>
+                        <div class="c_video">
+                            <video width="358" src="https://html5css.ru/html/mov_bbb.mp4" height="267" class="video" poster="./public/images/inNewim2.jpg">
+                            </video>
+                            <div class="controls">
+                                <div class="play_pause">
+                                    <img src="./public/images/playButton.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c_video">
+                            <video width="358" src="https://html5css.ru/html/mov_bbb.mp4" height="267" class="video" poster="./public/images/inNewim3.jpg">
+                            </video>
+                            <div class="controls">
+                                <div class="play_pause">
+                                    <img src="./public/images/playButton.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c_video">
+                            <video width="358" src="https://html5css.ru/html/mov_bbb.mp4" height="267" class="video" poster="./public/images/inNewim4.jpg">
+                            </video>
+                            <div class="controls">
+                                <div class="play_pause">
+                                    <img src="./public/images/playButton.png" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="abouttext_par">
@@ -87,8 +104,8 @@
                         другой ненужной массы слов или картинок, которые делают веб-страницы грязными и
                     </div>
                     <div class="par_images">
-                        <img src="./public/images/inNewim5.jpg" class="images__parimg" alt="">
-                        <img src="./public/images/inNewim6.jpg" class="images__parimg" alt="">
+                        <img src="./public/images/inNewim5.jpg" class="c_video" alt="">
+                        <img src="./public/images/inNewim6.jpg" class="c_video" alt="">
 
                     </div>
                 </div>
@@ -108,12 +125,12 @@
                 <div class="title anyevents__title">Другие события</div>
                 <div class="events">
                     <div class="event">
-                        <img class="event__img" src="./public/images/Events1.png" alt="">
+                        <img class="event__img" src="./public/images/inNewim7.jpg" alt="">
                         <p class="nameContainer"><span class="event__name">ИННОВАЦИИ В СФЕРЕ IT</span></p>
                         <span class="title event__title">Интеграция с различными API</span>
                     </div>
                     <div class="event">
-                        <img class="event__img" src="./public/images/Events2.png" alt="">
+                        <img class="event__img" src="./public/images/inNewim8.jpg" alt="">
                         <p class="nameContainer nameContainer2 "><span class="event__name">РЕКЛАМНЫЕ РАЗРАБОТКИ</span></p>
                         <span class="title event__title">Разработка высоконагруженных </span>
                         <span class="title event__title secondrow"> социальных проектов </span>
@@ -129,5 +146,6 @@
     </div>
     </div>
 </body>
+<script src="./public/js/script.js"></script>
 
 </html>

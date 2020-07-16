@@ -37,11 +37,11 @@
         </div>
         <div class="container">
             <div class="inCase_stepsBlock">
-                <div class="step">
+                <div class="step first_step">
                     <div class="step_subtitle descr step_anypad">О проекте</div>
                     <div class="step_descr descr">Это система, которая позволяет пользователю</div>
                     <div class="step_descr descr">редактировать и выкладывать информацию, текста в</div>
-                    <div class="step_descr descr">одном приложении</div>
+                    <div class="step_descr descr  last_step">одном приложении</div>
                 </div>
                 <div class="step">
                     <div class="step_subtitle descr step_anypad">Аудитория</div>
@@ -52,13 +52,13 @@
                     <div class="step_subtitle descr step_anypad">Задача</div>
                     <div class="step_descr descr">Разработать сайт, который будет содержать в себе</div>
                     <div class="step_descr descr">все необоходимые инструментами редактирования </div>
-                    <div class="step_descr descr">текста</div>
+                    <div class="step_descr descr last_step">текста</div>
                 </div>
                 <div class="step step_anystep step_anystep2">
                     <div class="step_subtitle descr step_anypad step_anypad2">Решение</div>
                     <div class="step_descr descr">Мы детально разработали функционал проекта, определили</div>
                     <div class="step_descr descr">цели и задачи. Далее сделали прототип и макет дизайна</div>
-                    <div class="step_descr descr">сайта, который удовлетворяет все требования ТЗ</div>
+                    <div class="step_descr descr last_step">сайта, который удовлетворяет все требования ТЗ</div>
                 </div>
             </div>
         </div>

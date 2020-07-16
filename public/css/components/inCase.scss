@@ -1,6 +1,6 @@
 .inCase_mainblock {
     margin-top: 65px;
-    margin-left: 355px;
+    margin-left: 18.5%;
     display: flex;
 }
 .mainBlock_works {
@@ -32,6 +32,9 @@
 .step_descr.descr {
     margin-top: 17px;
 }
+.step_descr.descr.last_step {
+    margin-top: 19px;
+}
 .inCase_stepsBlock {
     padding-bottom: 120px;
     display: flex;
@@ -43,6 +46,9 @@
 }
 .step:nth-child(even) {
     margin-left: 120px;
+}
+.first_step{
+    margin-top: 3px;
 }
 .step.step_sec {
     margin-left: 0;
@@ -59,7 +65,7 @@
     background-color: #ebebeb;
 }
 .step_anystep.step {
-    margin-top: 32px;
+    margin-top: 26px;
 }
 .step_subtitle.descr.step_anypad.step_anypad2 {
     padding-bottom: 4px;
@@ -87,7 +93,7 @@
     align-items: center;
 }
 
-.anyworksFooter{
+.anyworksFooter {
     margin-top: -50px;
 }
 .anyworksFooter > .footer .content {

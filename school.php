@@ -70,59 +70,66 @@
             <div class="upYourSkillWrapper">
                 <div class="upYourSkill_titleblock">
                     <div class="title title_white">
-                        Прокачай свой
-                        скил на нашем
+                        Прокачай свой <br>
+                        скил на нашем <br>
                         интенсиве
                     </div>
-                    <a href="" class="button white_button">ЗАПИСАТЬСЯ ПРЯМО СЕЙЧАС</a>
+                    <a href="" class="button  upYourSkill_button">ЗАПИСАТЬСЯ ПРЯМО СЕЙЧАС</a>
                 </div>
                 <div class="upYourSkill_countblock">
-                    <div class="countblock_elem">
-                        <div class="elem__number">
-                            6
+                    <div class="countblock_col">
+                        <div class="countblock_elem">
+                            <div class="elem__number">
+                                6
+                            </div>
+                            <div class=" descr">
+                                видео-лекций
+                            </div>
                         </div>
-                        <div class="elem_name1 descr">
-                            видео-лекций
-                        </div>
-                    </div>
-                    <div class="countblock_elem">
-                        <div class="elem__number ">
-                            7
-                        </div>
-                        <div class="elem_name1 descr">
-                            разборов д/з
-                        </div>
-                    </div>
-                    <div class="countblock_elem">
-                        <div class="elem__number">
-                            4
-                        </div>
-                        <div class="elem_name1 descr">
-                            проекта
+                        <div class="countblock_elem">
+                            <div class="elem__number">
+                                6
+                            </div>
+                            <div class=" descr elem_name2">
+                                видеурока
+                            </div>
                         </div>
                     </div>
-                    <div class="countblock_elem">
-                        <div class="elem__number">
-                            6
+                    <div class="countblock_col">
+                        <div class="countblock_elem">
+                            <div class="elem__number ">
+                                7
+                            </div>
+                            <div class=" descr">
+                                разборов д/з
+                            </div>
                         </div>
-                        <div class="elem_name1 descr">
-                            видеурока
+                        <div class="countblock_elem">
+                            <div class="elem__number">
+                                12
+                            </div>
+                            <div class=" descr elem_name2">
+                                заданий
+                            </div>
                         </div>
                     </div>
-                    <div class="countblock_elem">
-                        <div class="elem__number">
-                            12
+                    <div class="countblock_col">
+                        <div class="countblock_elem">
+                            <div class="elem__number">
+                                4
+                            </div>
+                            <div class=" descr">
+                                проекта
+                            </div>
                         </div>
-                        <div class="elem_name1 descr">
-                            заданий
-                        </div>
-                    </div>
-                    <div class="countblock_elem">
-                        <div class="elem__number">
-                            7
-                        </div>
-                        <div class="elem_name1 descr">
-                            дней
+
+                        <div class="countblock_elem">
+                            <div class="elem__number">
+                                7
+                            </div>
+                            <div class=" descr elem_name2">
+                                дней
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -134,39 +141,43 @@
         <div class="title who_title">
             Кому подойдет курс
         </div>
-
         <div class="who_categories">
             <div class="categories_category">
-                <div class="subtitle category_subtitle">
-                    Новичок в сфере IT
+                <div class="category_heigth">
+                    <div class="subtitle category_subtitle">
+                        Новичок в сфере IT
+                    </div>
+                    <div class="descr category_descr"> Если вы хотите разобраться </div>
+                    <div class="descr category_descr">в программировании и начать </div>
+                    <div class="descr category_descr">практиковать </div>
                 </div>
-                <div class="descr category_descr"> Если вы хотите разобраться </div>
-                <div class="descr category_descr">в программировании и начать </div>
-                <div class="descr category_descr">практиковать </div>
                 <div class="category_end">
                     <a href="" class="end__more">ПОДРОБНЕЕ</a>
-                    <img src="./public/images/who1.png" alt="" class="end__img firstend">
+                    <img src="./public/images/who1.png" alt="" class="end__img ">
                 </div>
             </div>
             <div class="categories_category">
-                <div class="subtitle category_subtitle">
-                    Начальный и средний <br>
-                    уровень знаний
+                <div class="category_heigth">
+                    <div class="subtitle category_subtitle">
+                        Начальный и средний <br>
+                        уровень знаний
+                    </div>
+                    <div class="descr category_descr"> Если вы хотите прокачать свой</div>
+                    <div class="descr category_descr">скилл за короткое время </div>
                 </div>
-                <div class="descr category_descr"> Если вы хотите прокачать свой</div>
-                <div class="descr category_descr">скилл за короткое время </div>
                 <div class="category_end">
                     <a href="" class="end__more">ПОДРОБНЕЕ</a>
                     <img src="./public/images/who2.png" alt="" class="end__img secend">
                 </div>
             </div>
             <div class="categories_category">
-
-                <div class="subtitle category_subtitle">
-                    Программист с опытом
+                <div class="category_heigth">
+                    <div class="subtitle category_subtitle">
+                        Программист с опытом
+                    </div>
+                    <div class="descr category_descr"> Если вы работаете бессистемно </div>
+                    <div class="descr category_descr">и хотите изменить стретегию </div>
                 </div>
-                <div class="descr category_descr"> Если вы работаете бессистемно </div>
-                <div class="descr category_descr">и хотите изменить стретегию </div>
                 <div class="category_end">
                     <a href="" class=" end__more">ПОДРОБНЕЕ</a>
                     <img src="./public/images/who3.png" alt="" class="end__img thirdend">
@@ -179,12 +190,12 @@
         <div class="title suggest_title">
             Мы предлагаем
         </div>
-        <div class="descr">
+        <div class="descr who_descr">
             Для вашего удобства мы собрали три варинта прохождения курса
         </div>
         <div class="suggestsBlock_suggest">
             <div class="suggest">
-                <div class="suggest_wrapper">
+                <div class="wrepper_height">
                     <div class="subtitle suggest_subtitle">
                         Интенсив. <br>
                         6-и дневный курс
@@ -196,12 +207,17 @@
                         <li class="suggest_menu__item descr">Работа в команде</li>
                         <li class="suggest_menu__item descr">Знание принципов ООП</li>
                     </ul>
-                    <div class="suggest__price subtitle">4 900₽</div>
-                    <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
                 </div>
+                <div class="suggest__price subtitle">4 900
+                    <img src="./public/images/moneyyy.png" alt="">
+                </div>
+                <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
             </div>
+
+
+
             <div class="suggest">
-                <div class="suggest_wrapper">
+                <div class="wrepper_height">
                     <div class="subtitle suggest_subtitle">
                         Тариф стандарт. <br>
                         С нуля до первых
@@ -213,13 +229,14 @@
                         <li class="suggest_menu__item descr">Управление проктами</li>
                         <li class="suggest_menu__item descr">Первые заказы от реальных клиентов</li>
                     </ul>
-                    <div class="suggest__price subtitle">12 900₽</div>
-                    <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
                 </div>
-
+                <div class="suggest__price subtitle">12 900
+                <img src="./public/images/moneyyy.png" alt="">
+                </div>
+                <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
             </div>
             <div class="suggest">
-                <div class="suggest_wrapper">
+                <div class="wrepper_height">
                     <div class="subtitle suggest_subtitle">
                         Tариф профессионал. <br>
                         Обучение 3 месяца <br>
@@ -231,10 +248,11 @@
                         <li class="suggest_menu__item descr">Умение работать с GIT</li>
                         <li class="suggest_menu__item descr">Стажировка во время обучения</li>
                         <li class="suggest_menu__item descr">Портфолио из трех работ</li>
-
-                        <div class="suggest__price subtitle">18 900₽</div>
-                        <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
                 </div>
+                <div class="suggest__price subtitle">18 900
+                <img src="./public/images/moneyyy.png" alt="">
+                </div>
+                <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
             </div>
         </div>
     </div>
@@ -260,7 +278,7 @@
                         <li class="description_menu_item descr">&mdash; Уровень нормы</li>
                         <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
                     </ul>
-                    <div class="descr descrtitle">Домашнее задание</div>
+                    <div class="descr descrtitle dztitle">Домашнее задание</div>
                     <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
                 </div>
 
@@ -283,7 +301,7 @@
                         <li class="description_menu_item descr">&mdash; Уровень нормы</li>
                         <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
                     </ul>
-                    <div class="descr descrtitle">Домашнее задание</div>
+                    <div class="descr descrtitle dztitle">Домашнее задание</div>
                     <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
                 </div>
             </div>
@@ -305,7 +323,7 @@
                         <li class="description_menu_item descr">&mdash; Уровень нормы</li>
                         <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
                     </ul>
-                    <div class="descr descrtitle">Домашнее задание</div>
+                    <div class="descr descrtitle dztitle">Домашнее задание</div>
                     <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
                 </div>
             </div>
@@ -327,7 +345,7 @@
                         <li class="description_menu_item descr">&mdash; Уровень нормы</li>
                         <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
                     </ul>
-                    <div class="descr descrtitle">Домашнее задание</div>
+                    <div class="descr descrtitle dztitle">Домашнее задание</div>
                     <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
                 </div>
 
@@ -350,7 +368,7 @@
                         <li class="description_menu_item descr">&mdash; Уровень нормы</li>
                         <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
                     </ul>
-                    <div class="descr descrtitle">Домашнее задание</div>
+                    <div class="descr descrtitle dztitle">Домашнее задание</div>
                     <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
                 </div>
 
@@ -373,7 +391,7 @@
                         <li class="description_menu_item descr">&mdash; Уровень нормы</li>
                         <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
                     </ul>
-                    <div class="descr descrtitle">Домашнее задание</div>
+                    <div class="descr descrtitle dztitle">Домашнее задание</div>
                     <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
                 </div>
             </div>
@@ -385,15 +403,15 @@
                 Заявка на участие
             </div>
             <div class="descr whitedescr  req_descr">Оставьте свои контакты, мы свяжемся с вами в ближайшее время </div>
-          
-                <input type="text" placeholder="Имя" class="request__input">
-                <input type="text " placeholder="E-mail" class="request__input">
-                <input type="text" placeholder="Номер телефона" class="request__input anyinput">
-                <a href="" class="button white_button req__button">ЗАПОЛНИТЬ ЗАЯВКУ</a>
-                <div class="descr whitedescr small">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь <br> c политикой конфиденциальности</div>
-            
+
+            <input type="text" placeholder="Имя" class="request__input">
+            <input type="text " placeholder="E-mail" class="request__input">
+            <input type="text" placeholder="Номер телефона" class="request__input anyinput">
+            <a href="" class="button white_button req__button">ОТПРАВИТЬ ЗАЯВКУ</a>
+            <div class="descr whitedescr small">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь <br> c политикой конфиденциальности</div>
+
         </div>
-    </div> 
+    </div>
     <div class="schoolfooter">
         <?php
         include 'footer.php';
