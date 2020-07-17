@@ -447,9 +447,11 @@
           </div>
         </div>
       </div>
-      <?php
-      include 'footer.php';
-      ?>
+      <div class="mainfooter">
+        <?php
+        include 'footer.php';
+        ?>
+      </div>
 </body>
 <script src="./public/js/script.js" type="text/javascript"></script>
 <script type="text/javascript" src="./public/js/jquery-3.5.1.min.js"></script>

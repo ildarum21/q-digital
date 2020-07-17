@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/index.css">
+    <title>inServices</title>
+</head>
+
+<body>
+    <div class="inServ">
+        <div class="whiteback">
+            <?php
+            include 'menu.php';
+            ?>
+        </div>
+        <div class="container">
+            <div class="title services__title">
+                Наши услуги
+            </div>
+            <div class="descr descr__title">
+                Ознакомьтесь более детально с нашими услугами
+            </div>
+            <div class="inServ_textBlock">
+                <div class="subtitle inServ_subtitle ">Разработка сайтов</div>
+                <div class="descr inServ_descr ">
+                    Мы разрабатываем высококачественные маркетинговые сайты для амбициозных брендов. Наша <br>
+                    преданная команда графических дизайнеров и цифровых дизайнеров оттачивает видение вашего бренда,<br>
+                    чтобы разработать эффективный визуальный язык для вашего присутствия в Интернете.
+                </div>
+                <div class="descr inServ_descr ">
+                    Наша преданная команда графических дизайнеров и цифровых дизайнеров оттачивает видение вашего <br>
+                    бренда, чтобы разработать эффективный визуальный язык для вашего присутствия в Интернете. Мы <br>
+                    разрабатываем высококачественные маркетинговые сайты для амбициозных брендов. Наша преданная <br>
+                    команда графических дизайнеров и цифровых дизайнеров оттачивает видение вашего бренда, чтобы <br>
+                    разработать эффективный визуальный язык для вашего присутствия в Интернете. Мы разрабатываем <br>
+                    высококачественные маркетинговые сайты для амбициозных брендов. Под разработкой сайтов <br>
+                    подразумевается создание:
+                </div>
+                <div class="ul_block">
+                    <div class="descr inServ_descr ul ">Moodboards</div>
+                    <div class="descr inServ_descr ul">Архитектура сайта</div>
+                    <div class="descr inServ_descr ul">Каркасы</div>
+                    <div class="descr inServ_descr ul">Визуальные Концепции</div>
+                    <div class="descr inServ_descr ul">Пользовательский интерфейс</div>
+                    <div class="descr inServ_descr ul">Пользовательский опыт</div>
+                </div>
+                <div class="textBlock_button">
+                    <a href="" class="button ">ЗАКАЗАТЬ УСЛУГУ</a>
+                </div>
+            </div>
+            <div class="title services__title">Другие услуги</div>
+            <div class="doelem_wrapper">
+                <div class="doElem ">
+                    <img src="./public/images/servicesim4.jpg" alt="" class="elem_img">
+                    <div class="elemDescr">
+                        <div class="elem__name">
+                            Интернет магазин
+                        </div>
+                        <div class="list">
+                            <a href="#" class="list__name">Разработка интернет магазинов</a>
+                            <div class="list__arrow"></div>
+                        </div>
+                        <div class="list">
+                            <a href="#" class="list__name list__name_withlineh">Интеграция с Yandex.Market и другими системами</a>
+
+                            <div class="list__arrow"></div>
+                        </div>
+                        <div class="list">
+                            <a href="#" class="list__name list__name_withlineh">Интеграция с Ebay и другими интернет
+                                магазинами</a>
+                            <div class="list__arrow"></div>
+                        </div>
+                        <a href="#" class="button do_button ">заказать услугу</a>
+                    </div>
+                </div>
+                <div class="doElem ">
+                    <img src="./public/images/servicesim6.jpg" alt="" class="elem_img">
+                    <div class="elemDescr">
+                        <div class="elem__name">
+                            Социальные сети
+                        </div>
+                        <div class="list">
+                            <a href="#" class="list__name list__name_withlineh">Разработка высоконагруженных <br>
+                                социальных проектов</a>
+                            <div class="list__arrow"></div>
+                        </div>
+                        <div class="list">
+                            <a href="#" class="list__name list__name_withlineh">Интеграция с существующими <br>
+                                социальными сетями</a>
+                            <div class="list__arrow"></div>
+                        </div>
+                        <a href="#" class="button do_button ">заказать услугу</a>
+                    </div>
+                </div>
+            </div>
+            <div class="textBlock_button doelem_button">
+                <a href="" class="button ">СМОТРЕТЬ ВСЕ УСЛУГИ</a>
+            </div>
+        </div>
+        <div class="friends inserv_f">
+            <div class="title friends_title">Наши друзья, с которыми <br>
+                мы познакомились в процессе</div>
+            <div class="friends_wrapper">
+                <img src="./public/images/servicesim11.png" class="friend__logo first" alt="">
+                <img src="./public/images/servicesim8.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim14.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim15.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim12.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim9.png " class="friend__logo first" alt="">
+                <img src="./public/images/servicesim7.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim10.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim13.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim16.png" class="friend__logo" alt="">
+            </div>
+        </div>
+        <div class="inservfooter">
+        <?php
+        include 'footer.php';
+        ?>
+        </div>
+</body>
+<script src="./public/js/script.js"></script>
+
+</html>

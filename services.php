@@ -98,12 +98,12 @@
                             <div class="list__arrow"></div>
                         </div>
                         <div class="list">
-                            <a href="#" class="list__name">Интеграция с Yandex.Market и другими
-                                системами</a>
+                            <a href="#" class="list__name list__name_withlineh">Интеграция с Yandex.Market и другими системами</a>
+
                             <div class="list__arrow"></div>
                         </div>
                         <div class="list">
-                            <a href="#" class="list__name">Интеграция с Ebay и другими интернет
+                            <a href="#" class="list__name list__name_withlineh">Интеграция с Ebay и другими интернет
                                 магазинами</a>
                             <div class="list__arrow"></div>
                         </div>
@@ -134,12 +134,12 @@
                             Социальные сети
                         </div>
                         <div class="list">
-                            <a href="#" class="list__name">Разработка высоконагруженных
+                            <a href="#" class="list__name list__name_withlineh">Разработка высоконагруженных <br>
                                 социальных проектов</a>
                             <div class="list__arrow"></div>
                         </div>
                         <div class="list">
-                            <a href="#" class="list__name">Интеграция с существующими
+                            <a href="#" class="list__name list__name_withlineh">Интеграция с существующими <br>
                                 социальными сетями</a>
                             <div class="list__arrow"></div>
                         </div>
@@ -153,58 +153,26 @@
             <div class="title friends_title">Наши друзья, с которыми <br>
                 мы познакомились в процессе</div>
             <div class="friends_wrapper">
-                <div class="friend-block">
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim11.png" class="friend__logo" alt="">
-                    </div>
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim9.png" class="friend__logo" alt="">
-                    </div>
-                </div>
-
-
-                <div class="friend-block">
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim8.png" class="friend__logo" alt="">
-                    </div>
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim7.png" class="friend__logo" alt="">
-                    </div>
-                </div>
-
-
-                <div class="friend-block">
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim14.png" class="friend__logo" alt="">
-                    </div>
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim10.png" class="friend__logo" alt="">
-                    </div>
-                </div>
-
-
-                <div class="friend-block">
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim15.png" class="friend__logo" alt="">
-                    </div>
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim13.png" class="friend__logo" alt="">
-                    </div>
-                </div>
-
-
-                <div class="friend-block">
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim12.png" class="friend__logo" alt="">
-                    </div>
-                    <div class="friend_image">
-                        <img src="./public/images/servicesim16.png" class="friend__logo" alt="">
-                    </div>
-                </div>
+                <img src="./public/images/servicesim11.png" class="friend__logo first" alt="">
+                <img src="./public/images/servicesim8.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim14.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim15.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim12.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim9.png " class="friend__logo first" alt="">
+                <img src="./public/images/servicesim7.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim10.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim13.png" class="friend__logo" alt="">
+                <img src="./public/images/servicesim16.png" class="friend__logo" alt="">
             </div>
-
         </div>
     </div>
+    <div class="servicesfooter">
+        <?php
+        include 'footer.php';
+        ?>
+    </div>
+    </div>
+
 </body>
 <script src="./public/js/script.js"></script>
 

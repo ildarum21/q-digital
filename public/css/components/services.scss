@@ -2,10 +2,10 @@
     margin-top: 140px;
 }
 .descr.descr__title {
-    margin-top: 22px;
+    margin-top: 25px;
 }
 .services_elems {
-    padding-top: 51px;
+    padding-top: 49px;
 }
 .friends {
     display: flex;
@@ -16,33 +16,29 @@
     height: 870px;
     background: url(./images/servicesbg.png);
 }
-.friend__logo {
-}
-.friend_image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 250px;
-}
 .friends_title.title {
     margin-top: 90px;
     line-height: 65px;
     text-align: center;
 }
 .friends_wrapper {
+    align-items: center;
+    flex-wrap: wrap;
     display: flex;
     padding-top: 60px;
     margin: 0 auto;
-    width: 1570px;
+    width: 1397px;
 }
-.friend-block{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
+.friend__logo {
+    margin-top: 50px;
+    margin-left: 210px;
 }
-.friend-block:first-child{
+.servicesfooter {
+    margin-top: -17px;
+}
+.friend__logo.first{
     margin-left: 0;
+}
+.list__name_withlineh.list__name {
+    line-height: 34px;
 }

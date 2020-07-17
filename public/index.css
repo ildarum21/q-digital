@@ -467,7 +467,7 @@ table {
   border: 0; }
 
 .subtitle {
-  font-size: 31px;
+  font-size: 30px;
   font-family: "Muller";
   color: #252525; }
 
@@ -854,6 +854,9 @@ table {
   font-size: 30px;
   margin-top: 32px; }
 
+.mainfooter {
+  margin-top: 200px; }
+
 .header {
   margin: 0 auto;
   display: flex;
@@ -1000,7 +1003,6 @@ table {
   display: block; }
 
 .footer {
-  margin-top: 200px;
   height: 655px;
   background: url("./images/footerbg.png"); }
 
@@ -1166,7 +1168,7 @@ table {
   margin-top: 0px; }
 
 .newfooter {
-  margin-top: -50px; }
+  margin-top: 150px; }
 
 .title {
   font-family: "Muller";
@@ -1309,9 +1311,6 @@ textarea::placeholder {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 0 0; }
 
-.footer {
-  margin-top: 200px; }
-
 .briefButton {
   margin-top: 50px;
   text-decoration: none;
@@ -1346,7 +1345,7 @@ textarea::placeholder {
   margin-top: 20px; }
 
 .footerBrief {
-  margin-top: -33px; }
+  margin-top: 168px; }
 
 .whiteback > .bg .menuLogoBlack {
   margin-left: -5px;
@@ -1717,9 +1716,6 @@ textarea::placeholder {
   border: none;
   color: black; }
 
-.schoolfooter {
-  margin-top: -200px; }
-
 .title.title_white.req_title {
   margin-top: 130px; }
 
@@ -1761,6 +1757,9 @@ textarea::placeholder {
 
 .list__item.case_list__item.newrow {
   margin-left: -5px; }
+
+.casefooter {
+  margin-top: 50px; }
 
 .inCase_mainblock {
   margin-top: 65px;
@@ -1855,7 +1854,7 @@ textarea::placeholder {
   align-items: center; }
 
 .anyworksFooter {
-  margin-top: -50px; }
+  margin-top: 149px; }
 
 .anyworksFooter > .footer .content {
   padding-top: 165px; }
@@ -1910,7 +1909,7 @@ textarea::placeholder {
   padding-top: 150px; }
 
 .inNewfooter {
-  margin-top: -201px; }
+  margin-top: 2px; }
 
 .webDesign > .bg .menuLogoWhite {
   margin-top: -10px; }
@@ -1941,10 +1940,10 @@ textarea::placeholder {
   margin-top: 140px; }
 
 .descr.descr__title {
-  margin-top: 22px; }
+  margin-top: 25px; }
 
 .services_elems {
-  padding-top: 51px; }
+  padding-top: 49px; }
 
 .friends {
   display: flex;
@@ -1955,30 +1954,144 @@ textarea::placeholder {
   height: 870px;
   background: url(./images/servicesbg.png); }
 
-.friend_image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 250px; }
-
 .friends_title.title {
   margin-top: 90px;
   line-height: 65px;
   text-align: center; }
 
 .friends_wrapper {
+  align-items: center;
+  flex-wrap: wrap;
   display: flex;
   padding-top: 60px;
   margin: 0 auto;
-  width: 1570px; }
+  width: 1397px; }
 
-.friend-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 50px; }
+.friend__logo {
+  margin-top: 50px;
+  margin-left: 210px; }
 
-.friend-block:first-child {
+.servicesfooter {
+  margin-top: -17px; }
+
+.friend__logo.first {
   margin-left: 0; }
+
+.list__name_withlineh.list__name {
+  line-height: 34px; }
+
+.inServ_descr.descr {
+  margin-top: 26px;
+  color: #262626;
+  line-height: 38px; }
+
+.inServ_descr.descr.ul {
+  margin-top: 8px;
+  line-height: 38px; }
+
+.inServ_subtitle.subtitle {
+  padding-bottom: 14px; }
+
+.inServ_textBlock {
+  margin-top: 96px; }
+
+.ul_block {
+  margin-top: 26px; }
+
+.textBlock_button {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.doelem_wrapper {
+  margin-top: 96px; }
+
+.doelem_button.textBlock_button {
+  margin-top: 94px; }
+
+.inservfooter {
+  margin-top: -16px; }
+
+.inserv_friends.friends {
+  margin-top: 173px; }
+
+.job_title.title {
+  margin-top: 134px; }
+
+.job_descr.descr {
+  margin-top: 23px; }
+
+.job_jobs {
+  margin-top: 57px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.jobs_vacancy {
+  margin-top: 58px;
+  width: 500px;
+  height: 281px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 25px; }
+
+.vacancy_wrapper {
+  margin-top: 85px;
+  margin-left: 72px; }
+
+.jobs_vacancy:nth-child(even) {
+  margin-left: 98px; }
+
+.descr.vacancy_descr {
+  margin-top: 27px;
+  line-height: 29px; }
+
+.jobs_vacancy:hover {
+  background: #ee4307; }
+
+.jobs_vacancy:hover .vacancy_subtitle {
+  color: #ffffff; }
+
+.jobs_vacancy:hover .vacancy_descr {
+  color: #ffffff; }
+
+.job_request.request {
+  height: 798px;
+  margin-top: 146px; }
+
+.descr.whitedescr.req_descr.req_descr_job {
+  margin-top: 41px;
+  padding-bottom: 16px; }
+
+.jobfooter {
+  margin-top: 2px; }
+
+.subtitle.inJob_subtitle {
+  font-size: 36px; }
+
+.descr.descrbig {
+  margin-top: 16px;
+  font-size: 24px; }
+
+.inJob_descr.descr {
+  padding-bottom: 21px;
+  color: #262626;
+  font-size: 24px;
+  margin-top: 44px; }
+
+.second_inJob_descr.descr {
+  margin-top: 57px; }
+
+.communication_inline {
+  line-height: 22px;
+  text-decoration: none;
+  border-bottom: 1px solid #f84525;
+  color: #f84525;
+  font-size: 20px;
+  font-family: "MullerLight"; }
+
+.injobfooter {
+  margin-top: 2px; }
+
+.injob_request.request {
+  margin-top: 150px;
+  height: 809px; }

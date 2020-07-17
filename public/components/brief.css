@@ -139,9 +139,6 @@ textarea::placeholder {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 0 0; }
 
-.footer {
-  margin-top: 200px; }
-
 .briefButton {
   margin-top: 50px;
   text-decoration: none;
@@ -176,7 +173,7 @@ textarea::placeholder {
   margin-top: 20px; }
 
 .footerBrief {
-  margin-top: -33px; }
+  margin-top: 168px; }
 
 .whiteback > .bg .menuLogoBlack {
   margin-left: -5px;

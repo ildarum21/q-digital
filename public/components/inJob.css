@@ -1,0 +1,30 @@
+.subtitle.inJob_subtitle {
+  font-size: 36px; }
+
+.descr.descrbig {
+  margin-top: 16px;
+  font-size: 24px; }
+
+.inJob_descr.descr {
+  padding-bottom: 21px;
+  color: #262626;
+  font-size: 24px;
+  margin-top: 44px; }
+
+.second_inJob_descr.descr {
+  margin-top: 57px; }
+
+.communication_inline {
+  line-height: 22px;
+  text-decoration: none;
+  border-bottom: 1px solid #f84525;
+  color: #f84525;
+  font-size: 20px;
+  font-family: "MullerLight"; }
+
+.injobfooter {
+  margin-top: 2px; }
+
+.injob_request.request {
+  margin-top: 150px;
+  height: 809px; }

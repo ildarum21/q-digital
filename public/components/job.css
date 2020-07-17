@@ -1,0 +1,48 @@
+.job_title.title {
+  margin-top: 134px; }
+
+.job_descr.descr {
+  margin-top: 23px; }
+
+.job_jobs {
+  margin-top: 57px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.jobs_vacancy {
+  margin-top: 58px;
+  width: 500px;
+  height: 281px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 25px; }
+
+.vacancy_wrapper {
+  margin-top: 85px;
+  margin-left: 72px; }
+
+.jobs_vacancy:nth-child(even) {
+  margin-left: 98px; }
+
+.descr.vacancy_descr {
+  margin-top: 27px;
+  line-height: 29px; }
+
+.jobs_vacancy:hover {
+  background: #ee4307; }
+
+.jobs_vacancy:hover .vacancy_subtitle {
+  color: #ffffff; }
+
+.jobs_vacancy:hover .vacancy_descr {
+  color: #ffffff; }
+
+.job_request.request {
+  height: 798px;
+  margin-top: 146px; }
+
+.descr.whitedescr.req_descr.req_descr_job {
+  margin-top: 41px;
+  padding-bottom: 16px; }
+
+.jobfooter {
+  margin-top: 2px; }
