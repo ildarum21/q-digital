@@ -29,7 +29,7 @@
                 <a href="#" class="list__item">ИННОВАЦИИ В СФЕРЕ IT</a>
                 <a href="#" class="list__item">ТЕНДЕНЦИИ КЛИЕНТОВ</a>
                 <a href="#" class="list__item">НОВОЕ ПОКЛОЕНИЕ</a>
-                <a href="#" class="list__item newrow">НОВИНКИ 2020</a>
+                <a href="#" class="list__item ">НОВИНКИ 2020</a>
                 <a href="#" class="list__item">ИНТЕГРЦИИ С API </a>
             </div>
             <div class="events innew_events">

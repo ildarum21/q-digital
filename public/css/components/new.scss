@@ -1,61 +1,59 @@
 .new__title {
-    margin-top: -17px;
-    font-family: "Muller";
-    font-size: 55px;
-    color: #040404;
-  }
-  .new__descr {
-    font-family: "MullerRegular";
-    font-size: 20px;
-    color: #6e6c6c;
-    margin-top: 28px;
-  }
-  .newList {
-    margin-top: 47px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .events.innew_events{
-    margin-top: 80px;
-  }
-  .list__item {
-    margin-top: 30px;
-    padding: 13px 23px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #f0f0f0;
-    font-family: "MullerMedium";
-    font-size: 14px;
-    color: #555555;
-    margin-left: 22px;
-    border-radius: 5px;
-  }
-  .list__item.newrow{
-    margin-left: 0;
-  }
-  .list__item:first-child {
-    margin-left: 3px;
-  }
-  .news__button {
-    margin: 0 auto;
-    margin-top:118px ;
-    width: 304px;
-    box-sizing: border-box;
-    padding-top: 27px;
-    text-align: center;
-    display: block;
-    height: 70px;
-    border-radius: 50px;
-    font-size: 16px;
-    font-family: "Muller";
-    text-decoration: none;
-    border:2px solid #d0d0d0;
-    color:#222222;
-  }
+  margin-top: -17px;
+  font-family: "Muller";
+  font-size: 55px;
+  color: #040404;
+}
+.new__descr {
+  font-family: "MullerRegular";
+  font-size: 20px;
+  color: #6e6c6c;
+  margin-top: 28px;
+}
+.newList {
+  width: 1228px;
+  margin-top: 47px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.events.innew_events {
+  margin-top: 80px;
+}
+.list__item {
+  margin-top: 30px;
+  padding: 13px 23px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f0f0f0;
+  font-family: "MullerMedium";
+  font-size: 14px;
+  color: #555555;
+  margin-right: 22px;
+  border-radius: 5px;
+}
+.list__item:last-child {
+  margin-right: 0px;
+}
+.news__button {
+  margin: 0 auto;
+  margin-top: 118px;
+  width: 304px;
+  box-sizing: border-box;
+  padding-top: 27px;
+  text-align: center;
+  display: block;
+  height: 70px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: "Muller";
+  text-decoration: none;
+  border: 2px solid #d0d0d0;
+  color: #222222;
+}
 
-  .event.event_withautmargin{
-    margin-top: 0px;
-  }
-  .newfooter{
-    margin-top: 150px;
-  }
+.event.event_withautmargin {
+  margin-top: 0px;
+}
+.newfooter {
+  margin-top: 150px;
+}
