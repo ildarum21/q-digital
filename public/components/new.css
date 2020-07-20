@@ -11,6 +11,7 @@
   margin-top: 28px; }
 
 .newList {
+  width: 1228px;
   margin-top: 47px;
   display: flex;
   flex-wrap: wrap; }
@@ -27,14 +28,11 @@
   font-family: "MullerMedium";
   font-size: 14px;
   color: #555555;
-  margin-left: 22px;
+  margin-right: 22px;
   border-radius: 5px; }
 
-.list__item.newrow {
-  margin-left: 0; }
-
-.list__item:first-child {
-  margin-left: 3px; }
+.list__item:last-child {
+  margin-right: 0px; }
 
 .news__button {
   margin: 0 auto;

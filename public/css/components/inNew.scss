@@ -17,14 +17,25 @@
 }
 .subtitle.par__subtitle {
     letter-spacing: -0.5px;
-    padding-top: 93px;
+    padding-top: 96px;
 }
 .descr.par__descr {
-    margin-top: 28px;
-    line-height: 32px;
+      margin-top: 30px;
+}
+.descr.par__descr:first-child{
+    margin-top: 0;
+}
+.descr.par__descr_elem.nextpar{
+    margin-top: 30px;
 }
 .descr.par__descr.last_par__descr {
     margin-top: 30px;
+}
+.descr.par__descr.any{
+    margin-top: 42px;
+}
+.par__descr_elem.descr{
+    margin-top: 13px;
 }
 .par_images {
     display: flex;

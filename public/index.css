@@ -1123,6 +1123,7 @@ table {
   margin-top: 28px; }
 
 .newList {
+  width: 1228px;
   margin-top: 47px;
   display: flex;
   flex-wrap: wrap; }
@@ -1139,14 +1140,11 @@ table {
   font-family: "MullerMedium";
   font-size: 14px;
   color: #555555;
-  margin-left: 22px;
+  margin-right: 22px;
   border-radius: 5px; }
 
-.list__item.newrow {
-  margin-left: 0; }
-
-.list__item:first-child {
-  margin-left: 3px; }
+.list__item:last-child {
+  margin-right: 0px; }
 
 .news__button {
   margin: 0 auto;
@@ -1692,6 +1690,8 @@ textarea::placeholder {
   color: white; }
 
 .request__input {
+  font-size: 25px;
+  color: white;
   outline: none;
   margin-top: 42px;
   height: 60px;
@@ -1881,14 +1881,25 @@ textarea::placeholder {
 
 .subtitle.par__subtitle {
   letter-spacing: -0.5px;
-  padding-top: 93px; }
+  padding-top: 96px; }
 
 .descr.par__descr {
-  margin-top: 28px;
-  line-height: 32px; }
+  margin-top: 30px; }
+
+.descr.par__descr:first-child {
+  margin-top: 0; }
+
+.descr.par__descr_elem.nextpar {
+  margin-top: 30px; }
 
 .descr.par__descr.last_par__descr {
   margin-top: 30px; }
+
+.descr.par__descr.any {
+  margin-top: 42px; }
+
+.par__descr_elem.descr {
+  margin-top: 13px; }
 
 .par_images {
   display: flex;
@@ -1981,9 +1992,17 @@ textarea::placeholder {
   line-height: 34px; }
 
 .inServ_descr.descr {
-  margin-top: 26px;
-  color: #262626;
-  line-height: 38px; }
+  margin-top: 33px;
+  color: #262626; }
+
+.descr.inServ_descr.second {
+  margin-top: -8px; }
+
+.inServ_descr.descr.row {
+  margin-top: 21px; }
+
+.inServ_descr.descr.row:first-child {
+  margin-top: 0px; }
 
 .inServ_descr.descr.ul {
   margin-top: 8px;
@@ -2061,9 +2080,6 @@ textarea::placeholder {
 .descr.whitedescr.req_descr.req_descr_job {
   margin-top: 41px;
   padding-bottom: 16px; }
-
-.jobfooter {
-  margin-top: 2px; }
 
 .subtitle.inJob_subtitle {
   font-size: 36px; }

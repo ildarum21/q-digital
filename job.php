@@ -91,7 +91,7 @@
 
                 <input type="text" placeholder="Имя" class="request__input">
                 <input type="text " placeholder="E-mail" class="request__input">
-                <input type="text" placeholder="Номер телефона" class="request__input anyinput">
+                <input type="number" placeholder="Номер телефона" class="request__input anyinput">
                 <input type="text" placeholder="Ссылка на резюме" class="request__input anyinput">
                 <a href="" class="button white_button req__button">ОТПРАВИТЬ ЗАЯВКУ</a>
                 <div class="descr whitedescr small">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь <br> c политикой конфиденциальности</div>

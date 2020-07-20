@@ -1,7 +1,6 @@
 <div class="bg">
   <div class="header">
     <div class="header__logo">
-
       <img class="menuLogoBlack" src="./public/images/blacklogomenu.png" alt="logo">
       <img class="menuLogoWhite" src="./public/images/logo.png" alt="logo">
     </div>

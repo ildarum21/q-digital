@@ -1,7 +1,15 @@
 .inServ_descr.descr {
-  margin-top: 26px;
-  color: #262626;
-  line-height: 38px; }
+  margin-top: 33px;
+  color: #262626; }
+
+.descr.inServ_descr.second {
+  margin-top: -8px; }
+
+.inServ_descr.descr.row {
+  margin-top: 21px; }
+
+.inServ_descr.descr.row:first-child {
+  margin-top: 0px; }
 
 .inServ_descr.descr.ul {
   margin-top: 8px;
