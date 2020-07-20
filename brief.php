@@ -29,7 +29,7 @@
                 <div class="inputs">
                     <div class="inputWrapper">
                         <input class="input" type="radio" name="type" id="system">
-                        <label class="label descr first" for="system">Система или сервис</label>
+                        <label class="label descr " for="system">Система или сервис</label>
                     </div>
                     <div class="inputWrapper">
                         <input class="input" type="radio" name="type" id="shop">
@@ -61,7 +61,7 @@
                 <div class="inputs secondinputs ">
                     <div class="inputWrapper">
                         <input class="input" type="radio" name="price" id="20k">
-                        <label class="label2 descr first" for="20k">Менее 20 т.р</label>
+                        <label class="label2 descr " for="20k">Менее 20 т.р</label>
                     </div>
                     <div class="inputWrapper">
                         <input class="input" type="radio" name="price" id="40k">
@@ -108,7 +108,7 @@
                     <input type="text" placeholder="Ваше имя" class="inputText">
                     <input type="text" placeholder="E-mail" class="inputText ">
                     <input type="text" placeholder="Название компании" class="inputText">
-                    <input type="text" placeholder="Телефон" class="inputText">
+                    <input type="number" placeholder="Телефон" class="inputText">
                 </div>
             </div>
             <a href="#" class="briefButton">отправить заявку</a>

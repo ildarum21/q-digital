@@ -32,7 +32,7 @@
                 <a href="#" class="list__item case_list__item">МОУШН ДИЗАЙН</a>
                 <a href="#" class="list__item case_list__item ">3D</a>
                 <a href="#" class="list__item case_list__item">СОЦИАЛЬНЫЕ СЕТИ</a>
-                <a href="#" class="list__item case_list__item newrow">РАЗРАБОТКА ПРОГРАММ</a>
+                <a href="#" class="list__item case_list__item ">РАЗРАБОТКА ПРОГРАММ</a>
                 <a href="#" class="list__item case_list__item">СЕРВИСЫ</a>
                 <a href="#" class="list__item case_list__item">ВИДЕО ХОСТИНГ</a>
             </div>

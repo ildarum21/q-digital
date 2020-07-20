@@ -11,33 +11,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 183px;
   display: flex;
-  height: 870px;
+  height: 888px;
   background: url(./images/servicesbg.png); }
 
 .friends_title.title {
-  margin-top: 90px;
-  line-height: 65px;
+  margin-top: 109px;
+  line-height: 69px;
   text-align: center; }
 
 .friends_wrapper {
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
-  padding-top: 60px;
+  padding-top: 68px;
   margin: 0 auto;
-  width: 1397px; }
+  width: 1549px; }
+
+.friends_wrapper.friend_wrapper_anymargin {
+  padding-top: 93px; }
 
 .friend__logo {
-  margin-top: 50px;
-  margin-left: 210px; }
+  margin-top: 50px; }
 
 .servicesfooter {
   margin-top: -17px; }
-
-.friend__logo.first {
-  margin-left: 0; }
 
 .list__name_withlineh.list__name {
   line-height: 34px; }

@@ -43,23 +43,49 @@
                         1. Освойте базовые навыки <br>
                         программиста
                     </div>
-                    <div class="descr target_descr">Наши образовательные программы ориентированы на тех, кто <br>
-                        хочет с нуля освоить профессиональные навыки. Для обучения <br>
-                        начальной подготовки или базовых знаний не требуется. Также <br>
-                        вы научитесь управлять вниманием пользователя, работать с <br>
-                        типографикой, и версткой в веб.</div>
+                    <div class="descr target_descr">
+                        <div class="descr target_descr target_descr_elem">
+                            Наши образовательные программы ориентированы на тех, кто
+                        </div>
+                        <div class="descr target_descr target_descr_elem">
+                            хочет с нуля освоить профессиональные навыки. Для обучения
+                        </div>
+                        <div class="descr target_descr target_descr_elem">
+                            начальной подготовки или базовых знаний не требуется. Также
+                        </div>
+                        <div class="descr target_descr target_descr_elem">
+                            вы научитесь управлять вниманием пользователя, работать с
+                        </div>
+                        <div class="descr target_descr target_descr_elem">
+                            типографикой, и версткой в веб.
+                        </div>
+                    </div>
                 </div>
                 <div class="column_target">
                     <div class="subtitle target_sub">
                         2. По окнчании получите портфолио <br>
                         и стажировку в нашей компании
                     </div>
-                    <div class="descr target_descr">В программу обучения входит гарантированная стажировка, <br>
-                        которая даёт компетенции, необходимые для старта карьеры. <br>
-                        Основная задача - получить опыт командной разработки. <br>
-                        Также выпускники курсов могут стажироваться в <br>
-                        компаниях-партнёрах, которые предлагают различные <br>
-                        вариа нты трудоустройства.</div>
+                    <div class="descr target_descr">
+                        <div class="descr target_descr target_descr_elem">
+                            В программу обучения входит гарантированная стажировка,
+                        </div>
+                        <div class="descr target_descr target_descr_elem">
+                            которая даёт компетенции, необходимые для старта карьеры.
+                        </div>
+                        <div class="descr target_descr target_descr_elem">
+                            Основная задача - получить опыт командной разработки.
+                        </div>
+                        <div class="descr target_descr target_descr_elem">
+                            Также выпускники курсов могут стажироваться в
+                        </div>
+                        <div class="descr target_descr target_descr_elem">
+                            компаниях-партнёрах, которые предлагают различные
+                        </div>
+                        <div class="descr target_descr target_descr_elem">
+                            вариа нты трудоустройства.
+                        </div>
+                    </div>
                     <a href="" class="button button_red target_button">Записаться</a>
                 </div>
             </div>
@@ -231,7 +257,7 @@
                     </ul>
                 </div>
                 <div class="suggest__price subtitle">12 900
-                <img src="./public/images/moneyyy.png" alt="">
+                    <img src="./public/images/moneyyy.png" alt="">
                 </div>
                 <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
             </div>
@@ -250,7 +276,7 @@
                         <li class="suggest_menu__item descr">Портфолио из трех работ</li>
                 </div>
                 <div class="suggest__price subtitle">18 900
-                <img src="./public/images/moneyyy.png" alt="">
+                    <img src="./public/images/moneyyy.png" alt="">
                 </div>
                 <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
             </div>

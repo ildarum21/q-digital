@@ -1205,12 +1205,9 @@ table {
 
 .inputs {
   margin-top: 12px;
-  width: 984px;
+  width: 996px;
   display: flex;
   flex-wrap: wrap; }
-
-label.descr.first {
-  margin-left: -5px; }
 
 textarea::placeholder {
   padding-top: 30px;
@@ -1222,7 +1219,7 @@ textarea::placeholder {
   cursor: pointer;
   border-radius: 3px;
   margin-top: 26px;
-  margin-left: 20px;
+  margin-right: 20px;
   padding: 27px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: #6c6c6c;
@@ -1262,6 +1259,8 @@ textarea::placeholder {
   width: 119.5%; }
 
 .tusk__textarea {
+  font-size: 20px;
+  outline: none;
   resize: none;
   width: 964px;
   height: 216px;
@@ -1301,6 +1300,9 @@ textarea::placeholder {
   margin-left: 20px; }
 
 .inputText {
+  outline: none;
+  font-size: 25px;
+  color: #f84525;
   border-radius: 4px;
   margin-top: 25px;
   width: 480px;
@@ -1423,12 +1425,14 @@ textarea::placeholder {
   width: 430px; }
 
 .descr.target_descr {
-  line-height: 30px;
-  padding: 15px 0 56px 0; }
+  padding: 6px 0 65px 0; }
+
+.target_descr.descr.target_descr_elem {
+  margin-top: 10px;
+  padding: 0; }
 
 .target_sub.subtitle {
-  line-height: 35px;
-  font-size: 30px; }
+  line-height: 35px; }
 
 .button.button_red.target_button {
   width: 292px;
@@ -1749,14 +1753,7 @@ textarea::placeholder {
 
 .list__item.case_list__item {
   margin-top: 28px;
-  padding: 15px 23px;
-  margin-left: 20px; }
-
-.list__item.case_list__item:first-child {
-  margin-left: -6px; }
-
-.list__item.case_list__item.newrow {
-  margin-left: -5px; }
+  padding: 15px 23px; }
 
 .casefooter {
   margin-top: 50px; }
@@ -1960,33 +1957,33 @@ textarea::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 183px;
   display: flex;
-  height: 870px;
+  height: 888px;
   background: url(./images/servicesbg.png); }
 
 .friends_title.title {
-  margin-top: 90px;
-  line-height: 65px;
+  margin-top: 109px;
+  line-height: 69px;
   text-align: center; }
 
 .friends_wrapper {
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
-  padding-top: 60px;
+  padding-top: 68px;
   margin: 0 auto;
-  width: 1397px; }
+  width: 1549px; }
+
+.friends_wrapper.friend_wrapper_anymargin {
+  padding-top: 93px; }
 
 .friend__logo {
-  margin-top: 50px;
-  margin-left: 210px; }
+  margin-top: 50px; }
 
 .servicesfooter {
   margin-top: -17px; }
-
-.friend__logo.first {
-  margin-left: 0; }
 
 .list__name_withlineh.list__name {
   line-height: 34px; }
@@ -2034,6 +2031,9 @@ textarea::placeholder {
 
 .inserv_friends.friends {
   margin-top: 173px; }
+
+.inServFriend.friends {
+  margin-top: 154px; }
 
 .job_title.title {
   margin-top: 134px; }

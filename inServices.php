@@ -122,20 +122,22 @@
                 <a href="" class="button ">СМОТРЕТЬ ВСЕ УСЛУГИ</a>
             </div>
         </div>
-        <div class="friends inserv_f">
+        <div class="friends inServFriend">
             <div class="title friends_title">Наши друзья, с которыми <br>
                 мы познакомились в процессе</div>
             <div class="friends_wrapper">
-                <img src="./public/images/servicesim11.png" class="friend__logo first" alt="">
-                <img src="./public/images/servicesim8.png" class="friend__logo" alt="">
-                <img src="./public/images/servicesim14.png" class="friend__logo" alt="">
-                <img src="./public/images/servicesim15.png" class="friend__logo" alt="">
-                <img src="./public/images/servicesim12.png" class="friend__logo" alt="">
-                <img src="./public/images/servicesim9.png " class="friend__logo first" alt="">
-                <img src="./public/images/servicesim7.png" class="friend__logo" alt="">
-                <img src="./public/images/servicesim10.png" class="friend__logo" alt="">
-                <img src="./public/images/servicesim13.png" class="friend__logo" alt="">
-                <img src="./public/images/servicesim16.png" class="friend__logo" alt="">
+                <img src="./public/images/services1.png" class="friend__logo " alt="">
+                <img src="./public/images/services2.png" class="friend__logo" alt="">
+                <img src="./public/images/services3.png" class="friend__logo" alt="">
+                <img src="./public/images/services4.png" class="friend__logo" alt="">
+                <img src="./public/images/services5.png" class="friend__logo" alt="">
+            </div>
+            <div class="friends_wrapper friend_wrapper_anymargin">
+                <img src="./public/images/services6.png " class="friend__logo " alt="">
+                <img src="./public/images/services7.png" class="friend__logo" alt="">
+                <img src="./public/images/services8.png" class="friend__logo" alt="">
+                <img src="./public/images/services9.png" class="friend__logo" alt="">
+                <img src="./public/images/services10.png" class="friend__logo" alt="">
             </div>
         </div>
         <div class="inservfooter">
