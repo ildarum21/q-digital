@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width,initial-scale =1.0 , maximum-scale=1.0 , user-scalable = 0">
     <link rel="stylesheet" href="./public/index.css">
-    
+
     <title>services</title>
 </head>
 
@@ -25,6 +25,7 @@
                 Ознакомьтесь более детально с нашими услугами
             </div>
             <div class="services_elems">
+
                 <div class="doElem">
                     <img src="./public/images/servicesim1.jpg" alt="" class="elem_img">
                     <div class="elemDescr">
@@ -148,6 +149,7 @@
                         <a href="#" class="button do_button ">заказать услугу</a>
                     </div>
                 </div>
+
             </div>
 
         </div>

@@ -4,6 +4,15 @@
     }
 }
 @media (max-width: 960px) {
+    .header{
+        padding-top: 66px;
+    }
+    .about__text{
+        font-size: 36px;
+    }
+    .elem__name{
+        margin-top: 48px;
+    }
     .container-menu{
         width: 800px;
     }
@@ -26,7 +35,7 @@
         flex-direction: row;
     }
     .doElem {
-        width: 425px;
+        width: 409px;
         display: flex;
         flex-direction: column;
     }
@@ -51,7 +60,7 @@
         width: 100%;
     }
     .list {
-        width: 360.3px;
+        width: 403.3px;
     }
     .inputs {
         width: 995px;
@@ -81,12 +90,14 @@
         margin-left: 38px;
     }
     //services
+   
     .services_elems {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
     .friends {
+        margin-top: 93px;
         height: 601px;
     }
     .friend__logo {
@@ -122,10 +133,24 @@
     .container {
         width: 500px;
     }
+    .about__text{
+        margin-left: 0;
+    }
+    //main
     .main__picture {
-        width: 425px;
-        height: 425px;
+        margin: 0 auto;
+        order:1;
+        width: 427px;
         position: static;
+    }
+    .text{
+        order:2;
+        margin-top: 60px;
+    }
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        
     }
     .advwrapper {
         width: 100%;
