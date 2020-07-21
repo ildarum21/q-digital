@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
   <meta name="viewport" content="width=device-width,initial-scale =1.0 , maximum-scale=1.0 , user-scalable = 0">
   <link rel="stylesheet" href="./public/index.css">
   <title>Document</title>
@@ -210,7 +211,7 @@
         ЦИФРОВОЕ АГЕНТСТВО
       </div>
       <div class="about__text">
-        Мы работаем во всех направлениях, связанных <br> с веб-технологиями, предоставляем качественный сервис и
+        Мы работаем во всех направлениях, связанных с веб-технологиями, предоставляем качественный сервис и
         эффективные решения на любом этапе жизненного цикла вашего проекта.
       </div>
     </div>
@@ -223,51 +224,53 @@
       <div class="descr do_title">
         Ознакомьтесь с нашими услугами
       </div>
-      <div class="doElem">
-        <img src="./public/images/compucter.png" alt="" class="elem_img">
-        <div class="elemDescr">
-          <div class="elem__name">
-            Разработка
-          </div>
-          <div class="list">
-            <a href="#" class="list__name">Разработка сайтов</a>
-            <div class="list__arrow"></div>
-          </div>
-          <div class="list">
-            <a href="#" class="list__name">Разработка мобильных приложений</a>
-            <div class="list__arrow"></div>
-          </div>
-          <div class="list">
-            <a href="#" class="list__name">Разработка скриптов любой сложности</a>
-            <div class="list__arrow"></div>
+      <div class="do_doElems">
+        <div class="doElem">
+          <img src="./public/images/compucter.png" alt="" class="elem_img">
+          <div class="elemDescr">
+            <div class="elem__name">
+              Разработка
+            </div>
+            <div class="list">
+              <a href="#" class="list__name">Разработка сайтов</a>
+              <div class="list__arrow"></div>
+            </div>
+            <div class="list">
+              <a href="#" class="list__name">Разработка мобильных приложений</a>
+              <div class="list__arrow"></div>
+            </div>
+            <div class="list">
+              <a href="#" class="list__name">Разработка скриптов любой сложности</a>
+              <div class="list__arrow"></div>
 
+            </div>
+            <div class="list">
+              <a href="#" class="list__name">CRM решения для бизнеса</a>
+              <div class="list__arrow"></div>
+            </div>
+            <a href="" class="button do_button ">ЗАКАЗАТЬ УСЛУГУ </a>
           </div>
-          <div class="list">
-            <a href="#" class="list__name">CRM решения для бизнеса</a>
-            <div class="list__arrow"></div>
-          </div>
-          <a href="" class="button do_button ">ЗАКАЗАТЬ УСЛУГУ </a>
         </div>
-      </div>
-      <div class="doElem ">
-        <img src="./public/images/mails.png" alt="" class="elem_img">
-        <div class="elemDescr">
-          <div class="elem__name">
-            SEO
+        <div class="doElem ">
+          <img src="./public/images/mails.png" alt="" class="elem_img">
+          <div class="elemDescr">
+            <div class="elem__name">
+              SEO
+            </div>
+            <div class="list">
+              <a href="#" class="list__name">Продвижение сайтов</a>
+              <div class="list__arrow"></div>
+            </div>
+            <div class="list">
+              <a href="#" class="list__name">Контекстная реклама</a>
+              <div class="list__arrow"></div>
+            </div>
+            <div class="list">
+              <a href="#" class="list__name">Социальный маркетинг</a>
+              <div class="list__arrow"></div>
+            </div>
+            <a href="#" class="button do_button ">заказать услугу</a>
           </div>
-          <div class="list">
-            <a href="#" class="list__name">Продвижение сайтов</a>
-            <div class="list__arrow"></div>
-          </div>
-          <div class="list">
-            <a href="#" class="list__name">Контекстная реклама</a>
-            <div class="list__arrow"></div>
-          </div>
-          <div class="list">
-            <a href="#" class="list__name">Социальный маркетинг</a>
-            <div class="list__arrow"></div>
-          </div>
-          <a href="#" class="button do_button ">заказать услугу</a>
         </div>
       </div>
       <div class="doButtonWrapper">

@@ -34,6 +34,10 @@
 .button.button_red.main_button {
   margin-top: 70px; }
 
+.do_doElems {
+  display: flex;
+  flex-direction: column; }
+
 .descr {
   margin-top: 17px;
   font-family: "MullerRegular";

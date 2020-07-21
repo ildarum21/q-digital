@@ -1,0 +1,103 @@
+@media (max-width: 1360px) {
+  .container {
+    width: 1220px; } }
+
+@media (max-width: 960px) {
+  .container-menu {
+    width: 800px; }
+  .container {
+    width: 850px; }
+  .main__picture {
+    position: static; }
+  .advwrapper {
+    width: 50%; }
+  .title.do_title {
+    text-align: center; }
+  .descr.do_title {
+    text-align: center; }
+  .do_doElems {
+    flex-direction: row; }
+  .doElem {
+    width: 425px;
+    display: flex;
+    flex-direction: column; }
+  .elem_img {
+    width: 409px;
+    height: 284px; }
+  .elemDescr {
+    margin-left: 0; }
+  .title.event__title {
+    font-size: 24px; }
+  .event:nth-child(even) {
+    margin-top: 0; }
+  .event__img {
+    width: 382px; }
+  .newList {
+    width: 100%; }
+  .list {
+    width: 360.3px; }
+  .inputs {
+    width: 995px; }
+  .inputs.secondinputs {
+    width: 85%; }
+  .inputText {
+    width: 415px; }
+  .hr {
+    width: 100%; }
+  .tusk__textarea {
+    width: 100%; }
+  .jobs_vacancy:nth-child(even) {
+    margin-left: 30px; }
+  .jobs_vacancy {
+    width: 410px;
+    height: 280px; }
+  .request__input:nth-child(even) {
+    margin-left: 38px; }
+  .services_elems {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .friends {
+    height: 601px; }
+  .friend__logo {
+    width: 122px;
+    margin-top: 50px; }
+  .friends_wrapper {
+    padding-top: 0;
+    width: 858px; }
+  .doelem_wrapper {
+    display: flex;
+    margin-top: 96px; }
+  .who_categories {
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+  .categories_category {
+    margin-left: 0px;
+    width: 738px;
+    height: 357px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); } }
+
+@media (max-width: 540px) {
+  .container {
+    width: 500px; }
+  .main__picture {
+    width: 425px;
+    height: 425px;
+    position: static; }
+  .advwrapper {
+    width: 100%; }
+  .doElem {
+    width: 160%; }
+  .do_doElems {
+    flex-direction: column; }
+  .elem_img {
+    width: 68%;
+    margin-left: -20px; } }
+
+@media (max-width: 320px) {
+  .container {
+    width: 281px; } }

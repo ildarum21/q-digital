@@ -35,6 +35,10 @@
 .button.button_red.main_button {
   margin-top: 70px;
 }
+.do_doElems{
+  display: flex;
+  flex-direction: column;
+}
 // Общие настройки
 .descr {
   margin-top: 17px;
