@@ -104,7 +104,6 @@
 .imageScale{
   width: 574px;
   height: 780px;
-  background: url('./images/roters.png');
   position: absolute;
 }
 
@@ -136,14 +135,6 @@
   margin-bottom: 75px;
   margin-right: -21px;
   text-align: right;
-}
-.imagetext.taxi {
-  margin-bottom: 75px;
-  margin-right: -8px;
-}
-.imagetext.push {
-  margin-right: -5px;
-  margin-bottom: 74px;
 }
 .images:hover .cases__img {
   transform: rotate3d(0, 1, 0, -0.8deg);

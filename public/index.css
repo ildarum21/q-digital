@@ -490,7 +490,6 @@ table {
 .imageScale {
   width: 574px;
   height: 780px;
-  background: url("./images/roters.png");
   position: absolute; }
 
 .cases__img {
@@ -519,14 +518,6 @@ table {
   margin-bottom: 75px;
   margin-right: -21px;
   text-align: right; }
-
-.imagetext.taxi {
-  margin-bottom: 75px;
-  margin-right: -8px; }
-
-.imagetext.push {
-  margin-right: -5px;
-  margin-bottom: 74px; }
 
 .images:hover .cases__img {
   transform: rotate3d(0, 1, 0, -0.8deg); }
@@ -2153,13 +2144,20 @@ textarea::placeholder {
   .imageScale {
     width: 464px;
     height: 274px;
-    background: url("./images/roters.png") center top/cover;
-    background-position: center;
-    position: absolute; }
+    position: static; }
+  .imagetext {
+    position: static;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 76px;
+    margin-top: 10px;
+    text-align: left; }
+  .casessubtitle {
+    width: 203px; }
   .images {
     transition: 0.6s;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     height: 274px;
     perspective: 100px;
@@ -2246,21 +2244,41 @@ textarea::placeholder {
   .jobs_vacancy {
     width: 410px;
     height: 280px; }
+  .job_title.title {
+    width: 453px;
+    line-height: 66px; }
+  .vacancy_wrapper {
+    margin-top: 69px;
+    margin-left: 51px; }
   .request__input:nth-child(even) {
     margin-left: 38px; }
+  .job_request.request {
+    height: 800px;
+    margin-top: 133px; }
+  .title.title_white.req_title {
+    margin-top: 77px;
+    width: 510px; }
+  .descr.whitedescr.req_descr.req_descr_job {
+    margin-top: 33px;
+    padding-bottom: 16px; }
   .services_elems {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
   .friends {
     margin-top: 93px;
-    height: 601px; }
+    height: 895px; }
+  .friends_title.title {
+    margin-right: 52px;
+    text-align: left; }
   .friend__logo {
-    width: 122px;
+    width: 187px;
     margin-top: 50px; }
   .friends_wrapper {
-    padding-top: 0;
-    width: 858px; }
+    padding-top: 81px;
+    width: 950px; }
+  .friends_wrapper.friend_wrapper_anymargin {
+    padding-top: 120px; }
   .who_categories {
     margin-top: 96px;
     display: flex;
@@ -2277,8 +2295,19 @@ textarea::placeholder {
 @media (max-width: 540px) {
   .container {
     width: 500px; }
-  .about__text {
+  .header__logo {
     margin-left: 0; }
+  .writeMe {
+    margin-right: 0; }
+  .main-wrapper {
+    margin-top: 43px; }
+  .main {
+    height: 1048px; }
+  .title.title_white.title_main {
+    font-size: 55px;
+    line-height: 69px; }
+  .descr.descr_white.descr_main {
+    margin-top: 23px; }
   .main__picture {
     margin: 0 auto;
     order: 1;
@@ -2286,11 +2315,48 @@ textarea::placeholder {
     position: static; }
   .text {
     order: 2;
-    margin-top: 60px; }
+    margin-top: 32px; }
   .main-wrapper {
     display: flex;
     flex-direction: column; }
+  .button.button_red.main_button {
+    margin-top: 48px; }
+  .about__title {
+    margin-left: 0; }
+  .about__text {
+    margin-left: 0;
+    width: 500px; }
+  .cases {
+    margin-top: 96px; }
+  .casestitle.title {
+    width: 514px; }
+  .casesImages {
+    margin-top: 51px; }
+  .imageScale {
+    width: 540px;
+    height: 274px;
+    margin-left: -20px; }
+  .images {
+    display: block;
+    height: 382px; }
+  .imagetext {
+    margin-left: 16px;
+    margin-top: 31px; }
+  .casessubdescr.descr {
+    padding-bottom: 12px; }
+  .casesButtonWrapper {
+    display: block;
+    margin-top: 41px;
+    padding-bottom: 17px; }
+  .title.advtitle {
+    font-size: 48px; }
+  .descr.advtitle {
+    width: 344px;
+    line-height: 37px; }
+  .listWrapper {
+    margin-top: 74px; }
   .advwrapper {
+    height: 176px;
     width: 100%; }
   .doElem {
     width: 160%; }
@@ -2298,7 +2364,13 @@ textarea::placeholder {
     flex-direction: column; }
   .elem_img {
     width: 68%;
-    margin-left: -20px; } }
+    margin-left: -20px; }
+  .title.do_title {
+    margin-top: 81px;
+    font-size: 48px;
+    text-align: left; }
+  .descr.do_title {
+    text-align: left; } }
 
 @media (max-width: 320px) {
   .container {

@@ -44,11 +44,9 @@
       <div class="casesImages">
         <div class="imagesContainer">
           <div class="images">
-            <div class="imageScale">
-
+            <div class="imageScale" style="background:url(./public/images/roters.png);background-position: center;
+        background-size:cover;background-repeat:no-repeat;">
             </div>
-            <!-- <img src="./public/images/roters.png" alt="" class="cases__img"> -->
-
             <div class="imagetext">
               <div class="casessubtitle  ">Rasperry PI</div>
               <div class="casessubdescr descr">Кастомный роутер</div>
@@ -57,8 +55,8 @@
         </div>
         <div class="imagesContainer ">
           <div class="images">
-            <div class="imageScale">
-
+            <div class="imageScale" style="background:url(./public/images/adelaida.png);background-position: center;
+        background-size:cover;background-repeat:no-repeat; ">
             </div>
             <!-- <img src="./public/images/adelaida.png" alt="" class="cases__img"> -->
             <div class="imagetext">
@@ -70,11 +68,10 @@
 
         <div class="imagesContainer ">
           <div class="images">
-            <div class="imageScale">
-
+            <div class="imageScale" style="background:url(./public/images/taxibg.png);background-position: center;
+        background-size:cover;background-repeat:no-repeat; ">
             </div>
-            <!-- <img src="./public/images/taxibg.png" alt="" class="cases__img"> -->
-            <div class="imagetext  taxi">
+            <div class="imagetext  ">
               <div class="casessubtitle ">Objective C</div>
               <div class="casessubdescr descr ">Приложение для такси</div>
             </div>
@@ -82,11 +79,10 @@
         </div>
         <div class="imagesContainer ">
           <div class="images">
-            <div class="imageScale">
-
+            <div class="imageScale" style="background:url(./public/images/PushArtist.png);background-position: center;
+        background-size:cover;background-repeat:no-repeat; ">
             </div>
-            <!-- <img src="./public/images/PushArtist.png" alt="" class="cases__img"> -->
-            <div class="imagetext push">
+            <div class="imagetext ">
               <div class="casessubtitle ">PushArtist.ru</div>
               <div class="casessubdescr descr ">Социальная сеть</div>
             </div>
@@ -103,10 +99,10 @@
 
   <div class="advantages">
     <div class="container">
-      <div class=" title ">
+      <div class=" title advtitle">
         Наши преимущества
       </div>
-      <div class=" descr">
+      <div class=" descr advtitle">
         Преимущества по которым клиенты выбирают именно нас
       </div>
 
