@@ -44,7 +44,9 @@
       <div class="casesImages">
         <div class="imagesContainer">
           <div class="images">
-            <img src="./public/images/roters.png" alt="" class="cases__img">
+            <div class="imageScale">
+              <img src="./public/images/roters.png" alt="" class="cases__img">
+            </div>
             <div class="imagetext">
               <div class="casessubtitle  ">Rasperry PI</div>
               <div class="casessubdescr descr">Кастомный роутер</div>

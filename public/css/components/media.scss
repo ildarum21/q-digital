@@ -4,27 +4,73 @@
     }
 }
 @media (max-width: 960px) {
-    .header{
+    //menu
+    .header {
         padding-top: 66px;
     }
-    .about__text{
+    .container-menu {
+        width: 800px;
+    }
+    .writeMe {
+        margin-right: 33px;
+    }
+    .header__logo {
+        margin-left: 31px;
+    }
+    //main
+    .main {
+        height: 650px;
+    }
+    .main__picture {
+        left: 0;
+        width: 429px;
+        height: 432px;
+        margin-top: 37px;
+        left: 9px;
+    }
+    .text {
+        margin-top: 74px;
+    }
+    .title.title_white.title_main {
+        font-size: 64px;
+    }
+    .descr.descr_white.descr_main {
+        margin-top: 16px;
+        width: 444px;
+    }
+    .button.button_red.main_button {
+        margin-top: 43px;
+    }
+    //adv
+    .listWrapper{
+        margin-top: 69px;
+    }
+    .advwrapper {
+        height: 260px;
+        width: 50%;
+    }
+    .wrapperContent{
+        width:61%;
+    }
+    //about
+    .about__title{
+        padding-top: 207px;
+        margin-left: 53px;
+    }
+    .about__text {
+        margin-left: 86px;
+        line-height: 45px;
+        width: 686px;
         font-size: 36px;
     }
-    .elem__name{
+    .elem__name {
         margin-top: 48px;
-    }
-    .container-menu{
-        width: 800px;
     }
     .container {
         width: 850px;
     }
-    .main__picture {
-        position: static;
-    }
-    .advwrapper {
-        width: 50%;
-    }
+
+   
     .title.do_title {
         text-align: center;
     }
@@ -90,7 +136,7 @@
         margin-left: 38px;
     }
     //services
-   
+
     .services_elems {
         display: flex;
         justify-content: space-between;
@@ -121,7 +167,7 @@
         align-items: center;
     }
     .categories_category {
-        margin-left: 0px; 
+        margin-left: 0px;
         width: 738px;
         height: 357px;
         border-radius: 10px;
@@ -133,24 +179,23 @@
     .container {
         width: 500px;
     }
-    .about__text{
+    .about__text {
         margin-left: 0;
     }
     //main
     .main__picture {
         margin: 0 auto;
-        order:1;
+        order: 1;
         width: 427px;
         position: static;
     }
-    .text{
-        order:2;
+    .text {
+        order: 2;
         margin-top: 60px;
     }
     .main-wrapper {
         display: flex;
         flex-direction: column;
-        
     }
     .advwrapper {
         width: 100%;
