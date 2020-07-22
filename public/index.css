@@ -487,6 +487,12 @@ table {
   display: flex;
   flex-wrap: wrap; }
 
+.imageScale {
+  width: 574px;
+  height: 780px;
+  background: url("./images/roters.png");
+  position: absolute; }
+
 .cases__img {
   transition: 0.6s;
   width: 574px;
@@ -2117,6 +2123,8 @@ textarea::placeholder {
     width: 1220px; } }
 
 @media (max-width: 960px) {
+  .container {
+    width: 850px; }
   .header {
     padding-top: 66px; }
   .container-menu {
@@ -2142,6 +2150,28 @@ textarea::placeholder {
     width: 444px; }
   .button.button_red.main_button {
     margin-top: 43px; }
+  .imageScale {
+    width: 464px;
+    height: 274px;
+    background: url("./images/roters.png") center top/cover;
+    background-position: center;
+    position: absolute; }
+  .images {
+    transition: 0.6s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 274px;
+    perspective: 100px;
+    width: 100%; }
+  .casesImages {
+    margin-top: 76px;
+    flex-direction: column; }
+  .imagesContainer:nth-child(even) {
+    margin-left: 0px; }
+  .casesButtonWrapper {
+    margin-top: 27px;
+    padding-bottom: 66px; }
   .listWrapper {
     margin-top: 69px; }
   .advwrapper {
@@ -2149,43 +2179,58 @@ textarea::placeholder {
     width: 50%; }
   .wrapperContent {
     width: 61%; }
+  .about {
+    margin-top: 44px;
+    height: 653px; }
   .about__title {
-    padding-top: 207px;
+    padding-top: 151px;
     margin-left: 53px; }
   .about__text {
     margin-left: 86px;
     line-height: 45px;
     width: 686px;
     font-size: 36px; }
-  .elem__name {
-    margin-top: 48px; }
-  .container {
-    width: 850px; }
   .title.do_title {
+    margin-top: 147px;
     text-align: center; }
   .descr.do_title {
     text-align: center; }
   .do_doElems {
+    justify-content: space-between;
     flex-direction: row; }
   .doElem {
-    width: 409px;
+    width: 389px;
     display: flex;
     flex-direction: column; }
+  .doelem_wrapper {
+    display: flex;
+    margin-top: 96px; }
   .elem_img {
-    width: 409px;
+    width: 390px;
     height: 284px; }
+  .doButtonWrapper {
+    margin-top: 19px; }
   .elemDescr {
     margin-left: 0; }
-  .title.event__title {
-    font-size: 24px; }
-  .event:nth-child(even) {
-    margin-top: 0; }
-  .event__img {
-    width: 382px; }
   .newList {
     width: 100%; }
   .list {
     width: 403.3px; }
+  .elem__name {
+    margin-top: 48px; }
+  .feedback {
+    margin-top: 119px; }
+  .title.event__title {
+    font-size: 24px; }
+  .event:nth-child(even) {
+    margin-top: 0; }
+  .newButtonWrapper {
+    margin-top: 33px; }
+  .event__img {
+    width: 382px;
+    height: 318px; }
+  .mainfooter {
+    margin-top: 152px; }
   .inputs {
     width: 995px; }
   .inputs.secondinputs {
@@ -2216,9 +2261,6 @@ textarea::placeholder {
   .friends_wrapper {
     padding-top: 0;
     width: 858px; }
-  .doelem_wrapper {
-    display: flex;
-    margin-top: 96px; }
   .who_categories {
     margin-top: 96px;
     display: flex;

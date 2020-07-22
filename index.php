@@ -45,8 +45,10 @@
         <div class="imagesContainer">
           <div class="images">
             <div class="imageScale">
-              <img src="./public/images/roters.png" alt="" class="cases__img">
+
             </div>
+            <!-- <img src="./public/images/roters.png" alt="" class="cases__img"> -->
+
             <div class="imagetext">
               <div class="casessubtitle  ">Rasperry PI</div>
               <div class="casessubdescr descr">Кастомный роутер</div>
@@ -55,7 +57,10 @@
         </div>
         <div class="imagesContainer ">
           <div class="images">
-            <img src="./public/images/adelaida.png" alt="" class="cases__img">
+            <div class="imageScale">
+
+            </div>
+            <!-- <img src="./public/images/adelaida.png" alt="" class="cases__img"> -->
             <div class="imagetext">
               <div class="casessubtitle">Университет Аделаиды</div>
               <div class="casessubdescr descr">Сайт для общения студентов</div>
@@ -65,7 +70,10 @@
 
         <div class="imagesContainer ">
           <div class="images">
-            <img src="./public/images/taxibg.png" alt="" class="cases__img">
+            <div class="imageScale">
+
+            </div>
+            <!-- <img src="./public/images/taxibg.png" alt="" class="cases__img"> -->
             <div class="imagetext  taxi">
               <div class="casessubtitle ">Objective C</div>
               <div class="casessubdescr descr ">Приложение для такси</div>
@@ -74,7 +82,10 @@
         </div>
         <div class="imagesContainer ">
           <div class="images">
-            <img src="./public/images/PushArtist.png" alt="" class="cases__img">
+            <div class="imageScale">
+
+            </div>
+            <!-- <img src="./public/images/PushArtist.png" alt="" class="cases__img"> -->
             <div class="imagetext push">
               <div class="casessubtitle ">PushArtist.ru</div>
               <div class="casessubdescr descr ">Социальная сеть</div>
