@@ -33,6 +33,12 @@
       <li class="menulist__li">
         События
       </li>
+      <li class="menulist__li">
+        Вакансии
+      </li>
+      <li class="menulist__li">
+        Курсы
+      </li>
     </ul>
 
     <div class="wrapper">

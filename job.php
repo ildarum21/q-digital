@@ -88,7 +88,7 @@
                 <div class="title title_white req_title ">
                 Станьте частью команды Q-Digital
                 </div>
-                <div class="descr whitedescr  req_descr req_descr_job">Расскажите нам о себе и прикрепите ссылку на резюме. Мы обязательно <br> с вами свяжемся в течении дня</div>
+                <div class="descr whitedescr  req_descr req_descr_job">Расскажите нам о себе и прикрепите ссылку на резюме. Мы обязательно  с вами свяжемся в течении дня</div>
 
                 <input type="text" placeholder="Имя" class="request__input">
                 <input type="text " placeholder="E-mail" class="request__input">

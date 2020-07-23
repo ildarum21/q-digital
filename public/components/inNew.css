@@ -20,7 +20,9 @@
   padding-top: 96px; }
 
 .descr.par__descr {
-  margin-top: 30px; }
+  margin-top: 26px;
+  white-space: pre-line;
+  line-height: 31px; }
 
 .descr.par__descr:first-child {
   margin-top: 0; }
@@ -32,7 +34,7 @@
   margin-top: 30px; }
 
 .descr.par__descr.any {
-  margin-top: 42px; }
+  margin-top: 6px; }
 
 .par__descr_elem.descr {
   margin-top: 13px; }

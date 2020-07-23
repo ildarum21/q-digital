@@ -7,21 +7,12 @@
         <div class="block__text descr ">
           Качественный сервис <br> и эффективные решения
         </div>
-
-        <div class="networks footer_network">
-          <a class="networks__name" href="#"><img src="./public/images/facebook.png" alt="facebook"></a>
-          <a class="networks__name" href="#"><img src="./public/images/vk.png" alt="vk"></a>
-          <a class="networks__name" href="#"> <img src="./public/images/twitter.png" alt="twitter"></a>
-          <a class="networks__name" href="#"><img src="./public/images/instagram.png" alt="instagram"></a>
-        </div>
       </div>
       <div class="Blocks">
-
         <div class="secBlock">
           <div class="block__text descr sec">
             Контакты
           </div>
-
           <div class="footer__comm">
             <a href="mailto:client@q-digital.ru" class="communication footer_communication">client@q-digital.ru</a>
             <a href="tel:79127689454" class="communication footer_communication">+7 (912)
@@ -33,8 +24,6 @@
           <div class="footer__adress footer_text">
             Ул. Кирова 112 Ижевск, Россия
           </div>
-
-
         </div>
         <div class="thirdBlock descr">
           <div class="block__text descr sec">
@@ -52,5 +41,11 @@
         </div>
       </div>
     </div>
+    <div class="networks footer_network">
+          <a class="networks__name" href="#"><img src="./public/images/facebook.png" alt="facebook"></a>
+          <a class="networks__name" href="#"><img src="./public/images/vk.png" alt="vk"></a>
+          <a class="networks__name" href="#"> <img src="./public/images/twitter.png" alt="twitter"></a>
+          <a class="networks__name" href="#"><img src="./public/images/instagram.png" alt="instagram"></a>
+        </div>
   </div>
 </div>

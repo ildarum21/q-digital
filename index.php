@@ -111,10 +111,10 @@
           <div class="back">
             <div class="wrapperContent">
               <div class="subtitle  adv_subtitle">Высокая Квалификация</div>
-
-              <div class=" field_descr descr ">Наши специалисты постоянно</div>
-              <div class=" field_descr descr">развиваются и сдают квалификационные</div>
-              <div class=" field_descr descr">тесты в профильных областях</div>
+              <div class=" field_descr descr ">
+                Наши специалисты постоянно развиваются и сдают квалификационные
+                тесты в профильных областях
+              </div>
               <a class="field_a  writeMeButton__href">ЗАПОЛНИТЬ БРИФ</a>
             </div>
           </div>
@@ -123,10 +123,10 @@
           <div class="back">
             <div class="wrapperContent  ">
               <div class=" subtitle  adv_subtitle">Всегда на Связи</div>
-
-              <div class=" field_descr descr ">Наши менеджеры проектов всегда</div>
-              <div class=" field_descr descr">на связи и готовы ответить на ваши</div>
-              <div class=" field_descr descr">вопросы</div>
+              <div class=" field_descr descr ">
+                Наши менеджеры проектов всегда на связи и готовы ответить на ваши
+                вопросы
+              </div>
               <a class=" field_a  writeMeButton__href">ЗАПОЛНИТЬ БРИФ</a>
             </div>
           </div>
@@ -135,10 +135,10 @@
           <div class="back">
             <div class="wrapperContent ">
               <div class="  subtitle  adv_subtitle">Разумные Цены</div>
-
-              <div class=" field_descr descr">Оценка проекта осуществляется </div>
-              <div class=" field_descr descr">только после детального изучения</div>
-              <div class=" field_descr descr">желаний клиента</div>
+              <div class=" field_descr descr ">
+                Оценка проекта осуществляется только после детального изучения
+                желаний клиента
+              </div>
               <a class=" field_a  writeMeButton__href">ЗАПОЛНИТЬ БРИФ</a>
             </div>
           </div>
@@ -147,10 +147,10 @@
           <div class="back">
             <div class="wrapperContent ">
               <div class="  subtitle  adv_subtitle">Бизнес Направленность</div>
-
-              <div class="field field_descr descr firts-field">Мы стараемся предоставить </div>
-              <div class="field field_descr descr">бизнес-решения, которые помогут вам </div>
-              <div class="field field_descr descr">зарабатывать деньги и репутацию</div>
+              <div class=" field_descr descr ">
+                Мы стараемся предоставить бизнес-решения, которые помогут вам
+                зарабатывать деньги и репутацию
+              </div>
               <a class="field field_a writeMeButton__href">ЗАПОЛНИТЬ БРИФ</a>
             </div>
           </div>
@@ -161,9 +161,10 @@
           <div class="back">
             <div class="wrapperContent">
               <div class="subtitle adv_subtitle ">Гибкий Подход</div>
-              <div class="field_descr descr ">Для каждой бизнес идеи мы подбираем</div>
-              <div class="field_descr descr">индивидуальное, наиболее эффективное</div>
-              <div class="field_descr descr">решение</div>
+              <div class=" field_descr descr ">
+                Для каждой бизнес идеи мы подбираем индивидуальное, наиболее эффективное
+                решение
+              </div>
               <a class="field field_a  writeMeButton__href">ЗАПОЛНИТЬ БРИФ</a>
             </div>
           </div>
@@ -172,10 +173,10 @@
           <div class="back">
             <div class="wrapperContent  ">
               <div class="  subtitle adv_subtitle">Постоянная Поддержка</div>
-
-              <div class="field field_descr descr firts-field">Мы стараемся обеспечить поддержку </div>
-              <div class="field field_descr descr">вашей организации на всех этапах ее </div>
-              <div class="field field_descr descr">работы</div>
+              <div class=" field_descr descr ">
+                Мы стараемся обеспечить поддержку вашей организации на всех этапах ее
+                работы
+              </div>
               <a class="field field_a  writeMeButton__href">ЗАПОЛНИТЬ БРИФ</a>
             </div>
           </div>
@@ -184,10 +185,10 @@
           <div class="back">
             <div class="wrapperContent last">
               <div class="  subtitle adv_subtitle">Качественная Работа</div>
-
-              <div class="field field_descr descr firts-field">Наши продукты соответствуют </div>
-              <div class="field field_descr descr">международным стандартам, мы </div>
-              <div class="field field_descr descr">используем современные технологии</div>
+              <div class=" field_descr descr ">
+                Наши продукты соответствуют международным стандартам, мы
+                используем современные технологии
+              </div>
               <a class="field field_a  writeMeButton__href">ЗАПОЛНИТЬ БРИФ</a>
             </div>
           </div>
@@ -196,10 +197,10 @@
           <div class="back">
             <div class="wrapperContent last ">
               <div class="  subtitle adv_subtitle">Контроль Сроков</div>
-
-              <div class="field field_descr descr firts-field">Мы своевременно продвигаемся </div>
-              <div class="field field_descr descr">по этапам разработки проекта, </div>
-              <div class="field field_descr descr">без задержек</div>
+              <div class=" field_descr descr ">
+                Мы своевременно продвигаемся по этапам разработки проекта,
+                без задержек
+              </div>
               <a class="field field_a writeMeButton__href"> ЗАПОЛНИТЬ БРИФ</a>
             </div>
           </div>
@@ -207,13 +208,6 @@
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
   <div class="about">
     <div class="container">
       <div class="about__title ">
@@ -316,8 +310,8 @@
                     <span class="positiondescr descr red">DD агенстве</span>
                   </div>
                   <div class="item_letter descr">
-                    Работаем с этой компаней недавно, очень довольны <br> креативным подходом к работе.
-                    Все делают в срок.
+                    Работаем с этой компаней недавно, очень довольны 
+                    креативным подходом к работе.Все делают в срок.
                   </div>
                 </div>
               </div>
@@ -333,8 +327,8 @@
                     <span class="positiondescr descr red">IT агенстве Easy</span>
                   </div>
                   <div class="item_letter descr">
-                    У ребят высокая квалификация, всегда на связи, и что самое <br> главное, делают все
-                    качественно и за разумную цену.
+                    У ребят высокая квалификация, всегда на связи, и что самое
+                    главное, делают все качественно и за разумную цену.
                   </div>
                 </div>
               </div>
@@ -354,8 +348,8 @@
                     <span class="positiondescr descr red">DD агенстве</span>
                   </div>
                   <div class="item_letter descr">
-                    Работаем с этой компаней недавно, очень довольны <br> креативным подходом к работе.
-                    Все делают в срок.
+                    Работаем с этой компаней недавно, очень довольны
+                    креативным подходом к работе.Все делают в срок.
                   </div>
                 </div>
               </div>
@@ -371,8 +365,8 @@
                     <span class="positiondescr descr red">IT агенстве Easy</span>
                   </div>
                   <div class="item_letter descr">
-                    У ребят высокая квалификация, всегда на связи, и что самое <br> главное, делают все
-                    качественно и за разумную цену.
+                    У ребят высокая квалификация, всегда на связи, и что самое
+                    главное, делают все качественно и за разумную цену.
                   </div>
                 </div>
               </div>
@@ -393,8 +387,8 @@
                     <span class="positiondescr descr red">DD агенстве</span>
                   </div>
                   <div class="item_letter descr">
-                    Работаем с этой компаней недавно, очень довольны креативным подходом к работе. Все
-                    делают в срок.
+                    Работаем с этой компаней недавно, очень довольны 
+                    креативным подходом к работе. Все делают в срок.
                   </div>
                 </div>
               </div>
@@ -410,8 +404,8 @@
                     <span class="positiondescr descr red">IT агенстве Easy</span>
                   </div>
                   <div class="item_letter descr">
-                    У ребят высокая квалификация, всегда на связи, и что самое <br> главное, делают все
-                    качественно и за разумную цену.
+                    У ребят высокая квалификация, всегда на связи, и что самое
+                    главное, делают все качественно и за разумную цену.
                   </div>
                 </div>
               </div>

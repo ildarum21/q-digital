@@ -8,6 +8,9 @@
   justify-content: space-between;
   padding-top: 162px; }
 
+.firstBlock {
+  width: 239px; }
+
 .Blocks {
   width: 686px;
   display: flex; }
@@ -80,7 +83,7 @@
 
 .networks.footer_network {
   margin-left: 6px;
-  margin-top: 169px; }
+  margin-top: 139px; }
 
 .networks__name {
   cursor: pointer;
