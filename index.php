@@ -289,9 +289,10 @@
     <div class="feedback">
 
       <div class="title feedBack_title">
-        Отзывы наших клиентов
+        Отзывы
+        наших клиентов
       </div>
-      <div class="descr">
+      <div class=" feedback_desct descr">
         Последние отзывы наших клиентов
 
       </div>

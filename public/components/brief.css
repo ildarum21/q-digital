@@ -61,6 +61,7 @@ textarea::placeholder {
   color: white; }
 
 .inputs.secondinputs {
+  margin-left: -27px;
   margin-top: 20px;
   width: 100%; }
 
@@ -205,9 +206,9 @@ textarea::placeholder {
 .footerBrief > .footer .block__text.descr {
   margin-left: 5px; }
 
-.footerBrief > .footer .networks.footer_network {
-  margin-top: 165px; }
-
 .footerBrief > .footer .footer__comm {
   margin-top: 12px;
   margin-left: 5px; }
+
+.footerBrief > .footer .networks.footer_network {
+  margin-top: 140px; }

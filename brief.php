@@ -106,10 +106,10 @@
                     Ваши контакты
                 </div>
                 <div class="inputTextWrapper">
-                    <input type="text" placeholder="Ваше имя" class="inputText">
-                    <input type="text" placeholder="E-mail" class="inputText ">
-                    <input type="text" placeholder="Название компании" class="inputText">
-                    <input type="number" placeholder="Телефон" class="inputText">
+                    <input type="text" placeholder="Ваше имя" class="inputText inputorder1">
+                    <input type="text" placeholder="E-mail" class="inputText inputorder2">
+                    <input type="text" placeholder="Название компании" class="inputText inputorder3">
+                    <input type="number" placeholder="Телефон" class="inputText inputorder4">
                 </div>
             </div>
             <a href="#" class="briefButton">отправить заявку</a>

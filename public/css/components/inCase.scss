@@ -44,6 +44,13 @@
 .step_anystep.step.step_anystep2 {
     margin-left: 132px;
 }
+.step_descr.descr.step_descr_elem{
+    line-height: 31px;
+    white-space: pre-line;
+}
+.inCase_stepsBlock{
+    padding-bottom: 94px;
+}
 .step:nth-child(even) {
     margin-left: 120px;
 }

@@ -18,6 +18,9 @@
     margin-right: 39px; }
   .imageScale {
     height: 763px; }
+  .slick-dots {
+    margin-bottom: 118px;
+    margin-left: -38px; }
   .casesImages {
     margin-top: 139px; }
   .imagesContainer {
@@ -51,4 +54,67 @@
     width: 695px;
     display: flex; }
   .secBlock {
-    width: 448px; } }
+    width: 448px; }
+  .inputs.secondinputs {
+    margin-left: -23px;
+    margin-top: 18px;
+    width: 100%; }
+  .Elem__title.title {
+    margin-left: 0; }
+  .hr {
+    width: 100%; }
+  .footerBrief {
+    margin-top: 145px; }
+  .politic.descr {
+    font-size: 14px;
+    margin-left: 0;
+    margin-top: 20px; }
+  .footerBrief > .footer .block__text.descr {
+    margin-left: 0; }
+  .footerBrief > .footer .networks.footer_network {
+    margin-top: 140px; }
+  .mainBlock__img {
+    margin-left: 16px;
+    width: 930px;
+    height: 638px; }
+  .inCase_mainblock {
+    margin-top: 55px;
+    margin-left: 5.1%;
+    display: flex; }
+  .step_descr.descr.step_descr_elem {
+    white-space: pre-line;
+    line-height: 36px;
+    margin-top: 12px; }
+  .step_anystep.step {
+    margin-top: 18px; }
+  .inCase_stepsBlock {
+    padding-bottom: 135px; }
+  .imgweb_img {
+    margin-top: -27px;
+    width: 1219px;
+    height: 4300px; }
+  .imgweb {
+    height: 4566px; }
+  .step:nth-child(even) {
+    margin-left: 105px; }
+  .step.step_sec {
+    margin-left: 0; }
+  .button.cases_button {
+    margin-left: 51px;
+    margin-top: 18px; }
+  .anyworksFooter > .footer .secBlock {
+    width: 477px; }
+  .services__title.title {
+    margin-top: 129px; }
+  .doElem {
+    margin-top: 48px; }
+  .friends_wrapper {
+    padding-top: 52px;
+    width: 100%; }
+  .friend__logo {
+    margin-right: 2%;
+    margin-top: 105px; }
+  .servicesfooter {
+    margin-top: -10px; }
+  .friends {
+    margin-top: 148px; } }

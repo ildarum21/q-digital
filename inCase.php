@@ -38,31 +38,32 @@
         </div>
         <div class="container">
             <div class="inCase_stepsBlock">
-                <div class="step first_step">
-                    <div class="step_subtitle descr step_anypad">О проекте</div>
+                <div class="step first_step order1">
+                    <div class="step_subtitle descr step_anypad ">О проекте</div>
                     <div class="step_descr descr step_descr_elem">Это система, которая позволяет пользователю
                         редактировать и выкладывать информацию, текста в
                         одном приложении
                     </div>
                 </div>
-                <div class="step">
-                    <div class="step_subtitle descr step_anypad">Аудитория</div>
+                <div class="step order2">
+                    <div class="step_subtitle descr step_anypad ">Аудитория</div>
                     <div class="step_descr descr step_descr_elem">Целевая аудитория - люди, работающие с различными
                         текстами, редакторами
                     </div>
                 </div>
-                <div class="step step_anystep">
-                    <div class="step_subtitle descr step_anypad">Задача</div>
+                <div class="step step_anystep order3">
+                    <div class="step_subtitle descr step_anypad ">Задача</div>
                     <div class="step_descr descr step_descr_elem">Разработать сайт, который будет содержать в себе
                         все необоходимые инструментами редактирования
                         текста
                     </div>
                 </div>
-                <div class="step step_anystep ">
+                <div class="step step_anystep order4">
                     <div class="step_subtitle descr step_anypad ">Решение</div>
                     <div class="step_descr descr step_descr_elem">Мы детально разработали функционал проекта, определили
                         цели и задачи. Далее сделали прототип и макет дизайна
-                        сайта, который удовлетворяет все требования ТЗ
+                        сайта, который удовлетворяет 
+                        все требования ТЗ
                     </div>
                 </div>
             </div>

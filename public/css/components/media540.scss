@@ -2,7 +2,89 @@
     .container {
         width: 92.592%;
     }
-
+    //incase
+    .inCase_descr {
+        margin-top: 25px;
+    }
+    .imgweb_img {
+        margin-top: 52px;
+        width: 100%;
+        height: 1755px;
+    }
+    .imgweb {
+        height: 1925px;
+    }
+    .anyworks_title {
+        margin-top: 23px;
+        font-size: 49px;
+    }
+    .casesImages.anyworks_casesImages {
+        justify-content: space-between;
+        margin-top: 43px;
+    }
+    .anyworksButtonWrapper {
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: -37px;
+    }
+    .anyworksFooter {
+        margin-top: 97px;
+    }
+    .button.cases_button {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .anyworksFooter > .footer .content {
+        padding-top: 99px;
+    }
+    .anyworksFooter > .footer .thirdBlock.descr {
+        margin-left: 0;
+    }
+    .inCase_mainblock {
+        flex-direction: column;
+    }
+    .inCase_steps {
+        display: flex;
+        margin-top: 36px;
+    }
+    .inCase_stepsBlock {
+        margin-top: 40px;
+    }
+    .step_subtitle.descr {
+        padding-top: 19px;
+    }
+    .step_anystep.step {
+        margin-top: 3px;
+    }
+    .step_descr_elem.descr.step_descr {
+        white-space: normal;
+        width: 483px;
+    }
+    .step:nth-child(even) {
+        margin-left: 0px;
+    }
+    .step {
+        width: 350px;
+    }
+    .inCase_mainblock {
+        margin-left: 3.5%;
+    }
+    .casessubtitle.mainblock_casessubtitle {
+        font-size: 48px;
+        margin-top: 37px;
+    }
+    .step_descr.descr {
+        width: 240px;
+    }
+    .step.step_sec {
+        margin-left: 22px;
+    }
+    .mainBlock__img {
+        margin-left: -19px;
+        width: 103.6%;
+        height: 412px;
+        margin-top: -25.5%;
+    }
     //brief
     .brief__title.title {
         margin-left: 0;
@@ -16,53 +98,75 @@
         width: 381px;
         line-height: 27px;
     }
-    .Elem__title.title{
+    .Elem__title.title {
         margin-left: 0;
         margin-top: 71px;
     }
     .Elem__title.title.price {
         margin-top: 89px;
     }
-    .inputs{
+    .inputs {
         display: block;
     }
     .inputs.secondinputs {
         display: flex;
-        width: 85%;
+        flex-wrap: wrap;
+        width: 88%;
+        margin-top: 9px;
+        margin-left: -1px;
     }
-    .label2{
+    .inputText::placeholder {
+        padding-left: 31px;
+    }
+    .label2 {
+        width: 172px;
+        margin-left: 0;
+        margin-top: 25px;
         margin-right: 21px;
-        margin-top: 22px;
     }
-    .Elem__title.title.tusk{
+    .Elem__title.title.tusk {
         margin-top: 78px;
     }
     .Elem__title.title.contacts {
-        margin-top: 73px;
+        margin-top: 78px;
     }
     .inputText:nth-child(2n) {
         margin-left: 0;
     }
-    .inputText{
-        margin-top: 22px;
+    .inputText {
+        margin-top: 21px;
+        width: 100%;
     }
-    .briefButton{
+    .briefButton {
         margin-top: 53px;
     }
+    .feedback_desct.descr {
+        margin-top: 36px;
+        margin-left: -159px;
+    }
+    .title.feedBack_title {
+        margin-top: 181px;
+    }
     .politic.descr {
-         margin-left: 0; 
+        margin-left: 0;
         font-size: 18px;
         margin-top: 25px;
         line-height: 26px;
     }
     .footerBrief {
-        margin-top: 73px;
+        margin-top: 72px;
     }
     .footerBrief > .footer .content {
         padding-top: 98px;
     }
     .footerBrief > .footer .networks.footer_network {
         margin-top: -48px;
+    }
+    .mainfooter {
+        margin-top: 101px;
+    }
+    .content {
+        padding-top: 100px;
     }
     //slider
     .footerSlider {
@@ -78,9 +182,11 @@
         bottom: -25px;
         display: block;
         list-style: none;
+        margin-bottom: 83px;
+        margin-left: -18px;
     }
     .communication.footer_communication {
-        width: 24%;
+        width: 37%;
     }
 
     //footer
@@ -238,11 +344,13 @@
     }
     .button.button_red.main_button {
         margin-top: 48px;
+        width: 304px;
     }
 
     //about
     .about {
-        margin-top: 65px;
+        margin-top: 81px;
+        height: 650px;
     }
     .about__title {
         padding-top: 100px;
@@ -257,6 +365,7 @@
         margin-top: 96px;
     }
     .casestitle.title {
+        font-size: 55px;
         width: 514px;
     }
     .casesImages {
@@ -280,7 +389,7 @@
     }
     .casesButtonWrapper {
         display: block;
-        margin-top: 41px;
+        margin-top: 32px;
         padding-bottom: 17px;
     }
     //adv
@@ -292,18 +401,57 @@
         width: 344px;
         line-height: 41px;
     }
+
     .listWrapper {
-        margin-top: 60px;
+        margin-top: 40px;
     }
     .advwrapper {
-        height: 199px;
+        height: 163px;
         width: 100%;
     }
-    .doElem {
-        width: 160%;
+    .advwrapper:nth-child(even) {
+        margin-left: 0;
+        width: 100%;
     }
     .do_doElems {
+        margin-top: 59px;
         flex-direction: column;
+    }
+    .services__title.title {
+        margin-top: 66px;
+        font-size: 48px;
+    }
+    .services_elems {
+        padding-top: 58px;
+    }
+    .services_elems > .doElem .elem_img {
+        width: 139%;
+        height: 271px;
+    }
+    .services_elems > .doElem .button.do_button {
+        display: none;
+    }
+    .container > .services_elems .doElem {
+        height: 100%;
+        margin-top: 17px;
+        padding-bottom: 81px;
+    }
+    
+    .doElem{
+        margin-top: -21px;
+    }
+    .do_doElems>.doElem .elem_img{
+        width: 139%;
+        margin-top: -30px;
+    }
+    .doButtonWrapper{
+        margin-top: -165px;
+    }
+    
+    .friends_wrapper {
+        justify-content: center;
+        padding-top: 0px;
+        width: 99%;
     }
     .elem_img {
         width: 68%;
@@ -318,10 +466,62 @@
         width: 100%;
         margin-left: 0;
     }
+    .friends {
+        margin-top: 137px;
+        height: 930px;
+    }
+    .friend__logo{
+        margin-top: 44px;
+    }
+    .servicesfooter > .footer .content {
+        padding-top: 97px;
+    }
+    .servicesfooter > .footer .communication.footer_communication {
+        width: 24%;
+    }
+    .friends_title.title {
+        margin-right: 0;
+        margin-top: -67px;
+        font-size: 36px;
+        width: 98%;
+        line-height: 44px;
+        text-align: center;
+    }
     //new
-
+    .new {
+        margin-top: 79px;
+    }
+    .mainfooter {
+        margin-top: 101px;
+    }
+    .mainfooter > .footer .content {
+        padding-top: 98px;
+    }
+    .events {
+        margin-top: 42px;
+    }
+    .event {
+        margin-bottom: 76px;
+    }
+    .nameContainer {
+        margin-top: 50px;
+    }
+    .title.event__title {
+        line-height: 28px;
+    }
+    .newButtonWrapper {
+        margin: -3px;
+    }
+    .title.newtitle {
+        font-size: 48px;
+    }
+    .descr.newdescr {
+        width: 370px;
+        line-height: 36px;
+        margin-top: 10px;
+    }
     .title.do_title {
-        margin-top: 81px;
+        margin-top: 82px;
         font-size: 48px;
         text-align: left;
     }
@@ -334,10 +534,28 @@
         margin-left: -20px;
     }
     .doButtonWrapper {
-
         display: block;
     }
     //feedback
+    .messageText {
+        margin-left: 66px;
+        margin-top: 47px;
+    }
+    .feedback {
+        height: 1089px;
+        margin-top: 98px;
+    }
+    .feedback_descr.descr {
+        margin-top: 30px;
+        margin-left: -162px;
+    }
+    .title.feedBack_title {
+        margin-left: -128px;
+        margin-top: 41px;
+        font-size: 48px;
+        white-space: pre-line;
+        line-height: 57px;
+    }
     .itemMessage {
         margin-left: 25px;
         height: 258px;
@@ -352,11 +570,22 @@
     }
     .item_letter.descr {
         width: 307px;
+        line-height: 23px;
+    }
+    .messageText.secondgroup {
+        margin-left: 44px;
+        margin-top: 58px;
     }
     .sliderWrapper {
         width: 1570px;
     }
     .Positiondescr.descr {
         font-size: 16px;
+    }
+    button.button_red.main_button {
+        width: 304px;
+    }
+    .mainfooter>.footer .communication.footer_communication{
+        width: 24%;
     }
 }
