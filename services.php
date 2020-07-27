@@ -162,8 +162,6 @@
                 <img src="./public/images/services3.png" class="friend__logo" alt="">
                 <img src="./public/images/services4.png" class="friend__logo" alt="">
                 <img src="./public/images/services5.png" class="friend__logo" alt="">
-            </div>
-            <div class="friends_wrapper friend_wrapper_anymargin">
                 <img src="./public/images/services6.png " class="friend__logo " alt="">
                 <img src="./public/images/services7.png" class="friend__logo" alt="">
                 <img src="./public/images/services8.png" class="friend__logo" alt="">

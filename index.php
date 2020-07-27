@@ -409,7 +409,7 @@
                   </div>
                 </div>
               </div>
-              <img src="./public/images/avagroup2item2.png" alt="" class="item__logo">
+              <img src="./public/images/avagroup2item2.png" alt="" class="item__logo second_item__logo">
             </div>
           </div>
         </div>
@@ -433,19 +433,19 @@
           </div>
           <div class="event">
             <img class="event__img" src="./public/images/Events2.png" alt="">
-            <p class="nameContainer nameContainer2 "><span class="event__name">РЕКЛАМНЫЕ РАЗРАБОТКИ</span></p>
-            <span class="title event__title">Разработка высоконагруженных </span>
-            <span class="title event__title secondrow"> социальных проектов </span>
+            <p class="nameContainer  "><span class="event__name">РЕКЛАМНЫЕ РАЗРАБОТКИ</span></p>
+            <span class="title event__title">Разработка высоконагруженных 
+              социальных проектов</span>
 
           </div>
           <div class="event">
             <img class="event__img " src="./public/images/Events3.png" alt="">
-            <p class="nameContainer nameContainer2"><span class="event__name">НОВИНКИ В СФЕРЕ ИЛЛЮСТРАЦИЙ</span></p>
-            <span class="title event__title anything">Новые коллекции иллюстраций</span>
+            <p class="nameContainer "><span class="event__name">НОВИНКИ В СФЕРЕ ИЛЛЮСТРАЦИЙ</span></p>
+            <span class="title event__title ">Новые коллекции иллюстраций</span>
           </div>
           <div class="event ">
             <img class="event__img" src="./public/images/Events4.png" alt="">
-            <p class="nameContainer nameContainer2"><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
+            <p class="nameContainer "><span class="event__name">ТЕНДЕНЦИИ КЛИЕНТОВ</span></p>
             <span class="title event__title">Социальный маркетинг</span>
           </div>
           <div class="newButtonWrapper">

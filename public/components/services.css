@@ -23,15 +23,15 @@
 
 .friends_wrapper {
   align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
   padding-top: 68px;
   margin: 0 auto;
-  width: 1549px; }
+  width: 80%; }
 
 .friend__logo {
-  margin-top: 50px; }
+  margin-right: 4%;
+  margin-top: 74px; }
 
 .servicesfooter {
   margin-top: -17px; }

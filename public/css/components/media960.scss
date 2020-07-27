@@ -1,0 +1,386 @@
+@media (max-width: 960px) {
+    //inCase
+    .inCase_mainblock {
+        margin-top: 65px;
+        margin-left: 5.5%;
+    }
+    .mainBlock_works {
+        height: 540px;
+        width: 231px;
+    }
+    .inCase_descr {
+        margin-top: 67px;
+        letter-spacing: 3px;
+    }
+    .mainBlock__img {
+        margin-left: 62px;
+        width: 65.6%;
+        margin-top: 14%;
+    }
+    .step {
+        width: 343px;
+    }
+
+    .step:nth-child(even) {
+        margin-left: 106px;
+    }
+    .step_anystep.step {
+        margin-top: 39px;
+    }
+    .step.step_sec {
+        line-height: 19px;
+        margin-left: 0;
+    }
+    .step_descr_elem.descr.step_descr {
+        line-height: 38px;
+        margin-top: -11px;
+    }
+    .step_subtitle.descr.step_anypad {
+        padding-bottom: 37px;
+    }
+    .step_anystep.step {
+        margin-top: -26px;
+    }
+    .inCase_stepsBlock {
+        padding-bottom: 56px;
+    }
+    .imgweb_img {
+        margin-top: 85px;
+        width: 100%;
+        height: 100%;
+    }
+    .imgweb {
+        height: 3223px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .casesImages.anyworks_casesImages {
+        justify-content: space-between;
+        margin-top: 65px;
+    }
+    .anyworksButtonWrapper {
+        margin-top: 27px;
+    }
+    //inNew
+    .webDesign_descr.descr {
+        margin-top: 83px;
+        text-align: center;
+    }
+    .title.title_white.webDesign_descr {
+        margin-top: 50px;
+        margin-left: 0;
+        padding-bottom: 116px;
+        text-align: center;
+    }
+    .c_video {
+        width: 291px;
+        height: 216px;
+    }
+    //inserv
+    .inServ_descr.descr {
+        width: 857px;
+    }
+    .container {
+        width: 88.5%;
+    }
+    //menu
+    .header {
+        padding-top: 66px;
+    }
+    .container-menu {
+        width: 800px;
+    }
+    .writeMe {
+        margin-right: 33px;
+    }
+    .header__logo {
+        margin-left: 31px;
+    }
+    //main
+    .main {
+        height: 650px;
+    }
+    .main__picture {
+        left: 0;
+        width: 429px;
+        height: 432px;
+        margin-top: 37px;
+        left: 9px;
+    }
+    .text {
+        margin-top: 74px;
+    }
+    .title.title_white.title_main {
+        font-size: 64px;
+    }
+    .descr.descr_white.descr_main {
+        margin-top: 16px;
+        width: 444px;
+    }
+    .button.button_red.main_button {
+        margin-top: 43px;
+    }
+    //case
+    .imageScale {
+        width: 464px;
+        height: 274px;
+        position: static;
+    }
+    .imagetext {
+        position: static;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 76px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    .casessubtitle {
+        width: 203px;
+    }
+    .images {
+        transition: 0.6s;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 274px;
+        perspective: 100px;
+        width: 100%;
+    }
+    .casesImages {
+        margin-top: 76px;
+        flex-direction: column;
+    }
+    .imagesContainer:nth-child(even) {
+        margin-left: 0px;
+    }
+    .imagesContainer {
+        margin-bottom: 81px;
+    }
+    .casesButtonWrapper {
+        margin-top: 22px;
+        padding-bottom: 66px;
+    }
+    .back {
+        height: 100%;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    //adv
+
+    .listWrapper {
+        margin-top: 31px;
+    }
+    .advantages {
+        margin-top: 78px;
+    }
+    .advwrapper {
+        margin-top: 37px;
+        height: 217px;
+        width: 50%;
+    }
+    .wrapperContent {
+        width: 93%;
+        margin-left: 0;
+    }
+    .advwrapper:nth-child(even) {
+        margin-left: 42px;
+        width: 45%;
+    }
+    //about
+    .about {
+        margin-top: 107px;
+        height: 653px;
+    }
+    .about__title {
+        padding-top: 149аpx;
+        margin-left: 53px;
+    }
+    .about__text {
+        margin-left: 86px;
+        line-height: 45px;
+        width: 686px;
+        font-size: 36px;
+    }
+
+    //do
+    .button.do_button {
+        margin-top: 52px;
+    }
+    .doButtonWrapper {
+        margin-top: 49px;
+    }
+    .title.do_title {
+        margin-top: 144px;
+        text-align: center;
+    }
+    .descr.do_title {
+        text-align: center;
+    }
+    .do_doElems {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .doElem {
+        width: 389px;
+        display: flex;
+        flex-direction: column;
+    }
+    .doelem_wrapper {
+        display: flex;
+        margin-top: 96px;
+    }
+    .elem_img {
+        width: 390px;
+        height: 284px;
+    }
+    .elemDescr {
+        margin-left: 0;
+    }
+    .newList {
+        width: 100%;
+    }
+    .list {
+        width: 355.3px;
+    }
+    .list__arrow {
+        margin-left: 0;
+    }
+    .elem__name {
+        margin-top: 48px;
+    }
+    //feedback
+    .feedback {
+        margin-top: 119px;
+    }
+    //123
+    //fooeter
+    .firstBlock {
+        width: 242px;
+    }
+    .Blocks {
+        width: 516px;
+    }
+    .secBlock {
+        width: 744px;
+    }
+    .thirdBlock {
+        width: 240px;
+    }
+    .communication.footer_communication {
+        width: 44%;
+    }
+    .networks.footer_network {
+        margin-left: 336px;
+        margin-top: 143px;
+    }
+    //new
+    .title.event__title {
+        font-size: 24px;
+    }
+    .event:nth-child(even) {
+        margin-top: 0;
+    }
+    .newButtonWrapper {
+        margin-top: 33px;
+    }
+    .event__img {
+        width: 382px;
+        height: 318px;
+    }
+    //footer
+    .mainfooter {
+        margin-top: 159px;
+    }
+    //brief
+    .inputs {
+        width: 995px;
+    }
+    .inputs.secondinputs {
+        width: 85%;
+    }
+    .inputText {
+        width: 415px;
+    }
+    .hr {
+        width: 100%;
+    }
+    .tusk__textarea {
+        width: 100%;
+    }
+
+    //job
+    .jobs_vacancy:nth-child(even) {
+        margin-left: 30px;
+    }
+    .jobs_vacancy {
+        width: 410px;
+        height: 280px;
+    }
+    .job_title.title {
+        width: 453px;
+        line-height: 66px;
+    }
+    .vacancy_wrapper {
+        margin-top: 69px;
+        margin-left: 51px;
+    }
+    .request__input:nth-child(even) {
+        margin-left: 38px;
+    }
+    .job_request.request {
+        height: 800px;
+        margin-top: 133px;
+    }
+    .title.title_white.req_title {
+        margin-top: 77px;
+        width: 510px;
+    }
+    .descr.whitedescr.req_descr.req_descr_job {
+        margin-top: 33px;
+        padding-bottom: 16px;
+    }
+
+    //services
+    .services_elems {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .friends {
+        margin-top: 93px;
+        height: 783px;
+    }
+    .friends_title.title {
+        margin-right: 52px;
+
+        text-align: left;
+    }
+    .friend__logo {
+        margin-right: 1%;
+        width: 179px;
+        margin-top: 50px;
+    }
+    .friends_wrapper {
+        padding-top: 81px;
+        width: 99%;
+    }
+    .friends_wrapper.friend_wrapper_anymargin {
+        padding-top: 120px;
+    }
+
+    //school
+    .who_categories {
+        margin-top: 96px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .categories_category {
+        margin-left: 0px;
+        width: 738px;
+        height: 357px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+}

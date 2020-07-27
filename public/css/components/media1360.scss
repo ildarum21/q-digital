@@ -1,0 +1,83 @@
+@media (max-width: 1360px) {
+    .container {
+        width: 89.7%;
+    }
+    .inServ_descr.descr {
+        width: 1023px;
+    }
+    .main {
+        height: 851px;
+    }
+    .text {
+        margin-top: 148px;
+    }
+    .main__picture {
+        margin-top: 14px;
+        left: 4px;
+    }
+    .header {
+        padding-top: 65px;
+    }
+    .header__logo {
+        margin-left: 34px;
+    }
+    .writeMe {
+        margin-right: 39px;
+    }
+    .imageScale {
+        height: 763px;
+    }
+    .casesImages {
+        margin-top: 139px;
+    }
+    .imagesContainer {
+        margin-bottom: 62px;
+    }
+    .casesButtonWrapper {
+        margin-top: 40px;
+    }
+    .advantages {
+        margin-top: 93px;
+    }
+    .listWrapper {
+        margin-top: 31px;
+    }
+    .advwrapper {
+        height: 330px;
+    }
+    .back {
+        align-items: flex-start;
+    }
+    .wrapperContent {
+        margin-left: 67px;
+    }
+    //about
+    .about {
+        height: 650px;
+        margin-top: 49px;
+    }
+    .title.do_title{
+        margin-top: 146px;
+    }
+    .about__title {
+        padding-top: 148px;
+    }
+    //event
+    .event{
+        margin-bottom: 77px;
+    }
+    .newButtonWrapper{
+        margin-top: 45px;
+    }
+    //footer
+    .mainfooter {
+        margin-top: 151px;
+    }
+    .Blocks {
+        width: 695px;
+        display: flex;
+    }
+    .secBlock {
+        width: 448px;
+    }
+}

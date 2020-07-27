@@ -1,0 +1,252 @@
+@media (max-width: 540px) {
+  .container {
+    width: 92.592%; }
+  .brief__title.title {
+    margin-left: 0;
+    margin-top: 91px;
+    line-height: 52px;
+    width: 391px;
+    font-size: 48px; }
+  .brief__descr {
+    margin-left: 0;
+    width: 381px;
+    line-height: 27px; }
+  .Elem__title.title {
+    margin-left: 0;
+    margin-top: 71px; }
+  .Elem__title.title.price {
+    margin-top: 89px; }
+  .inputs {
+    display: block; }
+  .inputs.secondinputs {
+    display: flex;
+    width: 85%; }
+  .label2 {
+    margin-right: 21px;
+    margin-top: 22px; }
+  .Elem__title.title.tusk {
+    margin-top: 78px; }
+  .Elem__title.title.contacts {
+    margin-top: 73px; }
+  .inputText:nth-child(2n) {
+    margin-left: 0; }
+  .inputText {
+    margin-top: 22px; }
+  .briefButton {
+    margin-top: 53px; }
+  .politic.descr {
+    margin-left: 0;
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 26px; }
+  .footerBrief {
+    margin-top: 73px; }
+  .footerBrief > .footer .content {
+    padding-top: 98px; }
+  .footerBrief > .footer .networks.footer_network {
+    margin-top: -48px; }
+  .footerSlider {
+    margin-left: 33px;
+    overflow: visible;
+    width: 1920px;
+    height: 718px;
+    margin-top: 75px; }
+  .slick-dots {
+    width: 1530px;
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    list-style: none; }
+  .communication.footer_communication {
+    width: 24%; }
+  .content {
+    padding-top: 104px;
+    height: 100%;
+    justify-content: flex-start;
+    flex-direction: column; }
+  .Blocks {
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column; }
+  .block__text.descr.adresss {
+    margin-top: 57px; }
+  .footer__adress.footer_text {
+    padding-bottom: 69px; }
+  .thirdBlock {
+    height: 300px; }
+  .footerMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    width: 530px;
+    height: 190px; }
+  .footer {
+    height: 996px; }
+  .networks.footer_network {
+    margin-top: -48px;
+    margin-left: 3px; }
+  .container-menu.active {
+    flex-direction: column; }
+  .wrapper {
+    align-items: flex-start;
+    justify-content: flex-start; }
+  .menulist {
+    margin-top: -28px;
+    margin-left: 16px; }
+  .menulist__li {
+    font-size: 60px;
+    margin-top: 27px; }
+  .inServ_descr.descr {
+    width: 508px; }
+  .job_title.title {
+    margin-top: 75px;
+    font-size: 48px;
+    line-height: 57px; }
+  .job_descr.descr {
+    margin-top: 31px; }
+  .jobs_vacancy:nth-child(even) {
+    margin-left: 0; }
+  .job_jobs {
+    justify-content: center;
+    margin-top: 15px; }
+  .job_jobs:first-child {
+    margin-top: 12px; }
+  .jobs_vacancy {
+    width: 89%;
+    margin-top: 52px; }
+  .title.title_white.req_title {
+    font-size: 48px;
+    margin-top: 156px;
+    line-height: 56px; }
+  .descr.whitedescr.req_descr.req_descr_job {
+    margin-top: 33px;
+    width: 424px;
+    padding-bottom: 0px;
+    line-height: 24px; }
+  .button.white_button.req__button {
+    margin-top: 52px; }
+  .job_request.request {
+    height: 1022px; }
+  .request__input {
+    margin-top: 25px; }
+  .request__input:nth-child(even) {
+    margin-left: 0; }
+  .inServ_textBlock {
+    margin-top: 71px; }
+  .inJob_descr.descr {
+    padding-bottom: 14px;
+    margin-top: 47px; }
+  .descr.descrbig {
+    line-height: 26px; }
+  .injob_request.request {
+    height: 925px; }
+  .header__logo {
+    margin-left: 0px; }
+  .writeMe {
+    margin-right: 0; }
+  .main-wrapper {
+    margin-top: 43px; }
+  .main {
+    height: 1048px; }
+  .title.title_white.title_main {
+    font-size: 55px;
+    line-height: 69px; }
+  .descr.descr_white.descr_main {
+    margin-top: 23px; }
+  .main__picture {
+    margin: 0 auto;
+    order: 1;
+    width: 427px;
+    position: static; }
+  .text {
+    order: 2;
+    margin-top: 32px; }
+  .main-wrapper {
+    display: flex;
+    flex-direction: column; }
+  .button.button_red.main_button {
+    margin-top: 48px; }
+  .about {
+    margin-top: 65px; }
+  .about__title {
+    padding-top: 100px;
+    margin-left: 0px; }
+  .about__text {
+    margin-left: 0;
+    width: 500px; }
+  .cases {
+    margin-top: 96px; }
+  .casestitle.title {
+    width: 514px; }
+  .casesImages {
+    margin-top: 51px; }
+  .imageScale {
+    width: 540px;
+    height: 274px;
+    margin-left: -20px; }
+  .images {
+    display: block;
+    height: 382px; }
+  .imagetext {
+    margin-left: 16px;
+    margin-top: 31px; }
+  .casessubdescr.descr {
+    padding-bottom: 12px; }
+  .casesButtonWrapper {
+    display: block;
+    margin-top: 41px;
+    padding-bottom: 17px; }
+  .title.advtitle {
+    font-size: 48px; }
+  .descr.advtitle {
+    margin-top: 10px;
+    width: 344px;
+    line-height: 41px; }
+  .listWrapper {
+    margin-top: 60px; }
+  .advwrapper {
+    height: 199px;
+    width: 100%; }
+  .doElem {
+    width: 160%; }
+  .do_doElems {
+    flex-direction: column; }
+  .elem_img {
+    width: 68%;
+    margin-left: -20px; }
+  .back {
+    display: block;
+    height: 334px;
+    width: 100%; }
+  .wrapperContent {
+    width: 100%;
+    margin-left: 0; }
+  .title.do_title {
+    margin-top: 81px;
+    font-size: 48px;
+    text-align: left; }
+  .descr.do_title {
+    text-align: left; }
+  .event__img {
+    width: 108%;
+    height: 318px;
+    margin-left: -20px; }
+  .doButtonWrapper {
+    display: block; }
+  .itemMessage {
+    margin-left: 25px;
+    height: 258px;
+    width: 384px;
+    background: url(./images/minicloudleft.png); }
+  .itemMessage.right {
+    margin-left: 0;
+    width: 374px;
+    height: 268px;
+    background: url(./images/minicloudright.png); }
+  .item_letter.descr {
+    width: 307px; }
+  .sliderWrapper {
+    width: 1570px; }
+  .Positiondescr.descr {
+    font-size: 16px; } }

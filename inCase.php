@@ -40,26 +40,30 @@
             <div class="inCase_stepsBlock">
                 <div class="step first_step">
                     <div class="step_subtitle descr step_anypad">О проекте</div>
-                    <div class="step_descr descr">Это система, которая позволяет пользователю</div>
-                    <div class="step_descr descr">редактировать и выкладывать информацию, текста в</div>
-                    <div class="step_descr descr  last_step">одном приложении</div>
+                    <div class="step_descr descr step_descr_elem">Это система, которая позволяет пользователю
+                        редактировать и выкладывать информацию, текста в
+                        одном приложении
+                    </div>
                 </div>
                 <div class="step">
                     <div class="step_subtitle descr step_anypad">Аудитория</div>
-                    <div class="step_descr descr">Целевая аудитория - люди, работающие с различными</div>
-                    <div class="step_descr descr">текстами, редакторами</div>
+                    <div class="step_descr descr step_descr_elem">Целевая аудитория - люди, работающие с различными
+                        текстами, редакторами
+                    </div>
                 </div>
                 <div class="step step_anystep">
                     <div class="step_subtitle descr step_anypad">Задача</div>
-                    <div class="step_descr descr">Разработать сайт, который будет содержать в себе</div>
-                    <div class="step_descr descr">все необоходимые инструментами редактирования </div>
-                    <div class="step_descr descr last_step">текста</div>
+                    <div class="step_descr descr step_descr_elem">Разработать сайт, который будет содержать в себе
+                        все необоходимые инструментами редактирования
+                        текста
+                    </div>
                 </div>
-                <div class="step step_anystep step_anystep2">
-                    <div class="step_subtitle descr step_anypad step_anypad2">Решение</div>
-                    <div class="step_descr descr">Мы детально разработали функционал проекта, определили</div>
-                    <div class="step_descr descr">цели и задачи. Далее сделали прототип и макет дизайна</div>
-                    <div class="step_descr descr last_step">сайта, который удовлетворяет все требования ТЗ</div>
+                <div class="step step_anystep ">
+                    <div class="step_subtitle descr step_anypad ">Решение</div>
+                    <div class="step_descr descr step_descr_elem">Мы детально разработали функционал проекта, определили
+                        цели и задачи. Далее сделали прототип и макет дизайна
+                        сайта, который удовлетворяет все требования ТЗ
+                    </div>
                 </div>
             </div>
         </div>
@@ -75,16 +79,20 @@
 
                     <div class="imagesContainer ">
                         <div class="images anyworks_images">
-                            <img src="./public/images/taxibg.png" alt="" class="cases__img">
-                            <div class="imagetext  taxi">
+                            <div class="imageScale" style="background:url(./public/images/taxibg.png);background-position: center;
+        background-size:cover;background-repeat:no-repeat;">
+                            </div>
+                            <div class="imagetext">
                                 <div class="casessubtitle ">Objective C</div>
                                 <div class="casessubdescr descr ">Приложение для такси</div>
                             </div>
                         </div>
                     </div>
-                    <div class="imagesContainer secondcont">
+                    <div class="imagesContainer ">
                         <div class="images anyworks_images">
-                            <img src="./public/images/im5.jpg" alt="" class="cases__img">
+                            <div class="imageScale" style="background:url(./public/images/im5.jpg);background-position: center;
+        background-size:cover;background-repeat:no-repeat;">
+                            </div>
                             <div class="imagetext push">
                                 <div class="casessubtitle ">Angular</div>
                                 <div class="casessubdescr descr ">Сайт для провайдера IP телефонии</div>
@@ -104,4 +112,5 @@
         </div>
 </body>
 <script src="./public/js/script.js"></script>
+
 </html>

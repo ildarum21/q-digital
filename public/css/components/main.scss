@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  width: 1214px;
+  width: 63.3%;
 }
 // Первый экран
 .main {
@@ -444,12 +444,6 @@
 .event:nth-child(even) {
   margin-top: 100px;
 }
-.title.event__title.anything {
-  margin-top: 34px;
-}
-.title.event__title.secondrow {
-  margin-top: 10px;
-}
 .events {
   flex-wrap: wrap;
   align-content: flex-end;
@@ -482,15 +476,6 @@
 .nameContainer {
   margin-top: 30px;
 }
-.nameContainer.nameContainer2 {
-  margin-top: 42px;
-}
-.nameContainer.nameContainer3 {
-  margin-top: 0;
-}
-.nameContainer.nameContainer4 {
-  margin-top: 0;
-}
 
 .event__name {
   padding-top: 6px;
@@ -509,6 +494,7 @@
   color: #252525;
   font-size: 30px;
   margin-top: 32px;
+  white-space: pre-line;
 }
 .mainfooter{
   margin-top: 200px;
