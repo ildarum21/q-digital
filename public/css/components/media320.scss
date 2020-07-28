@@ -118,8 +118,9 @@
     }
     .container > .do_doElems .doElem {
         height: 100%;
+        padding-bottom: 60px;
     }
-    .do_doElems{
+    .do_doElems {
         margin-top: 27px;
     }
     .main__picture {
@@ -251,19 +252,46 @@
     }
     //do
     .doButtonWrapper {
-        margin-top: 30px;
+        margin-top: -42px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .elem_img {
-        width: 78%;
-        height: 196px;
-    }
     .list {
-        width: 60%;
+        width: 98%;
         margin-top: 15px;
     }
+    .services_elems > .doElem .elem_img {
+        width: 114%;
+        height: 196px;
+    }
+    .friends {
+        margin-top: 20px;
+    }
+    .friend__logo {
+        margin-right: 1%;
+        width: 49%;
+        margin-top: 28px;
+    }
+    .servicesfooter {
+        margin-top: -240px;
+    }
+    .servicesfooter > .footer .content {
+        padding-top: 44px;
+    }
+    .servicesfooter > .footer .communication.footer_communication {
+        width: 19%;
+    }
+    .friends_title.title {
+        margin-right: 28px;
+        margin-top: 14px;
+        font-size: 25px;
+        width: 77%;
+        white-space: normal;
+        line-height: 30px;
+        text-align: left;
+    }
+    
     .elem__name {
         padding-bottom: 0;
         font-size: 18px;
@@ -273,9 +301,13 @@
         font-size: 16px;
     }
     .button.do_button {
-        margin-top: 30px;
+        margin-top: 20px;
         margin-left: 25px;
         width: 230px;
+    }
+    .services_elems > .doElem .button.do_button {
+        display: flex;
+        margin-top: 20px;
     }
     //sldier
     .doElem {
@@ -318,6 +350,9 @@
     .feedback {
         height: 493px;
         margin-top: 73px;
+    }
+    .mainfooter > .footer .communication.footer_communication {
+        width: 19%;
     }
     .title.feedBack_title {
         margin-left: 0px;
@@ -406,12 +441,17 @@
     .event {
         margin-bottom: 44px;
     }
+    .do_doElems > .doElem .elem_img {
+        width: 82%;
+        height: 197px;
+        margin-top: -30px;
+    }
     .newButtonWrapper {
         margin: 0 auto;
         margin-top: -3px;
     }
     .mainfooter {
-        margin-top: 78px;
+        margin-top: 82px;
     }
     //footer
     .footer__logo {
@@ -590,5 +630,32 @@
     .footerBrief > .footer .block__text.descr.adresss {
         margin-top: 32px;
         margin-left: 0;
+    }
+
+    .services__title.title {
+        margin-top: 52px;
+        font-size: 25px;
+    }
+    .descr.descr__title {
+        margin-top: 12px;
+    }
+    .services_elems {
+        padding-top: 20px;
+    }
+
+    //inserv
+    .title.inserv_title.services__title {
+        margin-top: 17.4%;
+    }
+    .descr.descr__title.inserv_descr {
+        margin-top: 4.7%;
+        font-size: 17px;
+    }
+    .inServ_textBlock {
+        margin-top: 9.8%;
+    }
+    .inServ_subtitle.subtitle {
+        padding-bottom: 2.3%;
+        font-size: 18px;
     }
 }

@@ -175,8 +175,6 @@
   .menulist__li {
     font-size: 60px;
     margin-top: 27px; }
-  .inServ_descr.descr {
-    width: 508px; }
   .job_title.title {
     margin-top: 75px;
     font-size: 48px;
@@ -210,8 +208,6 @@
     margin-top: 25px; }
   .request__input:nth-child(even) {
     margin-left: 0; }
-  .inServ_textBlock {
-    margin-top: 71px; }
   .inJob_descr.descr {
     padding-bottom: 14px;
     margin-top: 47px; }
@@ -307,15 +303,16 @@
     display: none; }
   .container > .services_elems .doElem {
     height: 100%;
-    margin-top: 17px;
+    margin-top: 1px;
     padding-bottom: 81px; }
   .doElem {
+    height: 762px;
     margin-top: -21px; }
   .do_doElems > .doElem .elem_img {
     width: 139%;
-    margin-top: -30px; }
+    margin-top: -18px; }
   .doButtonWrapper {
-    margin-top: -165px; }
+    margin-top: -145px; }
   .friends_wrapper {
     justify-content: center;
     padding-top: 0px;
@@ -341,11 +338,13 @@
     width: 24%; }
   .friends_title.title {
     margin-right: 0;
-    margin-top: -67px;
+    margin-top: -73px;
     font-size: 36px;
     width: 98%;
     line-height: 44px;
     text-align: center; }
+  .servicesfooter {
+    margin-top: -163px; }
   .new {
     margin-top: 79px; }
   .mainfooter {
@@ -418,4 +417,54 @@
   button.button_red.main_button {
     width: 304px; }
   .mainfooter > .footer .communication.footer_communication {
-    width: 24%; } }
+    width: 24%; }
+  .case__title.title {
+    font-size: 47.4px;
+    margin-top: 57px; }
+  .case__descr {
+    line-height: 35px; }
+  .list__item.case_list__item {
+    margin-top: 20px; }
+  .list__item.case_list__item {
+    padding: 15px 23.1px; }
+  .casesImages {
+    margin-top: 78px; }
+  .inServ_textBlock {
+    margin-top: 19.9%; }
+  .title.inserv_title.services__title {
+    text-align: left;
+    margin-top: 15.9%; }
+  .descr.descr__title.inserv_descr {
+    text-align: left;
+    margin-top: 5.7%; }
+  .inServ_subtitle.subtitle {
+    padding-bottom: 8.5%; }
+  .inServ_descr.descr {
+    line-height: 194.8%; }
+  .descr.inServ_descr.second {
+    margin-top: 1%; }
+  .inServ_descr.descr.row:first-child {
+    line-height: 201%; }
+  .ul_block {
+    margin-top: 6.8%; }
+  .textBlock_button {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 7.8%; }
+  .title.services__title.anyServ_sectitle {
+    margin-top: 18.7%;
+    text-align: left;
+    padding-bottom: 11px; }
+  .doelem_button.textBlock_button {
+    margin-top: -15%;
+    margin-left: 4%; }
+  .inServFriend.friends {
+    margin-top: 81px; }
+  .title.friends_title.inServFriend {
+    margin-right: 3px;
+    margin-top: 90px;
+    text-align: center; }
+  .inservfooter {
+    margin-top: 0.5%; }
+  .inservfooter > .footer .communication.footer_communication {
+    width: 23.1%; } }

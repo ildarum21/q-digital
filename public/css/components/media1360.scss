@@ -2,9 +2,6 @@
     .container {
         width: 89.7%;
     }
-    .inServ_descr.descr {
-        width: 1023px;
-    }
     .main {
         height: 851px;
     }
@@ -38,7 +35,12 @@
         margin-bottom: 62px;
     }
     .casesButtonWrapper {
-        margin-top: 40px;
+        margin-top: 21px;
+    }
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+        content: " ";
     }
     .advantages {
         margin-top: 93px;
@@ -75,7 +77,7 @@
     }
     //footer
     .mainfooter {
-        margin-top: 151px;
+        margin-top: 156px;
     }
     .Blocks {
         width: 695px;
@@ -130,7 +132,7 @@
     .step_anystep.step {
         margin-top: 18px;
     }
-    .inCase_stepsBlock{
+    .inCase_stepsBlock {
         padding-bottom: 135px;
     }
     .imgweb_img {
@@ -138,30 +140,34 @@
         width: 1219px;
         height: 4300px;
     }
-    .imgweb{
+    .imgweb {
         height: 4566px;
     }
     .step:nth-child(even) {
         margin-left: 105px;
     }
-    .step.step_sec{
+    .step.step_sec {
         margin-left: 0;
     }
-    .button.cases_button{
-        margin-left: 51px;
-    margin-top: 18px;
+    .button.cases_button {
+        margin-left: 2px;
+        margin-top: 18px;
     }
-    .anyworksFooter>.footer .secBlock{
+    .anyworksFooter > .footer .secBlock {
         width: 477px;
     }
     //service
     .services__title.title {
-        margin-top: 129px;
+        margin-top: 10.4%;
     }
-    .doElem{
+    .descr.descr__title.inserv_descr{
+        margin-top: 2.2%;
+        font-size: 15.5px;
+    }
+    .doElem {
         margin-top: 48px;
     }
-    .friends_wrapper{
+    .friends_wrapper {
         padding-top: 52px;
         width: 100%;
     }
@@ -172,8 +178,51 @@
     .servicesfooter {
         margin-top: -10px;
     }
-    .friends{
+    .friends {
         margin-top: 148px;
     }
+    //case
+    .case__title.title {
+        margin-top: 129px;
+    }
+    .list__item.case_list__item {
+        padding: 17px 20.1px;
+    }
+    //inserv
+    .inServ_subtitle.subtitle {
+        padding-bottom: 5.5%;
+    }
+    .inServ_descr.descr {
+        white-space: pre-line;
+        font-size: 15.5px;
+        margin-top: -59px;
+        line-height: 36px;
+    }
+    .descr.inServ_descr.second {
+        margin-top: -6%;
+    }
+    .inServ_descr.descr.row:first-child {
+        line-height: 39px;
+    }
+    .descr.inServ_descr.second {
+        margin-top: -69px;
+    }
+    .inServ_textBlock {
+        margin-top: 7.8%;
+    }
+    .ul_block {
+        margin-top: -1.8%;
+    }
+    .title.services__title.anyServ_sectitle{
+        margin-top: 7.6%;
+    }
+    .doelem_wrapper {
+        margin-top: 3.7%;
+    }
+    .inservfooter {
+        margin-top: -1.5%;
+    }
+    .inservfooter>.footer .content{
+        padding-top: 146px;
+    }
 }
-

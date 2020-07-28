@@ -16,6 +16,11 @@
   display: flex;
   flex-direction: column; }
 
+.slick-dots li button:before {
+  width: 10px;
+  height: 10px;
+  content: ' '; }
+
 .main__picture {
   position: relative;
   margin-top: 53px;
@@ -296,7 +301,7 @@
   margin-top: 100px; }
 
 .slick-dots {
-  margin-bottom: 130px; }
+  margin-bottom: 117px; }
 
 .slick-dots li.slick-active button:before {
   opacity: 1;
@@ -423,7 +428,7 @@
 
 .newButtonWrapper {
   margin: 0 auto;
-  margin-top: 52px; }
+  margin-top: 82px; }
 
 .event:hover .event__img {
   transform: rotate3d(0, 1, 0, -1deg); }
@@ -452,7 +457,7 @@
 .mainfooter {
   margin-top: 200px; }
 
-.slick-dots li button:before {
+li button:before {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background: white;
   border-radius: 50px;

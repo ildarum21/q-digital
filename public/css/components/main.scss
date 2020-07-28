@@ -1,3 +1,4 @@
+
 .container {
   margin: 0 auto;
   width: 63.3%;
@@ -9,6 +10,7 @@
   background: url("./images/mainbg.png") no-repeat center top/cover;
 }
 .main-wrapper {
+  
   display: flex;
   justify-content: space-between;
 }
@@ -16,6 +18,11 @@
   margin-top: 192px;
   display: flex;
   flex-direction: column;
+}
+.slick-dots li button:before{
+  width: 10px;
+  height: 10px;
+  content: ' ';
 }
 .main__picture {
   position: relative;
@@ -319,7 +326,7 @@
 // slider screen
 //slider
 .slick-dots {
-  margin-bottom: 130px;
+  margin-bottom: 117px;
 }
 
 .slick-dots li.slick-active button:before {
@@ -466,7 +473,7 @@
 }
 .newButtonWrapper {
   margin: 0 auto;
-  margin-top: 52px;
+  margin-top: 82px;
 }
 
 .event:hover .event__img {
@@ -499,7 +506,7 @@
 .mainfooter{
   margin-top: 200px;
 }
-.slick-dots li button:before{
+ li button:before{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background: white;
   border-radius: 50px;

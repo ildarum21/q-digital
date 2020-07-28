@@ -156,7 +156,7 @@
                     <div class="imageScale" style="background:url(./public/images/im11.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
-                        <div class="imagetext  ">
+                        <div class="imagetext  anyimagestext">
                             <div class="casessubtitle ">СПМ</div>
                             <div class="casessubdescr descr ">Сервис по продаже электронных микрокомпонентов</div>
                         </div>

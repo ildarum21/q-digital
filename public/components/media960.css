@@ -62,8 +62,6 @@
   .c_video {
     width: 291px;
     height: 216px; }
-  .inServ_descr.descr {
-    width: 857px; }
   .container {
     width: 88.5%; }
   .header {
@@ -154,7 +152,7 @@
   .button.do_button {
     margin-top: 52px; }
   .doButtonWrapper {
-    margin-top: -29px; }
+    margin-top: -5px; }
   .title.do_title {
     margin-top: 144px;
     text-align: center; }
@@ -166,9 +164,13 @@
   .doElem {
     margin-top: 50px;
     width: 388px;
-    height: 771px;
+    height: 741px;
     display: flex;
     flex-direction: column; }
+  .slick-dots li button:before {
+    width: 10px;
+    height: 10px;
+    content: " "; }
   .doelem_wrapper {
     display: flex;
     margin-top: 96px; }
@@ -210,7 +212,7 @@
   .thirdBlock {
     width: 240px; }
   .communication.footer_communication {
-    width: 42%; }
+    width: 44%; }
   .networks.footer_network {
     margin-left: 336px;
     margin-top: 143px; }
@@ -221,12 +223,12 @@
   .event:nth-child(even) {
     margin-top: 0; }
   .newButtonWrapper {
-    margin-top: 38px; }
+    margin-top: 34px; }
   .event__img {
     width: 382px;
     height: 318px; }
   .mainfooter {
-    margin-top: 151px; }
+    margin-top: 153px; }
   .mainfooter > .footer .content {
     padding-top: 167px; }
   .brief__title.title {
@@ -286,16 +288,16 @@
     margin-top: 33px;
     padding-bottom: 16px; }
   .services_elems {
-    padding-top: 76px;
+    padding-top: 47px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
   .friends {
-    margin-top: 137px;
-    height: 783px; }
+    margin-top: 7px;
+    height: 913px; }
   .friends_title.title {
     margin-right: 52px;
-    margin-top: -144px;
+    margin-top: 107px;
     text-align: left; }
   .friend__logo {
     margin-right: 1%;
@@ -305,7 +307,7 @@
     padding-top: 40px;
     width: 99%; }
   .servicesfooter {
-    margin-top: -156px; }
+    margin-top: -37px; }
   .servicesfooter > .footer .content {
     padding-top: 168px; }
   .friends_wrapper.friend_wrapper_anymargin {
@@ -323,4 +325,59 @@
     width: 738px;
     height: 357px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); } }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  .case__title.title {
+    margin-top: 136px; }
+  .newList {
+    margin-top: 22px; }
+  .list__item.case_list__item {
+    margin-top: 21px; }
+  .anyimagestext {
+    margin-right: -74px; }
+  .casefooter {
+    margin-top: 87px; }
+  .title.inserv_title.services__title {
+    text-align: center;
+    margin-top: 15.5%; }
+  .descr.descr__title.inserv_descr {
+    text-align: center;
+    margin-top: 3.4%;
+    font-size: 20px; }
+  .inServ_textBlock {
+    margin-top: 11.5%; }
+  .inServ_subtitle.subtitle {
+    padding-bottom: 5.5%; }
+  .inServ_descr.descr {
+    font-size: 20.2px;
+    margin-top: -3px;
+    line-height: 37px;
+    white-space: normal; }
+  .descr.inServ_descr.second {
+    margin-top: 14px; }
+  .ul_block {
+    margin-top: -0.1%; }
+  .textBlock_button {
+    margin-top: 10.4%; }
+  .title.services__title.anyServ_sectitle {
+    margin-top: 16.9%;
+    text-align: center; }
+  .doelem_wrapper {
+    margin-top: 40.6px; }
+  .doelem_wrapper > .do_doElems .do_doElems {
+    width: 850px; }
+  .doelem_wrapper > .do_doElems .doElem {
+    width: 444px; }
+  .doelem_wrapper > .do_doElems .elem_img {
+    width: 405px; }
+  .doelem_button.textBlock_button {
+    margin-top: 1%; }
+  .inServFriend.friends {
+    margin-top: 128px; }
+  .title.friends_title.inServFriend {
+    margin-right: 3px;
+    margin-top: 107px;
+    text-align: center; }
+  .inservfooter {
+    margin-top: -3.8%; }
+  .inservfooter > .footer .content {
+    padding-top: 19.4%; } }
