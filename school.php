@@ -222,7 +222,9 @@
                     <div class="suggest__price subtitle">4 900
                         <img src="./public/images/moneyyy.png" alt="">
                     </div>
-                    <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
+                    <div class="forpadding">
+                        <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
+                    </div>
                 </div>
 
 
@@ -241,10 +243,12 @@
                             <li class="suggest_menu__item descr">Первые заказы от реальных клиентов</li>
                         </ul>
                     </div>
-                    <div class="suggest__price subtitle">12 900
+                    <div class="suggest__price subtitle anyone1">12 900
                         <img src="./public/images/moneyyy.png" alt="">
                     </div>
-                    <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
+                    <div class="forpadding">
+                        <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
+                    </div>
                 </div>
                 <div class="suggest">
                     <div class="wrepper_height">
@@ -260,10 +264,12 @@
                             <li class="suggest_menu__item descr">Стажировка во время обучения</li>
                             <li class="suggest_menu__item descr">Портфолио из трех работ</li>
                     </div>
-                    <div class="suggest__price subtitle">18 900
+                    <div class="suggest__price subtitle anyone2">18 900
                         <img src="./public/images/moneyyy.png" alt="">
                     </div>
-                    <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
+                    <div class="forpadding">
+                        <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
+                    </div>
                 </div>
             </div>
         </div>

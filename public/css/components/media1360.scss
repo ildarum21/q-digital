@@ -5,7 +5,7 @@
     .main {
         height: 851px;
     }
-   
+
     .main__picture {
         margin-top: 14px;
         left: 4px;
@@ -268,7 +268,7 @@
         margin-top: -0.6%;
     }
     //new
-    .new__title{
+    .new__title {
         margin-top: -24px;
     }
     //innew
@@ -318,10 +318,10 @@
         margin-top: 91px;
         display: flex;
     }
-    .categories_category.nonmargin{
+    .categories_category.nonmargin {
         margin-left: 0;
     }
-    .categories_category:last-child{
+    .categories_category:last-child {
         margin-top: 94px;
     }
     .subtitle.category_subtitle {
@@ -346,7 +346,7 @@
         transition: all 0.5s;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         width: 60%;
-        height: 299px;
+        height: auto;
         margin-top: 83px;
         border-radius: 10px;
         background: white;
@@ -355,17 +355,28 @@
         flex-direction: row;
         display: flex;
         width: 100%;
-        height: 298px;
+        height: auto;
+    }
+    .forpadding {
+        padding-bottom: 6%;
     }
     .suggest_subtitle.subtitle {
-        width: 32%;
+        white-space: pre-line;
+        margin-top: 1%;
+        width: 41%;
         margin-left: 8%;
     }
-    .suggestsBlock{
+    .suggestsBlock {
         height: 1572px;
     }
+    .suggest__price.subtitle.anyone1 {
+        margin-top: -10.7%;
+    }
+    .suggest__price.subtitle.anyone2 {
+        margin-top: -10.8%;
+    }
     .suggest__price {
-        margin-top: -21.6%;
+        margin-top: -15.6%;
         margin-left: 8%;
         padding-bottom: 3.8%;
     }
@@ -377,7 +388,7 @@
         margin-top: 0;
     }
     .suggest_menu {
-        margin-left: 14.7%;
+        margin-left: 5.9%;
         margin-top: 5%;
     }
     .title.program_title {
@@ -405,5 +416,4 @@
         height: 800px;
         margin-top: 9%;
     }
-    
 }
