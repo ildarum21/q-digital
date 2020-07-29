@@ -291,7 +291,7 @@
         line-height: 30px;
         text-align: left;
     }
-    
+
     .elem__name {
         padding-bottom: 0;
         font-size: 18px;
@@ -655,7 +655,245 @@
         margin-top: 9.8%;
     }
     .inServ_subtitle.subtitle {
-        padding-bottom: 2.3%;
+        padding-bottom: 3.3%;
         font-size: 18px;
+    }
+    .iServ__unvisibleBlockon320px {
+        display: none;
+    }
+    .inServ_descr.descr {
+        font-size: 16.3px;
+        line-height: 194.8%;
+    }
+    .doelem_wrapper > .do_doElems .doElem {
+        width: 140%;
+        height: 100%;
+    }
+    .doelem_wrapper > .do_doElems .list {
+        width: 68.8%;
+        margin-top: 9px;
+    }
+    .doelem_button.textBlock_button {
+        margin-top: 6.1%;
+        margin-left: 16%;
+    }
+    .inServFriend.friends {
+        margin-top: 19px;
+    }
+    .title.friends_title.inServFriend {
+        margin-top: 50px;
+        text-align: left;
+    }
+    .inservfooter {
+        margin-top: -63.3%;
+    }
+    .doelem_wrapper {
+        margin-top: -21.4px;
+    }
+    .inservfooter > .footer .content {
+        padding-top: 15%;
+    }
+    .inservfooter > .footer .communication.footer_communication {
+        width: 18.5%;
+    }
+    //case
+    .case__title.title {
+        font-size: 25px;
+        margin-top: 17.7%;
+    }
+    .case__descr {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 7px;
+    }
+    //job
+    .job_jobs {
+        margin-top: 0.4%;
+    }
+    .jobs_vacancy {
+        width: 100%;
+        height: 154px;
+        margin-top: 22px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .descr.vacancy_descr {
+        margin-top: 8px;
+        line-height: 26px;
+    }
+    .vacancy_wrapper {
+        margin-top: 14.6%;
+        margin-left: 6.9%;
+    }
+    .job_title.title {
+        margin-top: 17%;
+        font-size: 25px;
+        line-height: 119%;
+        width: 79.1%;
+    }
+    .job_descr.descr {
+        margin-top: 4.6%;
+        width: 73%;
+        line-height: 135%;
+    }
+    .job_request.request {
+        height: 717px;
+        margin-top: 21.8%;
+    }
+    .title.title_white.req_title {
+        font-size: 25px;
+        margin-top: 12%;
+        width: 100%;
+        line-height: 33px;
+    }
+    .descr.whitedescr.req_descr.req_descr_job {
+        margin-top: 2%;
+        width: 95%;
+        padding-bottom: 0px;
+        line-height: 126%;
+    }
+    .request__input {
+        width: 76%;
+    }
+    .request__input {
+        margin-top: -17px;
+    }
+    .request__input::placeholder {
+        font-size: 15px;
+    }
+    .button.white_button.req__button {
+        margin-top: 13.3%;
+        margin-left: 6.6%;
+        width: 82.3%;
+        height: 49px;
+    }
+    .jobfooter > .footer .communication.footer_communication {
+        width: 18.5%;
+    }
+    .anyinput.request__input {
+        height: 40px;
+        margin-top: 11px;
+    }
+    .descr.whitedescr.small {
+        font-size: 16px;
+        margin-top: 17px;
+        line-height: 20px;
+    }
+    //case
+    .case320unvisible {
+        display: none;
+    }
+    .newList {
+        margin-top: 18px;
+        margin-left: 0.1%;
+        width: 103.6%;
+    }
+    .list__item.case_list__item {
+        font-size: 13px;
+        padding: 10px 12.8px;
+        margin-right: 5.6%;
+        margin-top: 12px;
+    }
+    .case320allcat {
+        display: block;
+        font-size: 12px;
+        text-decoration: none;
+        font-family: "Muller Medium";
+        color: #555555;
+        border-bottom: 1px solid #555;
+        margin-top: 13%;
+    }
+    .casescreen > .container .casesImages {
+        margin-top: 17.3%;
+    }
+    .button.cases_button {
+        margin-left: -22%;
+    }
+    .casefooter > .footer .communication.footer_communication {
+        width: 18.5%;
+    }
+    //injob
+    .title.job_title.inJob_title {
+        width: 83%;
+        margin-left: 0;
+        margin-top: 16%;
+        line-height: 32px;
+        text-align: left;
+    }
+    .descr.job_descr.imjob_descr {
+        font-size: 16.2px;
+        margin-top: 4px;
+        width: 95.9%;
+        text-align: left;
+    }
+    .subtitle.inJob_subtitle {
+        font-size: 18px;
+        margin-top: -2%;
+    }
+    .inJob_descr.descr {
+        font-size: 16px;
+        margin-top: 36px;
+        padding-bottom: 29px;
+    }
+    .descr.descrbig {
+        width: 101%;
+        margin-top: 2px;
+        font-size: 16.3px;
+        line-height: 29.8px;
+    }
+    .descr.inJob_descr.second_inJob_descr {
+        padding-bottom: 27px;
+        margin-top: 33px;
+    }
+    .descr.location {
+        margin-top: 10.4%;
+        white-space: normal;
+        font-size: 16px;
+        line-height: 183.3%;
+        width: 100.9%;
+    }
+    .communication_inline {
+        font-size: 16px;
+    }
+    .injob_request.request {
+        margin-top: 43.5px;
+        height: 597px;
+    }
+    .request.injob_request > .container .title.title_white.req_title {
+        margin-top: 12.4%;
+    }
+    .request.injob_request > .container .descr.whitedescr.req_descr.req_descr_job {
+        margin-top: 5px;
+        width: 92%;
+        padding-bottom: 0px;
+        line-height: 19.9px;
+    }
+    .request.injob_request > .container .descr.whitedescr.small {
+        margin-top: 5px;
+        width: 98.5%;
+        padding-bottom: 0px;
+        line-height: 19.9px;
+    }
+    .injobfooter > .footer .content {
+        padding-top: 42.6px;
+    }
+    .injobfooter > .footer .communication.footer_communication {
+        width: 18.5%;
+    }
+    //new
+    .new__title {
+        font-size: 25px;
+        margin-top: -52px;
+    }
+    .new__descr {
+        font-size: 16px;
+        margin-top: 7px;
+        width: 91%;
+        line-height: 142%;
+    }
+    .new > .container .newList {
+        width: 105%;
+        margin-top: 3px;
     }
 }

@@ -23,7 +23,7 @@
     margin-top: 97px; }
   .button.cases_button {
     margin-left: 0;
-    margin-top: 0; }
+    margin-top: -19.9%; }
   .anyworksFooter > .footer .content {
     padding-top: 99px; }
   .anyworksFooter > .footer .thirdBlock.descr {
@@ -176,24 +176,29 @@
     font-size: 60px;
     margin-top: 27px; }
   .job_title.title {
-    margin-top: 75px;
+    margin-top: 15%;
     font-size: 48px;
-    line-height: 57px; }
+    line-height: 119%;
+    width: 79.1%; }
   .job_descr.descr {
-    margin-top: 31px; }
+    margin-top: 6.3%; }
   .jobs_vacancy:nth-child(even) {
     margin-left: 0; }
   .job_jobs {
     justify-content: center;
-    margin-top: 15px; }
+    margin-top: -0.6%; }
   .job_jobs:first-child {
     margin-top: 12px; }
+  .vacancy_wrapper {
+    margin-top: 19.6%;
+    margin-left: 9.9%; }
   .jobs_vacancy {
     width: 89%;
-    margin-top: 52px; }
+    margin-top: 53px; }
   .title.title_white.req_title {
     font-size: 48px;
-    margin-top: 156px;
+    margin-top: 31%;
+    width: 93%;
     line-height: 56px; }
   .descr.whitedescr.req_descr.req_descr_job {
     margin-top: 33px;
@@ -203,18 +208,64 @@
   .button.white_button.req__button {
     margin-top: 52px; }
   .job_request.request {
-    height: 1022px; }
+    height: 1022px;
+    margin-top: 2.8%; }
   .request__input {
     margin-top: 25px; }
   .request__input:nth-child(even) {
     margin-left: 0; }
+  .request__input {
+    width: 79%; }
+  .jobfooter > .footer .content {
+    padding-top: 20%; }
+  .jobfooter > .footer .communication.footer_communication {
+    width: 23.1%; }
+  .title.job_title.inJob_title {
+    width: 86%;
+    margin-left: 0;
+    margin-top: 14.7%;
+    line-height: 60px;
+    text-align: left; }
+  .descr.job_descr.imjob_descr {
+    font-size: 19.2px;
+    margin-top: 28px;
+    text-align: left; }
+  .inJob_textBlock.inServ_textBlock {
+    margin-top: 13.7%; }
   .inJob_descr.descr {
-    padding-bottom: 14px;
-    margin-top: 47px; }
+    margin-top: 50px;
+    padding-bottom: 13px; }
   .descr.descrbig {
-    line-height: 26px; }
+    width: 102%;
+    margin-top: 16px;
+    font-size: 24.3px;
+    line-height: 26.1px; }
+  .descr.inJob_descr.second_inJob_descr {
+    padding-bottom: 18px; }
+  .descr.location {
+    margin-top: 7.4%;
+    white-space: normal;
+    font-size: 24.2px;
+    line-height: 136%;
+    width: 94.9%; }
+  .communication_inline {
+    font-size: 17px; }
   .injob_request.request {
-    height: 925px; }
+    margin-top: 88.5px;
+    height: 1025px; }
+  .request.injob_request > .container .title.title_white.req_title {
+    margin-top: 16.9%; }
+  .request.injob_request > .container .descr.whitedescr.req_descr.req_descr_job {
+    margin-top: 41px;
+    width: 92%;
+    padding-bottom: 0px;
+    line-height: 24px; }
+  .request.injob_request > .container .button.white_button.req__button {
+    margin-top: 15%; }
+  .injobfooter > .footer .communication.footer_communication {
+    width: 23.1%; }
+  .injobfooter > .footer .content {
+    padding-top: 99.2px; }
   .header__logo {
     margin-left: 0px; }
   .writeMe {
@@ -242,6 +293,45 @@
   .button.button_red.main_button {
     margin-top: 48px;
     width: 304px; }
+  .event {
+    width: 100%; }
+  .new__title {
+    font-size: 47px;
+    margin-top: -11px; }
+  .new__descr {
+    font-size: 20px;
+    margin-top: 28px;
+    width: 91%;
+    line-height: 173%; }
+  .new > .container .newList {
+    width: 105%;
+    margin-top: 11px; }
+  .events.innew_events {
+    margin-top: 66px; }
+  .newfooter > .footer .communication.footer_communication {
+    width: 23.1%; }
+  .title.title_white.webDesign_descr {
+    margin-top: 50px;
+    margin-left: 0;
+    padding-bottom: 116px;
+    text-align: left;
+    width: 113%;
+    font-size: 48px; }
+  .webDesign_descr.descr {
+    margin-top: 83px;
+    text-align: left; }
+  .abouttext {
+    margin-top: 27px; }
+  .descr.par__descr {
+    font-size: 20px;
+    white-space: normal;
+    width: 100%; }
+  .descr.par__descr.any {
+    width: 99%;
+    margin-top: 36px; }
+  .subtitle.par__subtitle {
+    letter-spacing: -0.5px;
+    padding-top: 73px; }
   .about {
     margin-top: 81px;
     height: 650px; }
@@ -420,7 +510,7 @@
     width: 24%; }
   .case__title.title {
     font-size: 47.4px;
-    margin-top: 57px; }
+    margin-top: 17%; }
   .case__descr {
     line-height: 35px; }
   .list__item.case_list__item {
@@ -429,6 +519,8 @@
     padding: 15px 23.1px; }
   .casesImages {
     margin-top: 78px; }
+  .casefooter > .footer .communication.footer_communication {
+    width: 23.1%; }
   .inServ_textBlock {
     margin-top: 19.9%; }
   .title.inserv_title.services__title {
@@ -444,6 +536,7 @@
   .descr.inServ_descr.second {
     margin-top: 1%; }
   .inServ_descr.descr.row:first-child {
+    font-size: 20.2px;
     line-height: 201%; }
   .ul_block {
     margin-top: 6.8%; }

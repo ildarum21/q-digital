@@ -121,7 +121,7 @@
   width: 573px; }
 
 .imagesContainer:nth-child(even) {
-  margin-left: 66px; }
+  margin-left: 2%; }
 
 .imagetext {
   transform: translate3d(0, 0, 5px);
@@ -406,7 +406,7 @@
   margin-top: 150px; }
 
 .event:nth-child(even) {
-  margin-top: 100px; }
+  margin-top: 8.3%; }
 
 .events {
   flex-wrap: wrap;
@@ -416,6 +416,7 @@
   justify-content: space-between; }
 
 .event {
+  width: 46.8%;
   margin-bottom: 62px;
   cursor: pointer;
   perspective: 100px;
@@ -423,7 +424,7 @@
   flex-direction: column; }
 
 .event__img {
-  width: 561px;
+  width: 100%;
   transition: 0.6s; }
 
 .newButtonWrapper {

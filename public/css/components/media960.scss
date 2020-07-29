@@ -67,10 +67,22 @@
         margin-top: 153px;
     }
     .button.cases_button {
-        margin-left: 0;
+        margin-left: -167px;
         margin-top: 0;
     }
     //inNew
+    .descr.par__descr {
+        font-size: 20px;
+        white-space: normal;
+        width: 98%;
+    }
+    .descr.par__descr.any {
+        width: 95%;
+        margin-top: 42px;
+    }
+    .descr.par__descr.last_par1 {
+        margin-top: 34px;
+    }
     .webDesign_descr.descr {
         margin-top: 83px;
         text-align: center;
@@ -81,9 +93,16 @@
         padding-bottom: 116px;
         text-align: center;
     }
+    .video {
+        width: 97%;
+    }
     .c_video {
-        width: 291px;
+        width: 33%;
         height: 216px;
+        margin-left: 0;
+    }
+    .descr.par__descr.design_par {
+        margin-top: 27px;
     }
     //inserv
     .container {
@@ -127,6 +146,13 @@
         margin-top: 43px;
     }
     //case
+    .case__descr {
+        line-height: 33px;
+    }
+    .newList {
+        margin-top: 18px;
+        width: 100%;
+    }
     .imageScale {
         width: 464px;
         height: 274px;
@@ -251,9 +277,7 @@
     .elemDescr {
         margin-left: 0;
     }
-    .newList {
-        width: 100%;
-    }
+
     .list {
         width: 355.3px;
     }
@@ -382,37 +406,87 @@
     }
 
     //job
-    .jobs_vacancy:nth-child(even) {
-        margin-left: 30px;
-    }
-    .jobs_vacancy {
-        width: 410px;
-        height: 280px;
-    }
     .job_title.title {
-        width: 453px;
+        width: 60%;
+        margin-top: 15.5%;
         line-height: 66px;
     }
+    .job_jobs {
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .jobs_vacancy {
+        margin-top: 6.8%;
+        width: 46%;
+        height: 281px;
+        border-radius: 25px;
+    }
     .vacancy_wrapper {
-        margin-top: 69px;
-        margin-left: 51px;
+        margin-top: 20.8%;
+        margin-left: 11.9%;
     }
-    .request__input:nth-child(even) {
-        margin-left: 38px;
-    }
-    .job_request.request {
-        height: 800px;
-        margin-top: 133px;
+    .jobs_vacancy:nth-child(even) {
+        margin-left: 6.5%;
     }
     .title.title_white.req_title {
-        margin-top: 77px;
-        width: 510px;
+        margin-top: 9%;
+        width: 61%;
     }
     .descr.whitedescr.req_descr.req_descr_job {
-        margin-top: 33px;
-        padding-bottom: 16px;
+        width: 82.9%;
+        margin-top: 3.9%;
+        padding-bottom: 1.2%;
+        line-height: 113%;
     }
-
+    .request__input {
+        width: 47%;
+    }
+    .request__input:nth-child(even) {
+        margin-left: 4.4%;
+    }
+    //injob
+    .title.job_title.inJob_title {
+        width: 54%;
+        margin-left: 23%;
+        margin-top: 14.7%;
+        line-height: 66px;
+        text-align: center;
+    }
+    .descr.job_descr.imjob_descr {
+        font-size: 19.2px;
+        margin-top: 18px;
+        text-align: center;
+    }
+    .inJob_textBlock.inServ_textBlock {
+        margin-top: 10.5%;
+    }
+    .inJob_descr.descr {
+        margin-top: 52px;
+    }
+    .second_inJob_descr.descr {
+        margin-top: 55px;
+    }
+    .injob_request.request {
+        margin-top: 140.5px;
+        height: 807px;
+    }
+    .descr.descrbig {
+        margin-top: 16px;
+        font-size: 24.3px;
+    }
+    .descr.location {
+        margin-top: 5.6%;
+        white-space: pre-line;
+        font-size: 24.2px;
+        line-height: 163%;
+    }
+    .communication_inline {
+        font-size: 20px;
+    }
+    .injobfooter>.footer .content{
+        padding-top: 166px;
+    }
     //services
     .services_elems {
         padding-top: 47px;
@@ -430,8 +504,8 @@
         text-align: left;
     }
     .friend__logo {
+        width: 18%;
         margin-right: 1%;
-        width: 179px;
         margin-top: 106px;
     }
     .friends_wrapper {
@@ -451,28 +525,114 @@
     .services__title.title {
         margin-top: 141px;
     }
+//new
+.new__title {
+    margin-top: -11px;
+}
 
     //school
-    .who_categories {
-        margin-top: 96px;
+    .title.title_white.title_main.school {
+        margin-top: 10px;
+        width: 72%;
+        margin-left: -5px;
+    }
+    .descr.descr_white.descr_main.school {
+        width: 99%;
+        line-height: 35px;
+        margin-top: 3.3%;
+    }
+    .main__picture.school {
+        position: relative;
+        margin-top: 25px;
+        left: 0px;
+    }
+    .button.button_red.main_button.school {
+        margin-top: 11.5%;
+    }
+    .targets_target {
+        margin-left: -0.4%;
+        width: 265.6%;
+    }
+    .descr.target_descr {
+        padding: 6px 0 57px 0;
+    }
+    .target_sub.subtitle {
+        line-height: 35px;
+        width: 80%;
+    }
+    .button.button_red.target_button {
+        width: 60.5%;
+        margin-top: -1.2%;
+        margin-left: -18%;
+    }
+    .title.title_white {
+        width: 101.8%;
+        line-height: 65px;
+    }
+    .upYourSkill_titleblock {
+        margin-top: 150px;
+        width: 53%;
+        height: 453px;
         display: flex;
+        flex-direction: column;
+    }
+    .countblock_elem {
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+    .title.who_title {
+        margin-top: 148px;
+        margin-right: 0;
+        margin-left: 5.2%;
+        align-self: flex-start;
+    }
+    .who_categories {
+        flex-wrap: nowrap; 
         justify-content: center;
         flex-direction: column;
-        align-items: center;
+        margin-top: 91px;
+        display: flex;
     }
-    .categories_category {
-        margin-left: 0px;
-        width: 738px;
-        height: 357px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    .categories_category{
+        margin-left: 0;
+    }
+    .title.program_title {
+        margin-left: -0.3%;
+    }
+    .program_descr.descr {
+        margin-left: 0.1%;
+        padding-bottom: 7.6%;
+    }
+    .day {
+        width: 99.4%;
+        margin-left: -0.1%;
+    }
+    .dz_descr.descr {
+        margin-bottom: 32px;
+        margin-top: 12px;
+    }
+    .request {
+        height: 800px;
+        margin-top: 12.8%;
+    }
+    .title.title_white.req_title {
+        margin-top: 15.5%;
+        width: 61%;
+    }
+    .descr.whitedescr.req_descr {
+        margin-top: 25px;
+        padding-bottom: 2px;
+    }
+    .request {
+        height: 800px;
+        margin-top: 12.8%;
     }
     //case
     .case__title.title {
         margin-top: 136px;
     }
     .newList {
-        margin-top: 22px;
+        margin-top: 17px;
     }
     .list__item.case_list__item {
         margin-top: 21px;
@@ -543,7 +703,7 @@
     .inservfooter {
         margin-top: -3.8%;
     }
-    .inservfooter>.footer .content{
+    .inservfooter > .footer .content {
         padding-top: 19.4%;
     }
 }

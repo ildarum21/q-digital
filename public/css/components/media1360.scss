@@ -5,9 +5,7 @@
     .main {
         height: 851px;
     }
-    .text {
-        margin-top: 148px;
-    }
+   
     .main__picture {
         margin-top: 14px;
         left: 4px;
@@ -150,8 +148,11 @@
         margin-left: 0;
     }
     .button.cases_button {
-        margin-left: 2px;
-        margin-top: 18px;
+        margin-left: -249px;
+        margin-top: 88px;
+    }
+    .casefooter {
+        margin-top: 99px;
     }
     .anyworksFooter > .footer .secBlock {
         width: 477px;
@@ -160,9 +161,9 @@
     .services__title.title {
         margin-top: 10.4%;
     }
-    .descr.descr__title.inserv_descr{
+    .descr.descr__title.inserv_descr {
         margin-top: 2.2%;
-        font-size: 15.5px;
+        //font-size: 15.5px;
     }
     .doElem {
         margin-top: 48px;
@@ -201,7 +202,13 @@
     .descr.inServ_descr.second {
         margin-top: -6%;
     }
+    .casesButtonWrapper {
+        margin-top: -4%;
+        margin-left: 20%;
+    }
     .inServ_descr.descr.row:first-child {
+        font-size: 15.5px;
+        margin-top: -0.1%;
         line-height: 39px;
     }
     .descr.inServ_descr.second {
@@ -213,7 +220,7 @@
     .ul_block {
         margin-top: -1.8%;
     }
-    .title.services__title.anyServ_sectitle{
+    .title.services__title.anyServ_sectitle {
         margin-top: 7.6%;
     }
     .doelem_wrapper {
@@ -222,7 +229,181 @@
     .inservfooter {
         margin-top: -1.5%;
     }
-    .inservfooter>.footer .content{
+    .inservfooter > .footer .content {
         padding-top: 146px;
     }
+    //job
+    .job_title.title {
+        margin-top: 10.3%;
+    }
+    .title.title_white.req_title {
+        margin-top: 11%;
+    }
+    .jobfooter > .footer .content {
+        padding-top: 168px;
+    }
+    //injob
+    .job_descr.descr {
+        margin-top: 25px;
+        font-size: 15.5px;
+    }
+    .communication_inline {
+        font-size: 15.8px;
+    }
+    .descr.location {
+        margin-top: 4%;
+        white-space: pre-line;
+        font-size: 22.9px;
+        line-height: 163%;
+    }
+    .injob_request.request {
+        margin-top: 10.2%;
+        height: 809px;
+    }
+    .descr.descrbig {
+        margin-top: 16px;
+        font-size: 22.9px;
+    }
+    .injobfooter {
+        margin-top: -0.6%;
+    }
+    //new
+    .new__title{
+        margin-top: -24px;
+    }
+    //innew
+    .webDesign_descr.descr {
+        margin-top: 84px;
+    }
+    .title.title_white.webDesign_descr {
+        padding-bottom: 114px;
+    }
+    .descr.par__descr {
+        font-size: 15.5px;
+    }
+    .descr.par__descr.design_par {
+        margin-top: -26px;
+    }
+    .descr.par__descr.any {
+        margin-top: 2px;
+    }
+    //school
+    .text {
+        margin-top: 114px;
+    }
+    .main__picture.school {
+        position: relative;
+        margin-top: 12px;
+        left: 5px;
+    }
+    .targets_target {
+        margin-left: 6.6%;
+        width: 35.6%;
+    }
+    .targets {
+        display: flex;
+        margin-top: 144px;
+    }
+    .button.button_red.target_button {
+        width: 292px;
+        margin-left: -9%;
+    }
+    .countblock_elem {
+        margin-left: 152px;
+        margin-top: 80px;
+    }
+    .who_categories {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 91px;
+        display: flex;
+    }
+    .categories_category.nonmargin{
+        margin-left: 0;
+    }
+    .categories_category:last-child{
+        margin-top: 94px;
+    }
+    .subtitle.category_subtitle {
+        line-height: 35.4px;
+    }
+    .categories_category {
+        margin-left: 116px;
+        width: 35.4%;
+    }
+    .suggestsBlock_suggest {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 77px;
+    }
+    .suggest {
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        transition: all 0.5s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 60%;
+        height: 299px;
+        margin-top: 83px;
+        border-radius: 10px;
+        background: white;
+    }
+    .wrepper_height {
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+        height: 298px;
+    }
+    .suggest_subtitle.subtitle {
+        width: 32%;
+        margin-left: 8%;
+    }
+    .suggestsBlock{
+        height: 1572px;
+    }
+    .suggest__price {
+        margin-top: -21.6%;
+        margin-left: 8%;
+        padding-bottom: 3.8%;
+    }
+    .button.button_onhover {
+        margin-left: 8%;
+        width: 36%;
+    }
+    .suggest:first-child {
+        margin-top: 0;
+    }
+    .suggest_menu {
+        margin-left: 14.7%;
+        margin-top: 5%;
+    }
+    .title.program_title {
+        margin-left: 6.7%;
+    }
+    .program_descr.descr {
+        margin-left: 7%;
+        padding-bottom: 5.2%;
+    }
+    .day {
+        width: 69.1%;
+        margin-left: 15.4%;
+    }
+    .descr.day__number {
+        margin-top: 3.4%;
+        margin-bottom: 2%;
+        font-size: 16px;
+        color: #e25a00;
+    }
+    .dz_descr.descr {
+        margin-bottom: 32px;
+        margin-top: 7px;
+    }
+    .request {
+        height: 800px;
+        margin-top: 9%;
+    }
+    
 }

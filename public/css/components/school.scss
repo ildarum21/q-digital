@@ -20,6 +20,7 @@
     margin-top: 150px;
 }
 .targets_column {
+    margin-top: -33px;
     display: flex;
     flex-direction: column;
 }
@@ -35,21 +36,31 @@
     flex-direction: column;
 }
 .targets_target {
-    width: 430px;
+    width: 35%;
 }
 .descr.target_descr {
-    padding: 6px 0 65px 0;
+    margin-top: -5%;
+    white-space: pre-line;
+    padding: -0px 0 7px 0;
 }
 .target_descr.descr.target_descr_elem {
-    margin-top: 10px;
+    margin-top: 9px;
+    line-height: 30px;
     padding: 0;
+    width: 100%;
+}
+.target_sub.subtitle {
+    white-space: pre-line;
+    width: 105%;
+    line-height: 35px;
 }
 .target_sub.subtitle {
     line-height: 35px;
 }
 .button.button_red.target_button {
-    width: 292px;
-    margin-left: -3px;
+    width: 49%;
+    margin-top: 4.6%;
+    margin-left: 0;
 }
 // 2 screen
 .upYourSkillWrapper {
@@ -133,6 +144,8 @@
     margin-left: 35px;
 }
 .descr.category_descr {
+    white-space: pre-line;
+    line-height: 36px;
     margin-left: 40px;
 }
 .category_end {
@@ -246,6 +259,7 @@
 
 // 5 screen
 .program {
+    width: 100%;
     margin-top: 150px;
 }
 .day {
@@ -309,7 +323,8 @@
 }
 // 6 screen
 .request {
-    margin-top: 102px;
+    width: 100%;
+    margin-top: 108px;
     height: 773px;
     padding-top: 10px;
     background: url(./images/zaiavka.png);
@@ -323,7 +338,7 @@
     outline: none;
     margin-top: 42px;
     height: 60px;
-    width: 400px;
+    width: 32.6%;
     background: none;
     border: none;
     text-decoration: none;
@@ -361,6 +376,9 @@
 .button.white_button.req__button {
     width: 325px;
     margin-top: 60px;
+}
+.schoolfooter{
+    width: 100%;
 }
 .schoolfooter > .footer .content {
     padding-top: 166px;

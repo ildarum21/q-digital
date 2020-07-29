@@ -507,7 +507,7 @@ table {
   width: 573px; }
 
 .imagesContainer:nth-child(even) {
-  margin-left: 66px; }
+  margin-left: 2%; }
 
 .imagetext {
   transform: translate3d(0, 0, 5px);
@@ -792,7 +792,7 @@ table {
   margin-top: 150px; }
 
 .event:nth-child(even) {
-  margin-top: 100px; }
+  margin-top: 8.3%; }
 
 .events {
   flex-wrap: wrap;
@@ -802,6 +802,7 @@ table {
   justify-content: space-between; }
 
 .event {
+  width: 46.8%;
   margin-bottom: 62px;
   cursor: pointer;
   perspective: 100px;
@@ -809,7 +810,7 @@ table {
   flex-direction: column; }
 
 .event__img {
-  width: 561px;
+  width: 100%;
   transition: 0.6s; }
 
 .newButtonWrapper {
@@ -872,6 +873,10 @@ li button:before {
   margin-right: 17px;
   display: flex; }
 
+.bg.active {
+  background: url(./images/bg.png);
+  z-index: 10000; }
+
 .writeMeButton {
   margin-top: 3px;
   margin-right: 27px; }
@@ -911,7 +916,7 @@ li button:before {
 .container-menu.active {
   display: flex;
   height: 600px;
-  z-index: 100; }
+  z-index: 10000; }
 
 .container-menu {
   display: none;
@@ -924,15 +929,15 @@ li button:before {
 .menulist {
   text-decoration: none;
   list-style-type: none;
-  margin-top: 52px; }
+  margin-top: -18px; }
 
 .menulist__li {
   font-family: "Muller";
   font-weight: bold;
   color: #363537;
-  font-size: 75px;
+  font-size: 59px;
   cursor: pointer;
-  margin-top: 32px; }
+  margin-top: 28px; }
 
 .menulist__li:hover {
   color: #fdfdfd; }
@@ -1405,6 +1410,7 @@ textarea::placeholder {
   margin-top: 150px; }
 
 .targets_column {
+  margin-top: -33px;
   display: flex;
   flex-direction: column; }
 
@@ -1420,21 +1426,31 @@ textarea::placeholder {
   flex-direction: column; }
 
 .targets_target {
-  width: 430px; }
+  width: 35%; }
 
 .descr.target_descr {
-  padding: 6px 0 65px 0; }
+  margin-top: -5%;
+  white-space: pre-line;
+  padding: -0px 0 7px 0; }
 
 .target_descr.descr.target_descr_elem {
-  margin-top: 10px;
-  padding: 0; }
+  margin-top: 9px;
+  line-height: 30px;
+  padding: 0;
+  width: 100%; }
+
+.target_sub.subtitle {
+  white-space: pre-line;
+  width: 105%;
+  line-height: 35px; }
 
 .target_sub.subtitle {
   line-height: 35px; }
 
 .button.button_red.target_button {
-  width: 292px;
-  margin-left: -3px; }
+  width: 49%;
+  margin-top: 4.6%;
+  margin-left: 0; }
 
 .upYourSkillWrapper {
   display: flex; }
@@ -1513,6 +1529,8 @@ textarea::placeholder {
   margin-left: 35px; }
 
 .descr.category_descr {
+  white-space: pre-line;
+  line-height: 36px;
   margin-left: 40px; }
 
 .category_end {
@@ -1621,6 +1639,7 @@ textarea::placeholder {
   color: white; }
 
 .program {
+  width: 100%;
   margin-top: 150px; }
 
 .day {
@@ -1683,7 +1702,8 @@ textarea::placeholder {
   margin-top: 21px; }
 
 .request {
-  margin-top: 102px;
+  width: 100%;
+  margin-top: 108px;
   height: 773px;
   padding-top: 10px;
   background: url(./images/zaiavka.png); }
@@ -1697,7 +1717,7 @@ textarea::placeholder {
   outline: none;
   margin-top: 42px;
   height: 60px;
-  width: 400px;
+  width: 32.6%;
   background: none;
   border: none;
   text-decoration: none;
@@ -1736,6 +1756,9 @@ textarea::placeholder {
   width: 325px;
   margin-top: 60px; }
 
+.schoolfooter {
+  width: 100%; }
+
 .schoolfooter > .footer .content {
   padding-top: 166px; }
 
@@ -1753,8 +1776,15 @@ textarea::placeholder {
   margin-top: 28px;
   padding: 15px 23px; }
 
+.case320allcat {
+  display: none; }
+
 .casefooter {
   margin-top: 50px; }
+
+.case320unvisible {
+  display: flex;
+  flex-wrap: wrap; }
 
 .inCase_mainblock {
   margin-top: 65px;
@@ -1883,7 +1913,13 @@ textarea::placeholder {
 
 .subtitle.par__subtitle {
   letter-spacing: -0.5px;
-  padding-top: 96px; }
+  padding-top: 92px; }
+
+.descr.par__descr.design_par {
+  margin-top: -32px; }
+
+.descr.par__descr.last_par1 {
+  margin-top: -3px; }
 
 .descr.par__descr {
   margin-top: 26px;
@@ -1900,7 +1936,7 @@ textarea::placeholder {
   margin-top: 30px; }
 
 .descr.par__descr.any {
-  margin-top: 6px; }
+  margin-top: 4px; }
 
 .par__descr_elem.descr {
   margin-top: 13px; }
@@ -1983,6 +2019,7 @@ textarea::placeholder {
   width: 80%; }
 
 .friend__logo {
+  width: 16%;
   margin-right: 4%;
   margin-top: 74px; }
 
@@ -1993,9 +2030,10 @@ textarea::placeholder {
   line-height: 34px; }
 
 .inServ_descr.descr {
-  margin-top: 33px;
+  margin-top: 1px;
   color: #262626;
-  line-height: 36px; }
+  line-height: 36px;
+  white-space: pre-line; }
 
 .descr.inServ_descr.second {
   margin-top: -8px; }
@@ -2004,20 +2042,21 @@ textarea::placeholder {
   margin-top: 21px; }
 
 .inServ_descr.descr.row:first-child {
-  margin-top: 0px; }
+  margin-top: -72px;
+  line-height: 39px; }
 
 .inServ_descr.descr.ul {
   margin-top: 8px;
   line-height: 38px; }
 
 .inServ_subtitle.subtitle {
-  padding-bottom: 14px; }
+  padding-bottom: 8px; }
 
 .inServ_textBlock {
   margin-top: 96px; }
 
 .ul_block {
-  margin-top: 26px; }
+  margin-top: -26px; }
 
 .textBlock_button {
   margin-top: 45px;
@@ -2026,7 +2065,7 @@ textarea::placeholder {
   align-items: center; }
 
 .doelem_wrapper {
-  margin-top: 96px; }
+  margin-top: 46px; }
 
 .doelem_button.textBlock_button {
   margin-top: 94px; }
@@ -2053,7 +2092,7 @@ textarea::placeholder {
 
 .jobs_vacancy {
   margin-top: 58px;
-  width: 500px;
+  width: 41%;
   height: 281px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 25px; }
@@ -2083,6 +2122,7 @@ textarea::placeholder {
   margin-top: 146px; }
 
 .descr.whitedescr.req_descr.req_descr_job {
+  width: 57.9%;
   margin-top: 41px;
   padding-bottom: 16px; }
 
@@ -2114,16 +2154,20 @@ textarea::placeholder {
   margin-top: 2px; }
 
 .injob_request.request {
-  margin-top: 150px;
+  margin-top: 7.7%;
   height: 809px; }
+
+.descr.location {
+  margin-top: 4.1%;
+  font-size: 24px;
+  white-space: pre-line;
+  line-height: 159%; }
 
 @media (max-width: 1360px) {
   .container {
     width: 89.7%; }
   .main {
     height: 851px; }
-  .text {
-    margin-top: 148px; }
   .main__picture {
     margin-top: 14px;
     left: 4px; }
@@ -2221,15 +2265,16 @@ textarea::placeholder {
   .step.step_sec {
     margin-left: 0; }
   .button.cases_button {
-    margin-left: 2px;
-    margin-top: 18px; }
+    margin-left: -249px;
+    margin-top: 88px; }
+  .casefooter {
+    margin-top: 99px; }
   .anyworksFooter > .footer .secBlock {
     width: 477px; }
   .services__title.title {
     margin-top: 10.4%; }
   .descr.descr__title.inserv_descr {
-    margin-top: 2.2%;
-    font-size: 15.5px; }
+    margin-top: 2.2%; }
   .doElem {
     margin-top: 48px; }
   .friends_wrapper {
@@ -2255,7 +2300,12 @@ textarea::placeholder {
     line-height: 36px; }
   .descr.inServ_descr.second {
     margin-top: -6%; }
+  .casesButtonWrapper {
+    margin-top: -4%;
+    margin-left: 20%; }
   .inServ_descr.descr.row:first-child {
+    font-size: 15.5px;
+    margin-top: -0.1%;
     line-height: 39px; }
   .descr.inServ_descr.second {
     margin-top: -69px; }
@@ -2270,7 +2320,134 @@ textarea::placeholder {
   .inservfooter {
     margin-top: -1.5%; }
   .inservfooter > .footer .content {
-    padding-top: 146px; } }
+    padding-top: 146px; }
+  .job_title.title {
+    margin-top: 10.3%; }
+  .title.title_white.req_title {
+    margin-top: 11%; }
+  .jobfooter > .footer .content {
+    padding-top: 168px; }
+  .job_descr.descr {
+    margin-top: 25px;
+    font-size: 15.5px; }
+  .communication_inline {
+    font-size: 15.8px; }
+  .descr.location {
+    margin-top: 4%;
+    white-space: pre-line;
+    font-size: 22.9px;
+    line-height: 163%; }
+  .injob_request.request {
+    margin-top: 10.2%;
+    height: 809px; }
+  .descr.descrbig {
+    margin-top: 16px;
+    font-size: 22.9px; }
+  .injobfooter {
+    margin-top: -0.6%; }
+  .new__title {
+    margin-top: -24px; }
+  .webDesign_descr.descr {
+    margin-top: 84px; }
+  .title.title_white.webDesign_descr {
+    padding-bottom: 114px; }
+  .descr.par__descr {
+    font-size: 15.5px; }
+  .descr.par__descr.design_par {
+    margin-top: -26px; }
+  .descr.par__descr.any {
+    margin-top: 2px; }
+  .text {
+    margin-top: 114px; }
+  .main__picture.school {
+    position: relative;
+    margin-top: 12px;
+    left: 5px; }
+  .targets_target {
+    margin-left: 6.6%;
+    width: 35.6%; }
+  .targets {
+    display: flex;
+    margin-top: 144px; }
+  .button.button_red.target_button {
+    width: 292px;
+    margin-left: -9%; }
+  .countblock_elem {
+    margin-left: 152px;
+    margin-top: 80px; }
+  .who_categories {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 91px;
+    display: flex; }
+  .categories_category.nonmargin {
+    margin-left: 0; }
+  .categories_category:last-child {
+    margin-top: 94px; }
+  .subtitle.category_subtitle {
+    line-height: 35.4px; }
+  .categories_category {
+    margin-left: 116px;
+    width: 35.4%; }
+  .suggestsBlock_suggest {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 77px; }
+  .suggest {
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    height: 299px;
+    margin-top: 83px;
+    border-radius: 10px;
+    background: white; }
+  .wrepper_height {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 298px; }
+  .suggest_subtitle.subtitle {
+    width: 32%;
+    margin-left: 8%; }
+  .suggestsBlock {
+    height: 1572px; }
+  .suggest__price {
+    margin-top: -21.6%;
+    margin-left: 8%;
+    padding-bottom: 3.8%; }
+  .button.button_onhover {
+    margin-left: 8%;
+    width: 36%; }
+  .suggest:first-child {
+    margin-top: 0; }
+  .suggest_menu {
+    margin-left: 14.7%;
+    margin-top: 5%; }
+  .title.program_title {
+    margin-left: 6.7%; }
+  .program_descr.descr {
+    margin-left: 7%;
+    padding-bottom: 5.2%; }
+  .day {
+    width: 69.1%;
+    margin-left: 15.4%; }
+  .descr.day__number {
+    margin-top: 3.4%;
+    margin-bottom: 2%;
+    font-size: 16px;
+    color: #e25a00; }
+  .dz_descr.descr {
+    margin-bottom: 32px;
+    margin-top: 7px; }
+  .request {
+    height: 800px;
+    margin-top: 9%; } }
 
 @media (max-width: 960px) {
   .inCase_mainblock {
@@ -2322,8 +2499,17 @@ textarea::placeholder {
   .anyworksFooter {
     margin-top: 153px; }
   .button.cases_button {
-    margin-left: 0;
+    margin-left: -167px;
     margin-top: 0; }
+  .descr.par__descr {
+    font-size: 20px;
+    white-space: normal;
+    width: 98%; }
+  .descr.par__descr.any {
+    width: 95%;
+    margin-top: 42px; }
+  .descr.par__descr.last_par1 {
+    margin-top: 34px; }
   .webDesign_descr.descr {
     margin-top: 83px;
     text-align: center; }
@@ -2332,9 +2518,14 @@ textarea::placeholder {
     margin-left: 0;
     padding-bottom: 116px;
     text-align: center; }
+  .video {
+    width: 97%; }
   .c_video {
-    width: 291px;
-    height: 216px; }
+    width: 33%;
+    height: 216px;
+    margin-left: 0; }
+  .descr.par__descr.design_par {
+    margin-top: 27px; }
   .container {
     width: 88.5%; }
   .header {
@@ -2362,6 +2553,11 @@ textarea::placeholder {
     width: 444px; }
   .button.button_red.main_button {
     margin-top: 43px; }
+  .case__descr {
+    line-height: 33px; }
+  .newList {
+    margin-top: 18px;
+    width: 100%; }
   .imageScale {
     width: 464px;
     height: 274px;
@@ -2452,8 +2648,6 @@ textarea::placeholder {
     height: 284px; }
   .elemDescr {
     margin-left: 0; }
-  .newList {
-    width: 100%; }
   .list {
     width: 355.3px; }
   .list__arrow {
@@ -2538,28 +2732,67 @@ textarea::placeholder {
     width: 100%; }
   .anyworksFooter > .footer .secBlock {
     width: 804px; }
-  .jobs_vacancy:nth-child(even) {
-    margin-left: 30px; }
-  .jobs_vacancy {
-    width: 410px;
-    height: 280px; }
   .job_title.title {
-    width: 453px;
+    width: 60%;
+    margin-top: 15.5%;
     line-height: 66px; }
+  .job_jobs {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap; }
+  .jobs_vacancy {
+    margin-top: 6.8%;
+    width: 46%;
+    height: 281px;
+    border-radius: 25px; }
   .vacancy_wrapper {
-    margin-top: 69px;
-    margin-left: 51px; }
-  .request__input:nth-child(even) {
-    margin-left: 38px; }
-  .job_request.request {
-    height: 800px;
-    margin-top: 133px; }
+    margin-top: 20.8%;
+    margin-left: 11.9%; }
+  .jobs_vacancy:nth-child(even) {
+    margin-left: 6.5%; }
   .title.title_white.req_title {
-    margin-top: 77px;
-    width: 510px; }
+    margin-top: 9%;
+    width: 61%; }
   .descr.whitedescr.req_descr.req_descr_job {
-    margin-top: 33px;
-    padding-bottom: 16px; }
+    width: 82.9%;
+    margin-top: 3.9%;
+    padding-bottom: 1.2%;
+    line-height: 113%; }
+  .request__input {
+    width: 47%; }
+  .request__input:nth-child(even) {
+    margin-left: 4.4%; }
+  .title.job_title.inJob_title {
+    width: 54%;
+    margin-left: 23%;
+    margin-top: 14.7%;
+    line-height: 66px;
+    text-align: center; }
+  .descr.job_descr.imjob_descr {
+    font-size: 19.2px;
+    margin-top: 18px;
+    text-align: center; }
+  .inJob_textBlock.inServ_textBlock {
+    margin-top: 10.5%; }
+  .inJob_descr.descr {
+    margin-top: 52px; }
+  .second_inJob_descr.descr {
+    margin-top: 55px; }
+  .injob_request.request {
+    margin-top: 140.5px;
+    height: 807px; }
+  .descr.descrbig {
+    margin-top: 16px;
+    font-size: 24.3px; }
+  .descr.location {
+    margin-top: 5.6%;
+    white-space: pre-line;
+    font-size: 24.2px;
+    line-height: 163%; }
+  .communication_inline {
+    font-size: 20px; }
+  .injobfooter > .footer .content {
+    padding-top: 166px; }
   .services_elems {
     padding-top: 47px;
     display: flex;
@@ -2573,8 +2806,8 @@ textarea::placeholder {
     margin-top: 107px;
     text-align: left; }
   .friend__logo {
+    width: 18%;
     margin-right: 1%;
-    width: 179px;
     margin-top: 106px; }
   .friends_wrapper {
     padding-top: 40px;
@@ -2587,22 +2820,86 @@ textarea::placeholder {
     padding-top: 120px; }
   .services__title.title {
     margin-top: 141px; }
-  .who_categories {
-    margin-top: 96px;
+  .new__title {
+    margin-top: -11px; }
+  .title.title_white.title_main.school {
+    margin-top: 10px;
+    width: 72%;
+    margin-left: -5px; }
+  .descr.descr_white.descr_main.school {
+    width: 99%;
+    line-height: 35px;
+    margin-top: 3.3%; }
+  .main__picture.school {
+    position: relative;
+    margin-top: 25px;
+    left: 0px; }
+  .button.button_red.main_button.school {
+    margin-top: 11.5%; }
+  .targets_target {
+    margin-left: -0.4%;
+    width: 265.6%; }
+  .descr.target_descr {
+    padding: 6px 0 57px 0; }
+  .target_sub.subtitle {
+    line-height: 35px;
+    width: 80%; }
+  .button.button_red.target_button {
+    width: 60.5%;
+    margin-top: -1.2%;
+    margin-left: -18%; }
+  .title.title_white {
+    width: 101.8%;
+    line-height: 65px; }
+  .upYourSkill_titleblock {
+    margin-top: 150px;
+    width: 53%;
+    height: 453px;
     display: flex;
+    flex-direction: column; }
+  .countblock_elem {
+    margin-left: 10px;
+    margin-top: 80px; }
+  .title.who_title {
+    margin-top: 148px;
+    margin-right: 0;
+    margin-left: 5.2%;
+    align-self: flex-start; }
+  .who_categories {
+    flex-wrap: nowrap;
     justify-content: center;
     flex-direction: column;
-    align-items: center; }
+    margin-top: 91px;
+    display: flex; }
   .categories_category {
-    margin-left: 0px;
-    width: 738px;
-    height: 357px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+    margin-left: 0; }
+  .title.program_title {
+    margin-left: -0.3%; }
+  .program_descr.descr {
+    margin-left: 0.1%;
+    padding-bottom: 7.6%; }
+  .day {
+    width: 99.4%;
+    margin-left: -0.1%; }
+  .dz_descr.descr {
+    margin-bottom: 32px;
+    margin-top: 12px; }
+  .request {
+    height: 800px;
+    margin-top: 12.8%; }
+  .title.title_white.req_title {
+    margin-top: 15.5%;
+    width: 61%; }
+  .descr.whitedescr.req_descr {
+    margin-top: 25px;
+    padding-bottom: 2px; }
+  .request {
+    height: 800px;
+    margin-top: 12.8%; }
   .case__title.title {
     margin-top: 136px; }
   .newList {
-    margin-top: 22px; }
+    margin-top: 17px; }
   .list__item.case_list__item {
     margin-top: 21px; }
   .anyimagestext {
@@ -2680,7 +2977,7 @@ textarea::placeholder {
     margin-top: 97px; }
   .button.cases_button {
     margin-left: 0;
-    margin-top: 0; }
+    margin-top: -19.9%; }
   .anyworksFooter > .footer .content {
     padding-top: 99px; }
   .anyworksFooter > .footer .thirdBlock.descr {
@@ -2833,24 +3130,29 @@ textarea::placeholder {
     font-size: 60px;
     margin-top: 27px; }
   .job_title.title {
-    margin-top: 75px;
+    margin-top: 15%;
     font-size: 48px;
-    line-height: 57px; }
+    line-height: 119%;
+    width: 79.1%; }
   .job_descr.descr {
-    margin-top: 31px; }
+    margin-top: 6.3%; }
   .jobs_vacancy:nth-child(even) {
     margin-left: 0; }
   .job_jobs {
     justify-content: center;
-    margin-top: 15px; }
+    margin-top: -0.6%; }
   .job_jobs:first-child {
     margin-top: 12px; }
+  .vacancy_wrapper {
+    margin-top: 19.6%;
+    margin-left: 9.9%; }
   .jobs_vacancy {
     width: 89%;
-    margin-top: 52px; }
+    margin-top: 53px; }
   .title.title_white.req_title {
     font-size: 48px;
-    margin-top: 156px;
+    margin-top: 31%;
+    width: 93%;
     line-height: 56px; }
   .descr.whitedescr.req_descr.req_descr_job {
     margin-top: 33px;
@@ -2860,18 +3162,64 @@ textarea::placeholder {
   .button.white_button.req__button {
     margin-top: 52px; }
   .job_request.request {
-    height: 1022px; }
+    height: 1022px;
+    margin-top: 2.8%; }
   .request__input {
     margin-top: 25px; }
   .request__input:nth-child(even) {
     margin-left: 0; }
+  .request__input {
+    width: 79%; }
+  .jobfooter > .footer .content {
+    padding-top: 20%; }
+  .jobfooter > .footer .communication.footer_communication {
+    width: 23.1%; }
+  .title.job_title.inJob_title {
+    width: 86%;
+    margin-left: 0;
+    margin-top: 14.7%;
+    line-height: 60px;
+    text-align: left; }
+  .descr.job_descr.imjob_descr {
+    font-size: 19.2px;
+    margin-top: 28px;
+    text-align: left; }
+  .inJob_textBlock.inServ_textBlock {
+    margin-top: 13.7%; }
   .inJob_descr.descr {
-    padding-bottom: 14px;
-    margin-top: 47px; }
+    margin-top: 50px;
+    padding-bottom: 13px; }
   .descr.descrbig {
-    line-height: 26px; }
+    width: 102%;
+    margin-top: 16px;
+    font-size: 24.3px;
+    line-height: 26.1px; }
+  .descr.inJob_descr.second_inJob_descr {
+    padding-bottom: 18px; }
+  .descr.location {
+    margin-top: 7.4%;
+    white-space: normal;
+    font-size: 24.2px;
+    line-height: 136%;
+    width: 94.9%; }
+  .communication_inline {
+    font-size: 17px; }
   .injob_request.request {
-    height: 925px; }
+    margin-top: 88.5px;
+    height: 1025px; }
+  .request.injob_request > .container .title.title_white.req_title {
+    margin-top: 16.9%; }
+  .request.injob_request > .container .descr.whitedescr.req_descr.req_descr_job {
+    margin-top: 41px;
+    width: 92%;
+    padding-bottom: 0px;
+    line-height: 24px; }
+  .request.injob_request > .container .button.white_button.req__button {
+    margin-top: 15%; }
+  .injobfooter > .footer .communication.footer_communication {
+    width: 23.1%; }
+  .injobfooter > .footer .content {
+    padding-top: 99.2px; }
   .header__logo {
     margin-left: 0px; }
   .writeMe {
@@ -2899,6 +3247,45 @@ textarea::placeholder {
   .button.button_red.main_button {
     margin-top: 48px;
     width: 304px; }
+  .event {
+    width: 100%; }
+  .new__title {
+    font-size: 47px;
+    margin-top: -11px; }
+  .new__descr {
+    font-size: 20px;
+    margin-top: 28px;
+    width: 91%;
+    line-height: 173%; }
+  .new > .container .newList {
+    width: 105%;
+    margin-top: 11px; }
+  .events.innew_events {
+    margin-top: 66px; }
+  .newfooter > .footer .communication.footer_communication {
+    width: 23.1%; }
+  .title.title_white.webDesign_descr {
+    margin-top: 50px;
+    margin-left: 0;
+    padding-bottom: 116px;
+    text-align: left;
+    width: 113%;
+    font-size: 48px; }
+  .webDesign_descr.descr {
+    margin-top: 83px;
+    text-align: left; }
+  .abouttext {
+    margin-top: 27px; }
+  .descr.par__descr {
+    font-size: 20px;
+    white-space: normal;
+    width: 100%; }
+  .descr.par__descr.any {
+    width: 99%;
+    margin-top: 36px; }
+  .subtitle.par__subtitle {
+    letter-spacing: -0.5px;
+    padding-top: 73px; }
   .about {
     margin-top: 81px;
     height: 650px; }
@@ -3077,7 +3464,7 @@ textarea::placeholder {
     width: 24%; }
   .case__title.title {
     font-size: 47.4px;
-    margin-top: 57px; }
+    margin-top: 17%; }
   .case__descr {
     line-height: 35px; }
   .list__item.case_list__item {
@@ -3086,6 +3473,8 @@ textarea::placeholder {
     padding: 15px 23.1px; }
   .casesImages {
     margin-top: 78px; }
+  .casefooter > .footer .communication.footer_communication {
+    width: 23.1%; }
   .inServ_textBlock {
     margin-top: 19.9%; }
   .title.inserv_title.services__title {
@@ -3101,6 +3490,7 @@ textarea::placeholder {
   .descr.inServ_descr.second {
     margin-top: 1%; }
   .inServ_descr.descr.row:first-child {
+    font-size: 20.2px;
     line-height: 201%; }
   .ul_block {
     margin-top: 6.8%; }
@@ -3603,5 +3993,184 @@ textarea::placeholder {
   .inServ_textBlock {
     margin-top: 9.8%; }
   .inServ_subtitle.subtitle {
-    padding-bottom: 2.3%;
-    font-size: 18px; } }
+    padding-bottom: 3.3%;
+    font-size: 18px; }
+  .iServ__unvisibleBlockon320px {
+    display: none; }
+  .inServ_descr.descr {
+    font-size: 16.3px;
+    line-height: 194.8%; }
+  .doelem_wrapper > .do_doElems .doElem {
+    width: 140%;
+    height: 100%; }
+  .doelem_wrapper > .do_doElems .list {
+    width: 68.8%;
+    margin-top: 9px; }
+  .doelem_button.textBlock_button {
+    margin-top: 6.1%;
+    margin-left: 16%; }
+  .inServFriend.friends {
+    margin-top: 19px; }
+  .title.friends_title.inServFriend {
+    margin-top: 50px;
+    text-align: left; }
+  .inservfooter {
+    margin-top: -63.3%; }
+  .doelem_wrapper {
+    margin-top: -21.4px; }
+  .inservfooter > .footer .content {
+    padding-top: 15%; }
+  .inservfooter > .footer .communication.footer_communication {
+    width: 18.5%; }
+  .case__title.title {
+    font-size: 25px;
+    margin-top: 17.7%; }
+  .case__descr {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 7px; }
+  .job_jobs {
+    margin-top: 0.4%; }
+  .jobs_vacancy {
+    width: 100%;
+    height: 154px;
+    margin-top: 22px; }
+  .subtitle {
+    font-size: 18px; }
+  .descr.vacancy_descr {
+    margin-top: 8px;
+    line-height: 26px; }
+  .vacancy_wrapper {
+    margin-top: 14.6%;
+    margin-left: 6.9%; }
+  .job_title.title {
+    margin-top: 17%;
+    font-size: 25px;
+    line-height: 119%;
+    width: 79.1%; }
+  .job_descr.descr {
+    margin-top: 4.6%;
+    width: 73%;
+    line-height: 135%; }
+  .job_request.request {
+    height: 717px;
+    margin-top: 21.8%; }
+  .title.title_white.req_title {
+    font-size: 25px;
+    margin-top: 12%;
+    width: 100%;
+    line-height: 33px; }
+  .descr.whitedescr.req_descr.req_descr_job {
+    margin-top: 2%;
+    width: 95%;
+    padding-bottom: 0px;
+    line-height: 126%; }
+  .request__input {
+    width: 76%; }
+  .request__input {
+    margin-top: -17px; }
+  .request__input::placeholder {
+    font-size: 15px; }
+  .button.white_button.req__button {
+    margin-top: 13.3%;
+    margin-left: 6.6%;
+    width: 82.3%;
+    height: 49px; }
+  .jobfooter > .footer .communication.footer_communication {
+    width: 18.5%; }
+  .anyinput.request__input {
+    height: 40px;
+    margin-top: 11px; }
+  .descr.whitedescr.small {
+    font-size: 16px;
+    margin-top: 17px;
+    line-height: 20px; }
+  .case320unvisible {
+    display: none; }
+  .newList {
+    margin-top: 18px;
+    margin-left: 0.1%;
+    width: 103.6%; }
+  .list__item.case_list__item {
+    font-size: 13px;
+    padding: 10px 12.8px;
+    margin-right: 5.6%;
+    margin-top: 12px; }
+  .case320allcat {
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "Muller Medium";
+    color: #555555;
+    border-bottom: 1px solid #555;
+    margin-top: 13%; }
+  .casescreen > .container .casesImages {
+    margin-top: 17.3%; }
+  .button.cases_button {
+    margin-left: -22%; }
+  .casefooter > .footer .communication.footer_communication {
+    width: 18.5%; }
+  .title.job_title.inJob_title {
+    width: 83%;
+    margin-left: 0;
+    margin-top: 16%;
+    line-height: 32px;
+    text-align: left; }
+  .descr.job_descr.imjob_descr {
+    font-size: 16.2px;
+    margin-top: 4px;
+    width: 95.9%;
+    text-align: left; }
+  .subtitle.inJob_subtitle {
+    font-size: 18px;
+    margin-top: -2%; }
+  .inJob_descr.descr {
+    font-size: 16px;
+    margin-top: 36px;
+    padding-bottom: 29px; }
+  .descr.descrbig {
+    width: 101%;
+    margin-top: 2px;
+    font-size: 16.3px;
+    line-height: 29.8px; }
+  .descr.inJob_descr.second_inJob_descr {
+    padding-bottom: 27px;
+    margin-top: 33px; }
+  .descr.location {
+    margin-top: 10.4%;
+    white-space: normal;
+    font-size: 16px;
+    line-height: 183.3%;
+    width: 100.9%; }
+  .communication_inline {
+    font-size: 16px; }
+  .injob_request.request {
+    margin-top: 43.5px;
+    height: 597px; }
+  .request.injob_request > .container .title.title_white.req_title {
+    margin-top: 12.4%; }
+  .request.injob_request > .container .descr.whitedescr.req_descr.req_descr_job {
+    margin-top: 5px;
+    width: 92%;
+    padding-bottom: 0px;
+    line-height: 19.9px; }
+  .request.injob_request > .container .descr.whitedescr.small {
+    margin-top: 5px;
+    width: 98.5%;
+    padding-bottom: 0px;
+    line-height: 19.9px; }
+  .injobfooter > .footer .content {
+    padding-top: 42.6px; }
+  .injobfooter > .footer .communication.footer_communication {
+    width: 18.5%; }
+  .new__title {
+    font-size: 25px;
+    margin-top: -52px; }
+  .new__descr {
+    font-size: 16px;
+    margin-top: 7px;
+    width: 91%;
+    line-height: 142%; }
+  .new > .container .newList {
+    width: 105%;
+    margin-top: 3px; } }

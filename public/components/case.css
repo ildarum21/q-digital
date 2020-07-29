@@ -12,5 +12,12 @@
   margin-top: 28px;
   padding: 15px 23px; }
 
+.case320allcat {
+  display: none; }
+
 .casefooter {
   margin-top: 50px; }
+
+.case320unvisible {
+  display: flex;
+  flex-wrap: wrap; }

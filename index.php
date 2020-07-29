@@ -10,8 +10,9 @@
 </head>
 
 <body>
+
   <div class="main">
-    <?php
+  <?php
     $classNameYouDefined = "whitelogodescr";
     include 'menu.php';
     ?>

@@ -1,7 +1,8 @@
 .inServ_descr.descr {
-  margin-top: 33px;
+  margin-top: 1px;
   color: #262626;
-  line-height: 36px; }
+  line-height: 36px;
+  white-space: pre-line; }
 
 .descr.inServ_descr.second {
   margin-top: -8px; }
@@ -10,20 +11,21 @@
   margin-top: 21px; }
 
 .inServ_descr.descr.row:first-child {
-  margin-top: 0px; }
+  margin-top: -72px;
+  line-height: 39px; }
 
 .inServ_descr.descr.ul {
   margin-top: 8px;
   line-height: 38px; }
 
 .inServ_subtitle.subtitle {
-  padding-bottom: 14px; }
+  padding-bottom: 8px; }
 
 .inServ_textBlock {
   margin-top: 96px; }
 
 .ul_block {
-  margin-top: 26px; }
+  margin-top: -26px; }
 
 .textBlock_button {
   margin-top: 45px;
@@ -32,7 +34,7 @@
   align-items: center; }
 
 .doelem_wrapper {
-  margin-top: 96px; }
+  margin-top: 46px; }
 
 .doelem_button.textBlock_button {
   margin-top: 94px; }

@@ -26,16 +26,19 @@
                 эффектывным решениям и постоянному развитию
             </div>
             <div class="newList">
-                <a href="#" class="list__item case_list__item">САЙТЫ</a>
-                <a href="#" class="list__item case_list__item">БАННЕРЫ</a>
-                <a href="#" class="list__item case_list__item">ИЛЛЮСТРАЦИИ</a>
-                <a href="#" class="list__item case_list__item">ПРИЛОЖЕНИЯ</a>
-                <a href="#" class="list__item case_list__item">МОУШН ДИЗАЙН</a>
-                <a href="#" class="list__item case_list__item ">3D</a>
-                <a href="#" class="list__item case_list__item">СОЦИАЛЬНЫЕ СЕТИ</a>
-                <a href="#" class="list__item case_list__item ">РАЗРАБОТКА ПРОГРАММ</a>
-                <a href="#" class="list__item case_list__item">СЕРВИСЫ</a>
-                <a href="#" class="list__item case_list__item">ВИДЕО ХОСТИНГ</a>
+                    <a href="#" class="list__item case_list__item">САЙТЫ</a>
+                    <a href="#" class="list__item case_list__item">БАННЕРЫ</a>
+                    <a href="#" class="list__item case_list__item">ИЛЛЮСТРАЦИИ</a>
+                    <a href="#" class="list__item case_list__item">ПРИЛОЖЕНИЯ</a>
+                    <a href="#" class="list__item case_list__item">МОУШН ДИЗАЙН</a>
+                    <a href="#" class="list__item case_list__item ">3D</a>
+                <div class="case320unvisible">
+                    <a href="#" class="list__item case_list__item">СОЦИАЛЬНЫЕ СЕТИ</a>
+                    <a href="#" class="list__item case_list__item ">РАЗРАБОТКА ПРОГРАММ</a>
+                    <a href="#" class="list__item case_list__item">СЕРВИСЫ</a>
+                    <a href="#" class="list__item case_list__item">ВИДЕО ХОСТИНГ</a>
+                </div>
+                <a href="#" class="case320allcat">ВСЕ КАТЕГОРИИ</a>
             </div>
             <div class="casesImages">
                 <div class="imagesContainer ">
@@ -51,7 +54,7 @@
                 </div>
                 <div class="imagesContainer  ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im2.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im2.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext">
@@ -63,7 +66,7 @@
 
                 <div class="imagesContainer ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im3.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im3.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext  ">
@@ -74,7 +77,7 @@
                 </div>
                 <div class="imagesContainer  ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im4.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im4.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext ">
@@ -85,7 +88,7 @@
                 </div>
                 <div class="imagesContainer ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im5.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im5.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext ">
@@ -96,7 +99,7 @@
                 </div>
                 <div class="imagesContainer ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im6.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im6.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext">
@@ -108,7 +111,7 @@
 
                 <div class="imagesContainer ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im7.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im7.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext  ">
@@ -119,7 +122,7 @@
                 </div>
                 <div class="imagesContainer  ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im8.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im8.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext ">
@@ -130,7 +133,7 @@
                 </div>
                 <div class="imagesContainer  ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im9.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im9.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext ">
@@ -141,7 +144,7 @@
                 </div>
                 <div class="imagesContainer ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im10.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im10.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext">
@@ -153,7 +156,7 @@
 
                 <div class="imagesContainer ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im11.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im11.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext  anyimagestext">
@@ -164,7 +167,7 @@
                 </div>
                 <div class="imagesContainer ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im12.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im12.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext ">
@@ -175,7 +178,7 @@
                 </div>
                 <div class="imagesContainer  ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im13.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im13.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext  ">
@@ -186,7 +189,7 @@
                 </div>
                 <div class="imagesContainer ">
                     <div class="images">
-                    <div class="imageScale" style="background:url(./public/images/im14.jpg);background-position: center;
+                        <div class="imageScale" style="background:url(./public/images/im14.jpg);background-position: center;
                             background-size:cover;background-repeat:no-repeat;">
                         </div>
                         <div class="imagetext notion">

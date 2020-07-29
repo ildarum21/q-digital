@@ -16,7 +16,10 @@
   margin-right: 17px;
   display: flex;
 }
-
+.bg.active{
+  background: url(./images/bg.png);
+  z-index: 10000;
+}
 .writeMeButton {
   margin-top: 3px;
   margin-right: 27px;
@@ -61,7 +64,7 @@
 .container-menu.active {
   display: flex;
   height: 600px;
-  z-index: 100;
+  z-index: 10000;
 }
 
 .container-menu {
@@ -76,16 +79,15 @@
 .menulist {
   text-decoration: none;
   list-style-type: none;
-  margin-top: 52px;
+  margin-top: -18px;
 }
-
 .menulist__li {
   font-family: "Muller";
   font-weight: bold;
   color: #363537;
-  font-size: 75px;
+  font-size: 59px;
   cursor: pointer;
-  margin-top: 32px;
+  margin-top: 28px;
 }
 
 .menulist__li:hover {

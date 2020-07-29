@@ -28,11 +28,15 @@
                 <a href="#" class="list__item">ВЕБ И ЦИФРОВОЙ ДИЗАЙН</a>
                 <a href="#" class="list__item">РЕКЛАМНЫЕ РАЗРАБОТКИ</a>
                 <a href="#" class="list__item">ИННОВАЦИИ В СФЕРЕ IT</a>
-                <a href="#" class="list__item">ТЕНДЕНЦИИ КЛИЕНТОВ</a>
-                <a href="#" class="list__item">НОВОЕ ПОКЛОЕНИЕ</a>
-                <a href="#" class="list__item ">НОВИНКИ 2020</a>
-                <a href="#" class="list__item">ИНТЕГРЦИИ С API </a>
+                <div class="case320unvisible">
+                    <a href="#" class="list__item">ТЕНДЕНЦИИ КЛИЕНТОВ</a>
+                    <a href="#" class="list__item">НОВОЕ ПОКЛОЕНИЕ</a>
+                    <a href="#" class="list__item ">НОВИНКИ 2020</a>
+                    <a href="#" class="list__item">ИНТЕГРЦИИ С API </a>
+                </div>
+                <a href="#" class="case320allcat">ВСЕ КАТЕГОРИИ</a>
             </div>
+           
             <div class="events innew_events">
                 <div class="event">
                     <img class="event__img" src="./public/images/Events1.png" alt="">
@@ -103,15 +107,16 @@
                 </div>
             </div>
             <a href="#" class="news__button">
-                    СМОТРЕТЬ ВСЕ
-                </a>
+                СМОТРЕТЬ ВСЕ
+            </a>
         </div>
         <div class="newfooter">
             <?php
             include 'footer.php';
             ?>
         </div>
-        
+
 </body>
 <script src="./public/js/script.js"></script>
+
 </html>

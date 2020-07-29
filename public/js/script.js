@@ -5,6 +5,7 @@ window.onload = () => {
   document.querySelector(".exit__circle").onclick = () => {
     menu.classList.toggle("active");
     circle.classList.toggle("active");
+    bg.classList.toggle("active");
   };
 
   let crest = document.querySelectorAll(".day_crest");

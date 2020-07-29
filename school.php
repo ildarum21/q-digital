@@ -35,55 +35,37 @@
     <div class="container">
         <div class="targets">
             <div class="targets_target ">
-                <div class="title">Цели курса</div>
+                <div class="title school_title">Цели курса</div>
                 <img src="./public/images/targetimg.png" alt="" class="column__img">
             </div>
             <div class="targets_column">
                 <div class="column_target">
                     <div class="subtitle target_sub ">
-                        1. Освойте базовые навыки <br>
+                        1. Освойте базовые навыки
                         программиста
                     </div>
                     <div class="descr target_descr">
                         <div class="descr target_descr target_descr_elem">
                             Наши образовательные программы ориентированы на тех, кто
-                        </div>
-                        <div class="descr target_descr target_descr_elem">
                             хочет с нуля освоить профессиональные навыки. Для обучения
-                        </div>
-                        <div class="descr target_descr target_descr_elem">
                             начальной подготовки или базовых знаний не требуется. Также
-                        </div>
-                        <div class="descr target_descr target_descr_elem">
                             вы научитесь управлять вниманием пользователя, работать с
-                        </div>
-                        <div class="descr target_descr target_descr_elem">
                             типографикой, и версткой в веб.
                         </div>
                     </div>
                 </div>
                 <div class="column_target">
                     <div class="subtitle target_sub">
-                        2. По окнчании получите портфолио <br>
+                        2. По окнчании получите портфолио
                         и стажировку в нашей компании
                     </div>
                     <div class="descr target_descr">
                         <div class="descr target_descr target_descr_elem">
                             В программу обучения входит гарантированная стажировка,
-                        </div>
-                        <div class="descr target_descr target_descr_elem">
                             которая даёт компетенции, необходимые для старта карьеры.
-                        </div>
-                        <div class="descr target_descr target_descr_elem">
                             Основная задача - получить опыт командной разработки.
-                        </div>
-                        <div class="descr target_descr target_descr_elem">
                             Также выпускники курсов могут стажироваться в
-                        </div>
-                        <div class="descr target_descr target_descr_elem">
                             компаниях-партнёрах, которые предлагают различные
-                        </div>
-                        <div class="descr target_descr target_descr_elem">
                             вариа нты трудоустройства.
                         </div>
                     </div>
@@ -169,281 +151,283 @@
             Кому подойдет курс
         </div>
         <div class="who_categories">
-            <div class="categories_category">
+            <div class="categories_category nonmargin">
                 <div class="category_heigth">
                     <div class="subtitle category_subtitle">
                         Новичок в сфере IT
                     </div>
-                    <div class="descr category_descr"> Если вы хотите разобраться </div>
-                    <div class="descr category_descr">в программировании и начать </div>
-                    <div class="descr category_descr">практиковать </div>
-                </div>
-                <div class="category_end">
-                    <a href="" class="end__more">ПОДРОБНЕЕ</a>
-                    <img src="./public/images/who1.png" alt="" class="end__img ">
+                    <div class="descr category_descr"> Если вы хотите разобраться
+                        в программировании и начать
+                        практиковать
+                    </div>
+                    <div class="category_end">
+                        <a href="" class="end__more">ПОДРОБНЕЕ</a>
+                        <img src="./public/images/who1.png" alt="" class="end__img ">
+                    </div>
                 </div>
             </div>
             <div class="categories_category">
                 <div class="category_heigth">
                     <div class="subtitle category_subtitle">
-                        Начальный и средний <br>
+                        Начальный и средний
                         уровень знаний
                     </div>
-                    <div class="descr category_descr"> Если вы хотите прокачать свой</div>
-                    <div class="descr category_descr">скилл за короткое время </div>
-                </div>
-                <div class="category_end">
-                    <a href="" class="end__more">ПОДРОБНЕЕ</a>
-                    <img src="./public/images/who2.png" alt="" class="end__img secend">
+                    <div class="descr category_descr"> Если вы хотите прокачать свой
+                        скилл за короткое время
+                    </div>
+                    <div class="category_end">
+                        <a href="" class="end__more">ПОДРОБНЕЕ</a>
+                        <img src="./public/images/who2.png" alt="" class="end__img secend">
+                    </div>
                 </div>
             </div>
-            <div class="categories_category">
+            <div class="categories_category nonmargin">
                 <div class="category_heigth">
                     <div class="subtitle category_subtitle">
                         Программист с опытом
                     </div>
-                    <div class="descr category_descr"> Если вы работаете бессистемно </div>
-                    <div class="descr category_descr">и хотите изменить стретегию </div>
-                </div>
-                <div class="category_end">
-                    <a href="" class=" end__more">ПОДРОБНЕЕ</a>
-                    <img src="./public/images/who3.png" alt="" class="end__img thirdend">
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="suggestsBlock">
-        <div class="title suggest_title">
-            Мы предлагаем
-        </div>
-        <div class="descr who_descr">
-            Для вашего удобства мы собрали три варинта прохождения курса
-        </div>
-        <div class="suggestsBlock_suggest">
-            <div class="suggest">
-                <div class="wrepper_height">
-                    <div class="subtitle suggest_subtitle">
-                        Интенсив. <br>
-                        6-и дневный курс
+                    <div class="descr category_descr"> Если вы работаете бессистемно
+                        и хотите изменить стретегию
                     </div>
-                    <ul class="suggest_menu">
-                        <li class="suggest_menu__item descr">Умение писать «чистый» код</li>
-                        <li class="suggest_menu__item descr">Сетевая безопасность</li>
-                        <li class="suggest_menu__item descr">Управление проктами</li>
-                        <li class="suggest_menu__item descr">Работа в команде</li>
-                        <li class="suggest_menu__item descr">Знание принципов ООП</li>
-                    </ul>
-                </div>
-                <div class="suggest__price subtitle">4 900
-                    <img src="./public/images/moneyyy.png" alt="">
-                </div>
-                <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
-            </div>
-
-
-
-            <div class="suggest">
-                <div class="wrepper_height">
-                    <div class="subtitle suggest_subtitle">
-                        Тариф стандарт. <br>
-                        С нуля до первых
-                        заказов
+                    <div class="category_end">
+                        <a href="" class=" end__more">ПОДРОБНЕЕ</a>
+                        <img src="./public/images/who3.png" alt="" class="end__img thirdend">
                     </div>
-                    <ul class="suggest_menu">
-                        <li class="suggest_menu__item descr">Базовые знания кода</li>
-                        <li class="suggest_menu__item descr">Сетевая безопасность</li>
-                        <li class="suggest_menu__item descr">Управление проктами</li>
-                        <li class="suggest_menu__item descr">Первые заказы от реальных клиентов</li>
-                    </ul>
+
                 </div>
-                <div class="suggest__price subtitle">12 900
-                    <img src="./public/images/moneyyy.png" alt="">
-                </div>
-                <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
             </div>
-            <div class="suggest">
-                <div class="wrepper_height">
-                    <div class="subtitle suggest_subtitle">
-                        Tариф профессионал. <br>
-                        Обучение 3 месяца <br>
-                        и стажировка
+        </div>
+        <div class="suggestsBlock">
+            <div class="title suggest_title">
+                Мы предлагаем
+            </div>
+            <div class="descr who_descr">
+                Для вашего удобства мы собрали три варинта прохождения курса
+            </div>
+            <div class="suggestsBlock_suggest">
+                <div class="suggest">
+                    <div class="wrepper_height">
+                        <div class="subtitle suggest_subtitle">
+                            Интенсив.
+                            6-и дневный курс
+                        </div>
+                        <ul class="suggest_menu">
+                            <li class="suggest_menu__item descr">Умение писать «чистый» код</li>
+                            <li class="suggest_menu__item descr">Сетевая безопасность</li>
+                            <li class="suggest_menu__item descr">Управление проктами</li>
+                            <li class="suggest_menu__item descr">Работа в команде</li>
+                            <li class="suggest_menu__item descr">Знание принципов ООП</li>
+                        </ul>
                     </div>
-                    <ul class="suggest_menu">
-                        <li class="suggest_menu__item descr">Работа с Highload-проектами</li>
-                        <li class="suggest_menu__item descr">Навыки тестирования кода</li>
-                        <li class="suggest_menu__item descr">Умение работать с GIT</li>
-                        <li class="suggest_menu__item descr">Стажировка во время обучения</li>
-                        <li class="suggest_menu__item descr">Портфолио из трех работ</li>
-                </div>
-                <div class="suggest__price subtitle">18 900
-                    <img src="./public/images/moneyyy.png" alt="">
-                </div>
-                <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
-            </div>
-        </div>
-    </div>
-    <div class="program">
-        <div class="container">
-            <div class="title program_title ">Программа курса</div>
-            <div class="descr program_descr">Программа строится в зависимости от варианта прохождения курса</div>
-            <div class="day">
-                <hr class="day__hr">
-                <div class="day__number descr">
-                    День 1
-                </div>
-                <div class="day_wrapper">
-                    <div class="subtitle day_subtitle">Введение в профессию</div>
-                    <img src="./public/images/crest!.png" alt="" class="day_crest">
-                </div>
-                <div class="day_description">
-                    <div class="descr descrtitle">Видео лекция</div>
-                    <ul class="description_menu">
-                        <li class="description_menu_item descr">&mdash; Возможности профессии</li>
-                        <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
-                        <li class="description_menu_item descr">&mdash; Что такое HTML</li>
-                        <li class="description_menu_item descr">&mdash; Уровень нормы</li>
-                        <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
-                    </ul>
-                    <div class="descr descrtitle dztitle">Домашнее задание</div>
-                    <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
+                    <div class="suggest__price subtitle">4 900
+                        <img src="./public/images/moneyyy.png" alt="">
+                    </div>
+                    <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
                 </div>
 
-            </div>
-            <div class="day">
-                <hr class="day__hr">
-                <div class="day__number descr">
-                    День 2
-                </div>
-                <div class="day_wrapper">
-                    <div class="subtitle day_subtitle">Основы программирования</div>
-                    <img src="./public/images/crest!.png" alt="" class="day_crest">
-                </div>
-                <div class="day_description">
-                    <div class="descr descrtitle">Видео лекция</div>
-                    <ul class="description_menu">
-                        <li class="description_menu_item descr">&mdash; Возможности профессии</li>
-                        <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
-                        <li class="description_menu_item descr">&mdash; Что такое HTML</li>
-                        <li class="description_menu_item descr">&mdash; Уровень нормы</li>
-                        <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
-                    </ul>
-                    <div class="descr descrtitle dztitle">Домашнее задание</div>
-                    <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
-                </div>
-            </div>
-            <div class="day">
-                <hr class="day__hr">
-                <div class="day__number descr">
-                    День 3
-                </div>
-                <div class="day_wrapper">
-                    <div class="subtitle day_subtitle">Git. Базовый курс</div>
-                    <img src="./public/images/crest!.png" alt="" class="day_crest">
-                </div>
-                <div class="day_description">
-                    <div class="descr descrtitle">Видео лекция</div>
-                    <ul class="description_menu">
-                        <li class="description_menu_item descr">&mdash; Возможности профессии</li>
-                        <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
-                        <li class="description_menu_item descr">&mdash; Что такое HTML</li>
-                        <li class="description_menu_item descr">&mdash; Уровень нормы</li>
-                        <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
-                    </ul>
-                    <div class="descr descrtitle dztitle">Домашнее задание</div>
-                    <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
-                </div>
-            </div>
-            <div class="day">
-                <hr class="day__hr">
-                <div class="day__number descr">
-                    День 4
-                </div>
-                <div class="day_wrapper">
-                    <div class="subtitle day_subtitle">HTML5 и CSS3</div>
-                    <img src="./public/images/crest!.png" alt="" class="day_crest">
-                </div>
-                <div class="day_description">
-                    <div class="descr descrtitle">Видео лекция</div>
-                    <ul class="description_menu">
-                        <li class="description_menu_item descr">&mdash; Возможности профессии</li>
-                        <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
-                        <li class="description_menu_item descr">&mdash; Что такое HTML</li>
-                        <li class="description_menu_item descr">&mdash; Уровень нормы</li>
-                        <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
-                    </ul>
-                    <div class="descr descrtitle dztitle">Домашнее задание</div>
-                    <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
-                </div>
 
-            </div>
-            <div class="day">
-                <hr class="day__hr">
-                <div class="day__number descr">
-                    День 5
-                </div>
-                <div class="day_wrapper">
-                    <div class="subtitle day_subtitle">HTML/CSS. Интерактивный </div>
-                    <img src="./public/images/crest!.png" alt="" class="day_crest">
-                </div>
-                <div class="day_description">
-                    <div class="descr descrtitle">Видео лекция</div>
-                    <ul class="description_menu">
-                        <li class="description_menu_item descr">&mdash; Возможности профессии</li>
-                        <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
-                        <li class="description_menu_item descr">&mdash; Что такое HTML</li>
-                        <li class="description_menu_item descr">&mdash; Уровень нормы</li>
-                        <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
-                    </ul>
-                    <div class="descr descrtitle dztitle">Домашнее задание</div>
-                    <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
-                </div>
 
-            </div>
-            <div class="day">
-                <hr class="day__hr">
-                <div class="day__number descr">
-                    День 6
+                <div class="suggest">
+                    <div class="wrepper_height">
+                        <div class="subtitle suggest_subtitle">
+                            Тариф стандарт.
+                            С нуля до первых
+                            заказов
+                        </div>
+                        <ul class="suggest_menu">
+                            <li class="suggest_menu__item descr">Базовые знания кода</li>
+                            <li class="suggest_menu__item descr">Сетевая безопасность</li>
+                            <li class="suggest_menu__item descr">Управление проктами</li>
+                            <li class="suggest_menu__item descr">Первые заказы от реальных клиентов</li>
+                        </ul>
+                    </div>
+                    <div class="suggest__price subtitle">12 900
+                        <img src="./public/images/moneyyy.png" alt="">
+                    </div>
+                    <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
                 </div>
-                <div class="day_wrapper">
-                    <div class="subtitle day_subtitle">Основы базы данных</div>
-                    <img src="./public/images/crest!.png" alt="" class="day_crest">
-                </div>
-                <div class="day_description">
-                    <div class="descr descrtitle">Видео лекция</div>
-                    <ul class="description_menu">
-                        <li class="description_menu_item descr">&mdash; Возможности профессии</li>
-                        <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
-                        <li class="description_menu_item descr">&mdash; Что такое HTML</li>
-                        <li class="description_menu_item descr">&mdash; Уровень нормы</li>
-                        <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
-                    </ul>
-                    <div class="descr descrtitle dztitle">Домашнее задание</div>
-                    <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
+                <div class="suggest">
+                    <div class="wrepper_height">
+                        <div class="subtitle suggest_subtitle">
+                            Tариф профессионал.
+                            Обучение 3 месяца
+                            и стажировка
+                        </div>
+                        <ul class="suggest_menu">
+                            <li class="suggest_menu__item descr">Работа с Highload-проектами</li>
+                            <li class="suggest_menu__item descr">Навыки тестирования кода</li>
+                            <li class="suggest_menu__item descr">Умение работать с GIT</li>
+                            <li class="suggest_menu__item descr">Стажировка во время обучения</li>
+                            <li class="suggest_menu__item descr">Портфолио из трех работ</li>
+                    </div>
+                    <div class="suggest__price subtitle">18 900
+                        <img src="./public/images/moneyyy.png" alt="">
+                    </div>
+                    <a href="#" class="button button_onhover">ЗАПИСАТЬСЯ</a>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="request">
-        <div class="container">
-            <div class="title title_white req_title ">
-                Заявка на участие
+        <div class="program">
+            <div class="container">
+                <div class="title program_title ">Программа курса</div>
+                <div class="descr program_descr">Программа строится в зависимости от варианта прохождения курса</div>
+                <div class="day">
+                    <hr class="day__hr">
+                    <div class="day__number descr">
+                        День 1
+                    </div>
+                    <div class="day_wrapper">
+                        <div class="subtitle day_subtitle">Введение в профессию</div>
+                        <img src="./public/images/crest!.png" alt="" class="day_crest">
+                    </div>
+                    <div class="day_description">
+                        <div class="descr descrtitle">Видео лекция</div>
+                        <ul class="description_menu">
+                            <li class="description_menu_item descr">&mdash; Возможности профессии</li>
+                            <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
+                            <li class="description_menu_item descr">&mdash; Что такое HTML</li>
+                            <li class="description_menu_item descr">&mdash; Уровень нормы</li>
+                            <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
+                        </ul>
+                        <div class="descr descrtitle dztitle">Домашнее задание</div>
+                        <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
+                    </div>
+
+                </div>
+                <div class="day">
+                    <hr class="day__hr">
+                    <div class="day__number descr">
+                        День 2
+                    </div>
+                    <div class="day_wrapper">
+                        <div class="subtitle day_subtitle">Основы программирования</div>
+                        <img src="./public/images/crest!.png" alt="" class="day_crest">
+                    </div>
+                    <div class="day_description">
+                        <div class="descr descrtitle">Видео лекция</div>
+                        <ul class="description_menu">
+                            <li class="description_menu_item descr">&mdash; Возможности профессии</li>
+                            <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
+                            <li class="description_menu_item descr">&mdash; Что такое HTML</li>
+                            <li class="description_menu_item descr">&mdash; Уровень нормы</li>
+                            <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
+                        </ul>
+                        <div class="descr descrtitle dztitle">Домашнее задание</div>
+                        <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <hr class="day__hr">
+                    <div class="day__number descr">
+                        День 3
+                    </div>
+                    <div class="day_wrapper">
+                        <div class="subtitle day_subtitle">Git. Базовый курс</div>
+                        <img src="./public/images/crest!.png" alt="" class="day_crest">
+                    </div>
+                    <div class="day_description">
+                        <div class="descr descrtitle">Видео лекция</div>
+                        <ul class="description_menu">
+                            <li class="description_menu_item descr">&mdash; Возможности профессии</li>
+                            <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
+                            <li class="description_menu_item descr">&mdash; Что такое HTML</li>
+                            <li class="description_menu_item descr">&mdash; Уровень нормы</li>
+                            <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
+                        </ul>
+                        <div class="descr descrtitle dztitle">Домашнее задание</div>
+                        <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <hr class="day__hr">
+                    <div class="day__number descr">
+                        День 4
+                    </div>
+                    <div class="day_wrapper">
+                        <div class="subtitle day_subtitle">HTML5 и CSS3</div>
+                        <img src="./public/images/crest!.png" alt="" class="day_crest">
+                    </div>
+                    <div class="day_description">
+                        <div class="descr descrtitle">Видео лекция</div>
+                        <ul class="description_menu">
+                            <li class="description_menu_item descr">&mdash; Возможности профессии</li>
+                            <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
+                            <li class="description_menu_item descr">&mdash; Что такое HTML</li>
+                            <li class="description_menu_item descr">&mdash; Уровень нормы</li>
+                            <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
+                        </ul>
+                        <div class="descr descrtitle dztitle">Домашнее задание</div>
+                        <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
+                    </div>
+
+                </div>
+                <div class="day">
+                    <hr class="day__hr">
+                    <div class="day__number descr">
+                        День 5
+                    </div>
+                    <div class="day_wrapper">
+                        <div class="subtitle day_subtitle">HTML/CSS. Интерактивный </div>
+                        <img src="./public/images/crest!.png" alt="" class="day_crest">
+                    </div>
+                    <div class="day_description">
+                        <div class="descr descrtitle">Видео лекция</div>
+                        <ul class="description_menu">
+                            <li class="description_menu_item descr">&mdash; Возможности профессии</li>
+                            <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
+                            <li class="description_menu_item descr">&mdash; Что такое HTML</li>
+                            <li class="description_menu_item descr">&mdash; Уровень нормы</li>
+                            <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
+                        </ul>
+                        <div class="descr descrtitle dztitle">Домашнее задание</div>
+                        <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
+                    </div>
+
+                </div>
+                <div class="day">
+                    <hr class="day__hr">
+                    <div class="day__number descr">
+                        День 6
+                    </div>
+                    <div class="day_wrapper">
+                        <div class="subtitle day_subtitle">Основы базы данных</div>
+                        <img src="./public/images/crest!.png" alt="" class="day_crest">
+                    </div>
+                    <div class="day_description">
+                        <div class="descr descrtitle">Видео лекция</div>
+                        <ul class="description_menu">
+                            <li class="description_menu_item descr">&mdash; Возможности профессии</li>
+                            <li class="description_menu_item descr">&mdash; С чего начать обучение программированию</li>
+                            <li class="description_menu_item descr">&mdash; Что такое HTML</li>
+                            <li class="description_menu_item descr">&mdash; Уровень нормы</li>
+                            <li class="description_menu_item descr">&mdash; Как работать с референсами</li>
+                        </ul>
+                        <div class="descr descrtitle dztitle">Домашнее задание</div>
+                        <div class="descr dz_descr">Найти 10 сайтов из уровня нормы, описать, что вам понравилось</div>
+                    </div>
+                </div>
             </div>
-            <div class="descr whitedescr  req_descr">Оставьте свои контакты, мы свяжемся с вами в ближайшее время </div>
-
-            <input type="text" placeholder="Имя" class="request__input">
-            <input type="text " placeholder="E-mail" class="request__input">
-            <input type="text" placeholder="Номер телефона" class="request__input anyinput">
-            <a href="" class="button white_button req__button">ОТПРАВИТЬ ЗАЯВКУ</a>
-            <div class="descr whitedescr small">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь <br> c политикой конфиденциальности</div>
-
         </div>
-    </div>
-    <div class="schoolfooter">
-        <?php
-        include 'footer.php';
-        ?>
-    </div>
+        <div class="request">
+            <div class="container">
+                <div class="title title_white req_title ">
+                    Заявка на участие
+                </div>
+                <div class="descr whitedescr  req_descr">Оставьте свои контакты, мы свяжемся с вами в ближайшее время </div>
+
+                <input type="text" placeholder="Имя" class="request__input">
+                <input type="text " placeholder="E-mail" class="request__input">
+                <input type="text" placeholder="Номер телефона" class="request__input anyinput">
+                <a href="" class="button white_button req__button">ОТПРАВИТЬ ЗАЯВКУ</a>
+                <div class="descr whitedescr small">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь <br> c политикой конфиденциальности</div>
+
+            </div>
+        </div>
+        <div class="schoolfooter">
+            <?php
+            include 'footer.php';
+            ?>
+        </div>
 </body>
 <script src="./public/js/script.js"></script>
 

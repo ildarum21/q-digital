@@ -17,13 +17,13 @@
             ?>
         </div>
         <div class="container">
-            <div class="title job_title">
+            <div class="title job_title inJob_title">
                 Присоединяйтесь к нашей команде
             </div>
-            <div class="descr job_descr">
-                Здась вы можете подробнее узнать о вакансииы
+            <div class="descr job_descr imjob_descr">
+                Здась вы можете подробнее узнать о вакансии
             </div>
-            <div class="inServ_textBlock">
+            <div class="inServ_textBlock inJob_textBlock">
                 <div class="subtitle inJob_subtitle">
                     Backend-разработчик
                 </div>
@@ -97,9 +97,10 @@
                         <div class="descr descrbig">Устранение технических сбоев.</div>
                     </li>
                 </ul>
-                <div class="descr descrbig second_inJob_descr">Ул. Кирова, 112, г. Ижевск, Россия, полная занятость, гибкий</div>
-                <div class="descr descrbig">график. Зарплата — достойная, «белая», по результатам</div>
-                <div class="descr descrbig">собеседования. Пожалуйста, пишите нам на <a class =" communication_inline"href="">client@q-digital.ru</a> </div>
+                <div class="descr  location">Ул. Кирова, 112, г. Ижевск, Россия, полная занятость, гибкий
+                график. Зарплата — достойная, «белая», по результатам
+                собеседования. Пожалуйста, пишите нам на <a class =" communication_inline"href="">client@q-digital.ru</a>
+                </div>
             </div>
         </div>
         <div class="request injob_request">

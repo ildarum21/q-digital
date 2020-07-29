@@ -26,5 +26,11 @@
   margin-top: 2px; }
 
 .injob_request.request {
-  margin-top: 150px;
+  margin-top: 7.7%;
   height: 809px; }
+
+.descr.location {
+  margin-top: 4.1%;
+  font-size: 24px;
+  white-space: pre-line;
+  line-height: 159%; }
