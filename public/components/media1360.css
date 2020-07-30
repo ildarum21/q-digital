@@ -2,10 +2,10 @@
   .container {
     width: 89.7%; }
   .main {
-    height: 851px; }
+    height: 855px; }
   .main__picture {
-    margin-top: 14px;
-    left: 4px; }
+    margin-top: 9.6%;
+    left: 0; }
   .header {
     padding-top: 65px; }
   .header__logo {
@@ -192,8 +192,15 @@
     margin-top: -26px; }
   .descr.par__descr.any {
     margin-top: 2px; }
+  .upYourSkill_titleblock {
+    width: 41%; }
+  .upYourSkill_countblock {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -84px; }
   .text {
-    margin-top: 114px; }
+    margin-top: 21%; }
   .main__picture.school {
     position: relative;
     margin-top: 12px;
@@ -220,7 +227,11 @@
   .categories_category:last-child {
     margin-top: 94px; }
   .subtitle.category_subtitle {
-    line-height: 35.4px; }
+    line-height: 35.4px;
+    padding-bottom: 19px;
+    margin-top: 45px;
+    margin-left: 35px;
+    width: 72%; }
   .categories_category {
     margin-left: 116px;
     width: 35.4%; }
@@ -275,6 +286,7 @@
   .title.program_title {
     margin-left: 6.7%; }
   .program_descr.descr {
+    margin-top: 0.9%;
     margin-left: 7%;
     padding-bottom: 5.2%; }
   .day {
@@ -285,9 +297,31 @@
     margin-bottom: 2%;
     font-size: 16px;
     color: #e25a00; }
+  .video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
   .dz_descr.descr {
     margin-bottom: 32px;
-    margin-top: 7px; }
+    margin-top: 12px; }
   .request {
     height: 800px;
-    margin-top: 9%; } }
+    margin-top: 9%; }
+  .container-menu.active {
+    display: flex;
+    height: 600px;
+    z-index: 10000;
+    width: 68%;
+    justify-content: flex-start; }
+  .wrapper {
+    width: 64%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start; }
+  .menulist {
+    margin-top: -3%; }
+  .social {
+    margin-left: 55%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column; } }

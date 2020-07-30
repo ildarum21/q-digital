@@ -81,8 +81,13 @@
     height: 265px;
     margin-left: 27px;
     position: relative;
-    width: 358px;
-    height: 267px;
+    width: 29.5%;
+    height: 265px;
+}
+.video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 .play_pause {
     transition: 0.3;

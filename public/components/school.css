@@ -61,10 +61,14 @@
   margin-top: 4.6%;
   margin-left: 0; }
 
+.unvisiblebefore1920_button {
+  display: none; }
+
 .upYourSkillWrapper {
   display: flex; }
 
 .upYourSkill_titleblock {
+  width: 33%;
   margin-top: 150px;
   height: 453px;
   display: flex;

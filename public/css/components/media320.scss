@@ -124,14 +124,14 @@
         margin-top: 27px;
     }
     .main__picture {
-        margin: 0 auto;
+        margin:33% auto;
         order: 1;
         width: 228px;
         height: 226px;
         position: static;
     }
     .main-wrapper {
-        margin-top: 24px;
+        margin-top: 0px;
     }
     .title.title_white.title_main {
         font-size: 30px;
@@ -895,5 +895,340 @@
     .new > .container .newList {
         width: 105%;
         margin-top: 3px;
+    }
+    //school
+    .main__picture.school {
+        margin-top: -3.2%;
+    }
+    .text {
+        margin-top: -25%;
+    }
+    .descr.descr_white.descr_main.school {
+        width: 92%;
+        line-height: 126.9%;
+        margin-top: 6.3%;
+    }
+    .button.button_red.main_button.school {
+        margin-top: 6.9%;
+    }
+    .main.schoolmain {
+        height: 595px;
+    }
+    .title.school_title {
+        font-size: 25px;
+    }
+    .targets {
+        margin-top: 16.4%;
+    }
+    .column__img {
+        margin-top: 5.2%;
+        margin-left: 0.2%;
+        height: auto;
+        width: 20%;
+    }
+    .column_target {
+        margin-top: 1.6%;
+        margin-left: 0;
+    }
+    .target_sub.subtitle {
+        line-height: 22px;
+    }
+    .title.title_white.schooltitle_white {
+        width: 90%;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .upYourSkill_titleblock {
+        margin-top: 16%;
+        margin-left: -2%;
+        width: 100%;
+        height: 453px;
+        display: flex;
+        flex-direction: column;
+    }
+    .button.button_red.target_button {
+        width: 82%;
+        margin-top: 5.3%;
+        margin-left: 8%;
+    }
+    .countblock_col {
+        width: 89%;
+        justify-content: space-between;
+        display: flex;
+    }
+    .button.upYourSkill_button.unvisiblebefore1920_button {
+        width: 86%;
+        display: inherit;
+        margin-left: 7%;
+        margin-top: 19%;
+    }
+    .title.who_title {
+        font-size: 25px;
+        margin-left: 6.2%;
+        margin-top: 15%;
+    }
+    .upYourSkill {
+        margin-top: 23.5%;
+        height: 595px;
+    }
+    .elem__number {
+        font-size: 51px;
+    }
+    .countblock_elem{
+        margin-left: 0;
+        width: 30%;
+        margin-top: 4px;
+    }
+    .upYourSkill_countblock {
+        margin-top: -127%;
+    }
+    .target_descr.descr.target_descr_elem {
+        white-space: normal;
+        margin-top: -22px;
+        line-height: 157.6%;
+        padding: 0;
+        width: 99%;
+    }
+    .descr.target_descr {
+        padding: 10.4% 0 0px 0;
+    }
+    .categories_category.nonmargin {
+        width: 89%;
+        margin-left: 5%;
+        height: 239px;
+    }
+    .categories_category{
+        width: 89%;
+        margin-left: 5%;
+        height: 239px;
+        margin-top: 2.4%;
+    }
+    .categories_category:last-child {
+        margin-top: 2.7%;
+    }
+    .suggestsBlock {
+        height: 1463px;
+        margin-top: 14.8%;
+    }
+    .program_descr.descr {
+        margin-top: 3.6%;
+        line-height: 22px;
+        margin-left: 1.6%;
+        padding-bottom: 7.6%;
+    }
+    .title.program_title {
+        font-size: 25px;
+        margin-left: -0.7%;
+        margin-top: 1%;
+    }
+    .descr.day__number {
+        margin-top: 6%;
+        margin-bottom: 7.1%;
+        font-size: 12.2px;
+        color: #e25a00;
+    }
+    .descr.descrtitle {
+        padding-bottom: 5.1%;
+        color: #252525;
+        margin-top: 7%;
+    }
+    .description_menu_item.descr {
+        margin-top: 1.5%;
+        line-height: 160.3%;
+        margin-left: 3px;
+        color: #6e6c6c;
+    }
+    .dz_descr.descr {
+        margin-bottom: 4.5%;
+        margin-top: -4.2%;
+        line-height: 158%;
+        width: 100.1%;
+    }
+    .descr.whitedescr.req_descr {
+        margin-top: 10px;
+        line-height: 18px;
+        padding-bottom: 2px;
+    }
+    .button.white_button.req__button {
+        margin-top: 10.3%;
+    }
+    .descr.whitedescr.small {
+        font-size: 14px;
+        margin-top: 17px;
+        line-height: 17px;
+    }
+    .request {
+        height: 485px;
+        margin-top: 12.8%;
+    }
+    .descr.who_descr {
+        margin-top: 2.7%;
+        width: 82%;
+        line-height: 138%;
+        margin-left: 6.8%;
+    }
+    .suggest_subtitle.subtitle {
+        margin-top: 2%;
+        line-height: 125%;
+        font-size: 18px;
+        width: 87%;
+        margin-left: 12%;
+    }
+    .suggest__price.subtitle{
+        font-size: 24px;
+        margin-left: 12%;
+        margin-top: 12%;
+        padding-bottom: 8.7%;
+    }
+    .forpadding {
+        padding-bottom: 9.2%;
+    }
+    .button.button_onhover {
+        margin-left: 18%;
+        width: 71%;
+    }
+    .suggest_menu {
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+    .suggest_menu__item.descr {
+        margin-top: -3.7%;
+        padding-left: 8px;
+        line-height: 35px;
+    }
+    .suggest_title.title {
+        margin-top: 15.4%;
+        margin-left: 6.1%;
+        font-size: 25px;
+    }
+    .subtitle.category_subtitle {
+        line-height: 24px;
+        padding-bottom: 0%;
+        margin-top: 12%;
+        margin-left: 12%;
+    }
+    .descr.category_descr {
+        white-space: normal;
+        line-height: 24px;
+        width: 77%;
+        margin-top: 7%;
+        margin-left: 13%;
+    }
+    .who_categories {
+        margin-top: 6%;
+    }
+    .category_end {
+        margin-top: 7.1%;
+    }
+    .end__more {
+        margin-left: 12%;
+        margin-top: 4.5%;
+        font-size: 12px;
+    }
+    .end__img {
+        width: 28%;
+        margin-right: 6%;
+        margin-top: -9%;
+        height: auto;
+    }
+    .suggest:first-child {
+        margin-top: -3.4%;
+    }
+    .suggest {
+        margin-top: 2.8%;
+        width: 88%;
+    }
+    .schoolfooter>.footer .content{
+        padding-top: 44px;
+    }
+    .schoolfooter>.footer .communication.footer_communication {
+        width: 19%;
+    }
+    //innew
+    .webDesign_descr.descr {
+        margin-top: 7%;
+        font-size: 11px;
+        text-align: left;
+    }
+    .title.title_white.webDesign_descr {
+        margin-top: 13%;
+        margin-left: 5%;
+        padding-bottom: 116px;
+        text-align: left;
+        width: 108%;
+        line-height: 123%;
+        font-size: 25px;
+    }
+    .webDesign{
+        height: 256px;
+    }
+    .subtitle.par__subtitle {
+        letter-spacing: 0px;
+        padding-top: 23px;
+    }
+    .descr.par__descr {
+        margin-top: 4.5%;
+        font-size: 16px;
+        white-space: normal;
+        width: 94.6%;
+        line-height: 24px;
+    }
+    .descr.par__descr.any {
+        width: 96%;
+        margin-top: 24px;
+    }
+    .c_video {
+        margin-top: -4%;
+        width: 114%;
+        margin-left: -7%;
+        overflow: hidden;
+        height: 209px;
+        /* margin-left: 0; */
+        /* padding-bottom: 109px; */
+        margin-bottom: 31px;
+    }
+    .video {
+        height: 65vw;
+        width: 100%;
+        object-fit: cover;
+    }
+    .uvisiblepar540_subtitle{
+        display: block;
+    }
+    .c_video:first-child {
+        margin-left: -7%;
+    }
+    .descr.par__descr.design_par {
+        margin-top: 4.3%;
+        line-height: 24.4px;
+        width: 99%;
+    }
+    .title.anyevents__title {
+        padding-top: 17.9%;
+        font-size: 25px;
+    }
+    .anyevents>.container .event__img {
+        width: 114%;
+        height: 209px;
+        margin-left: -20px;
+    }
+    .anyevents>.container .event {
+        margin-bottom: 65px;
+    }
+    .anyevents > .container .title.event__title {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    .anyevents > .container .events {
+        margin-top: 34px;
+    }
+    .anyevents {
+        height: 787px;
+    }
+    .inNewfooter>.footer .content{
+        padding-top: 15.8%;
+    }
+    .inNewfooter>.footer .communication.footer_communication {
+        width: 18.5%;
     }
 }

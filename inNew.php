@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="abouttext_par">
-                    <div class="par__subtitle subtitle">Видео фоны</div>
+                    <div class="par__subtitle subtitle ">Видео фоны</div>
                     <div class="descr par__descr any ">
                         Видео передают сообщение быстро и эффективно; во многих случаях видеоконтент может быть более 
                         эффективным, чем длинный текстовый контент. Видео-фоны являются неотъемлемым компонентом
@@ -57,7 +57,7 @@
 
                 </div>
                 <div class="abouttext_par">
-                    <div class="par__subtitle subtitle">Микро-анимация</div>
+                    <div class="par__subtitle subtitle ">Микро-анимация</div>
                     <div class="descr par__descr last_par1">
                         Обычный подход к улучшению удержания и внимания пользователей заключается в использовании 
                         элементов движения поверхности, таких как видео, переходы и анимация. Микро-анимации по всему сайту
@@ -102,7 +102,7 @@
                 </div>
 
                 <div class="abouttext_par">
-                    <div class="par__subtitle subtitle">Плоский дизайн</div>
+                    <div class="par__subtitle subtitle uvisiblepar540_subtitle">Плоский дизайн</div>
                     <div class="descr par__descr design_par">
 
                         В 2019 году дизайн сайтов будет перегружен. В этом году современные сайты демонстрируют чистый, 
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="abouttext_par">
-                    <div class="par__subtitle subtitle  lastsubtitle">Цифровая релевантность</div>
+                    <div class="par__subtitle subtitle  lastsubtitle uvisiblepar540_subtitle">Цифровая релевантность</div>
                     <div class="descr par__descr any">
                             Поскольку веб-тренды постоянно развиваются, компаниям сложно идти в ногу с цифровым ландшафтом 
                             Пользователи ожидают, что бренды, которые они знают и любят, остаются актуальными и современными 

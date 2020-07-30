@@ -17,7 +17,8 @@
 
 .bg.active {
   background: url(./images/bg.png);
-  z-index: 10000; }
+  z-index: 10000;
+  height: 104%; }
 
 .writeMeButton {
   margin-top: 3px;
@@ -30,6 +31,7 @@
   cursor: pointer; }
 
 .exit__circle {
+  z-index: 5;
   margin-top: -6px;
   margin-right: -3px;
   cursor: pointer;

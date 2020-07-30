@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="main">
+    <div class="main schoolmain">
         <?php
         include 'menu.php';
         ?>
@@ -78,9 +78,9 @@
         <div class="container">
             <div class="upYourSkillWrapper">
                 <div class="upYourSkill_titleblock">
-                    <div class="title title_white">
-                        Прокачай свой <br>
-                        скил на нашем <br>
+                    <div class="title title_white schooltitle_white">
+                        Прокачай свой 
+                        скил на нашем 
                         интенсиве
                     </div>
                     <a href="" class="button  upYourSkill_button">ЗАПИСАТЬСЯ ПРЯМО СЕЙЧАС</a>
@@ -142,6 +142,7 @@
                         </div>
                     </div>
                 </div>
+                <a href="" class="button  upYourSkill_button unvisiblebefore1920_button">ЗАПИСАТЬСЯ ПРЯМО СЕЙЧАС</a>
             </div>
         </div>
     </div>

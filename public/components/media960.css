@@ -68,34 +68,44 @@
     margin-left: 0;
     padding-bottom: 116px;
     text-align: center; }
-  .video {
-    width: 97%; }
+  .par_images {
+    display: flex;
+    margin-top: 96px; }
   .c_video {
-    width: 33%;
-    height: 216px;
-    margin-left: 0; }
+    margin-left: 4.9%;
+    width: 29.5%;
+    height: 223px; }
   .descr.par__descr.design_par {
     margin-top: 27px; }
   .container {
     width: 88.5%; }
-  .header {
-    padding-top: 66px; }
-  .container-menu {
-    width: 800px; }
-  .writeMe {
-    margin-right: 33px; }
-  .header__logo {
-    margin-left: 31px; }
+  .bg {
+    position: absolute;
+    width: 100%;
+    height: 149%; }
+  .container-menu.active {
+    display: flex;
+    height: 58%;
+    z-index: 10000;
+    width: 71%;
+    justify-content: flex-start; }
+  .menulist {
+    margin-top: -5%; }
+  .social {
+    margin-left: 50%;
+    margin-bottom: -1%;
+    display: flex;
+    flex-direction: column; }
   .main {
     height: 650px; }
   .main__picture {
     left: 0;
     width: 429px;
     height: 432px;
-    margin-top: 37px;
+    margin-top: 17%;
     left: 9px; }
   .text {
-    margin-top: 74px; }
+    margin-top: 21%; }
   .title.title_white.title_main {
     font-size: 64px; }
   .descr.descr_white.descr_main {
@@ -389,14 +399,49 @@
   .targets_target {
     margin-left: -0.4%;
     width: 265.6%; }
+  .targets_column {
+    margin-top: -33px;
+    display: flex;
+    flex-direction: column; }
+  .column_target {
+    margin-top: 7.3%; }
   .descr.target_descr {
-    padding: 6px 0 57px 0; }
+    padding: 61px 0 0px 0; }
+  .categories_category.nonmargin {
+    margin-left: -2%;
+    width: 105%;
+    height: 300px; }
+  .categories_category.nonmargin {
+    margin-left: -2%; }
+  .subtitle.category_subtitle {
+    padding-bottom: 8px;
+    margin-top: 50px;
+    margin-left: 8%;
+    width: 78%; }
+  .descr.category_descr {
+    white-space: normal;
+    line-height: 36px;
+    width: 66%;
+    margin-left: 7%; }
+  .category_end {
+    margin-top: 6.7%;
+    display: flex;
+    justify-content: space-between; }
+  .end__more {
+    margin-left: 7.4%; }
   .target_sub.subtitle {
+    white-space: normal;
     line-height: 35px;
-    width: 80%; }
+    width: 100.5%; }
+  .target_descr.descr.target_descr_elem {
+    white-space: normal;
+    margin-top: -25px;
+    line-height: 30px;
+    padding: 0;
+    width: 100%; }
   .button.button_red.target_button {
     width: 60.5%;
-    margin-top: -1.2%;
+    margin-top: 6.7%;
     margin-left: -18%; }
   .title.title_white {
     width: 101.8%;
@@ -422,12 +467,40 @@
     margin-top: 91px;
     display: flex; }
   .categories_category {
-    margin-left: 0; }
+    margin-left: -2%;
+    width: 105%;
+    height: 300px;
+    margin-top: 12.6%; }
+  .who_categories {
+    margin-top: 0; }
+  .categories_category:last-child {
+    margin-top: 10.2%; }
+  .suggestsBlock {
+    margin-top: 15.3%; }
+  .suggest_title.title {
+    margin-top: 145px;
+    margin-left: 5.2%;
+    align-self: flex-start; }
+  .descr.who_descr {
+    margin-top: 2.8%;
+    margin-left: 5.8%;
+    align-self: flex-start; }
   .title.program_title {
     margin-left: -0.3%; }
   .program_descr.descr {
+    margin-top: 1.9%;
     margin-left: 0.1%;
     padding-bottom: 7.6%; }
+  .upYourSkill_countblock {
+    margin-left: 28px; }
+  .suggest {
+    margin-top: 8.6%;
+    width: 84%; }
+  .suggest:first-child {
+    margin-top: -0.4%; }
+  .program {
+    width: 100%;
+    margin-top: 15%; }
   .day {
     width: 99.4%;
     margin-left: -0.1%; }
